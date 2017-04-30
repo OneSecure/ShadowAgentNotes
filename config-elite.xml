@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>reviewPopup</key>
+	<false/>
+	<key>ADsEnabled</key>
+	<true/>
+	<key>ShowRemoveADsButton</key>
+	<true/>
+	<key>ShowWatchADsButton</key>
+	<true/>
+	<key>AutoProxyEnabled</key>
+	<true/>
+	<key>AutoShutdownInterval</key>
+	<real>4500</real>
+</dict>
+</plist>
