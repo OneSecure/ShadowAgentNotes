@@ -10,6 +10,8 @@
 	<true/>
 	<key>ShowWatchADsButton</key>
 	<true/>
+	<key>ShowQRCodeButton</key>
+	<true/>
 	<key>AutoProxyEnabled</key>
 	<true/>
 	<key>AutoShutdownInterval</key>
