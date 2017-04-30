@@ -11,7 +11,7 @@
 	<key>ShowWatchADsButton</key>
 	<false/>
 	<key>ShowQRCodeButton</key>
-	<false/>
+	<true/>
 	<key>AutoProxyEnabled</key>
 	<true/>
 	<key>AutoShutdownInterval</key>
