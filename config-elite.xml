@@ -7,9 +7,9 @@
 	<key>ADsEnabled</key>
 	<true/>
 	<key>ShowRemoveADsButton</key>
-	<true/>
+	<false/>
 	<key>ShowWatchADsButton</key>
-	<true/>
+	<false/>
 	<key>ShowQRCodeButton</key>
 	<true/>
 	<key>AutoProxyEnabled</key>
