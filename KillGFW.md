@@ -138,9 +138,9 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/010.jpg)
 
-然后点击确定
+    然后点击确定
 
-10.  不要忘记了勾上`启用系统代理`（鼠标右键 Shadowsocks 托盘图标）
+10. 不要忘记了勾上`启用系统代理`（鼠标右键 Shadowsocks 托盘图标）.
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/011.jpg)
 
