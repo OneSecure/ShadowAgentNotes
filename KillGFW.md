@@ -1,6 +1,6 @@
 # 搬瓦工搭建 Shadowsocks 服务器(一键搭建)详细图文教程
 
-(小白不要惶恐, 只要你看得懂中文, 有初中英文水平, 有支付宝账号, 你就可以在十分钟之内购买一个美国虚拟主机并且在它上面搭好 Shadowsocks 服务器.) 
+(小白不要恐慌, 只要你看得懂中文, 有初中英文水平, 有支付宝账号, 你就可以在十分钟之内购买一个美国虚拟主机并且在它上面搭好 Shadowsocks 服务器.) 
 
 > 前言
 
@@ -71,7 +71,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 ## 好啦，开始购买搬瓦工
 
 *   火速打开 [官网](https://bandwagonhost.com/aff.php?aff=12816)
-*   如果你只想购买套餐1，就点击这个 [链接](https://bandwagonhost.com/aff.php?aff=12816&pid=43) ,然后选择后面的：`order Now`
+*   如果你只想购买套餐1，直接点击这个 [链接](https://bandwagonhost.com/aff.php?aff=12816&pid=43) ,就会出现如下画面.
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/001.jpg)
 
