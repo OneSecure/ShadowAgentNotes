@@ -73,7 +73,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 *   火速打开 [官网](https://bandwagonhost.com/aff.php?aff=12816)
 *   如果你只想购买套餐1，就点击这个 [链接](https://bandwagonhost.com/aff.php?aff=12816&pid=43) ,然后选择后面的：`order Now`
 
-    ![tu](https://wx4.sinaimg.cn/large/a8c38b53gy1fg63k2wz2oj20op0kj467.jpg)
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/001.jpg)
 
 *   需要说明的是：在 `Billing Cycle` 选项那里选择：`$xxx USD Annually`，每年付 XXX 元的意思。
 *   其次需要注意的是：在 `location` 选项那里选择 `US West Coast - Los Angeles (USCA_2)` 或者 `US West Coast - Arizona (USAZ_2)`，注意！这是选择服务器的地区，是直接影响到你的访问速度的。
@@ -84,7 +84,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 *   再然后点击 `Checkout`
 *   提示你要注册账号，请按照下面图片提示来填写~
 
-    ![tu](https://wx4.sinaimg.cn/large/a8c38b53gy1fg63k88t9wj20qo0kiqah.jpg)
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/003.jpg)
 
 *   下面图片是参考，要注意的是，`Country` 选项记得选择 `China`。不要忘了勾上 `I have read and agree to the Terms of Service`， 然后 `Complete Order`
 *   重要提示！现在已支持 `支付宝` 交易。
