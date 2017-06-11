@@ -79,7 +79,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 *   其次需要注意的是：在 `location` 选项那里选择 `US West Coast - Los Angeles (USCA_2)` 或者 `US West Coast - Arizona (USAZ_2)`，注意！这是选择服务器的地区，是直接影响到你的访问速度的。
 *   然后点击`Add To Cart`
 
-    ![tu](https://wx1.sinaimg.cn/large/a8c38b53gy1fg63k5mt8xj20op0a3whw.jpg)
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/002.jpg)
 
 *   再然后点击 `Checkout`
 *   提示你要注册账号，请按照下面图片提示来填写~
@@ -91,36 +91,36 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 *   `Payment Method` 的时候选择 `Credit Card and AliPay (Stripe)` 就好！
 *   支持方式选择 `Credit Card and AliPay (Stripe)` 之后，然后 `Complete Order`，再然后 `Pay now`，你就会有看到有 `支付宝` 的登录窗口，支付又变得简单了。科科。
 
-    ![tu](https://wx3.sinaimg.cn/large/a8c38b53gy1fg63kb63k3j20hv0gn0ym.jpg)
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/004.jpg)
 
 *   ~~如果你选择的是 paypal，并 `Complete Order` 的话~~
 *   ~~然后就会自动跳转到 Paypal 付款界面。~~
 *   ~~登录之前注册的 Paypal 账号，然后选择 `立即付款`~~
 *   ~~下面这已是付款成功的^_^(这图片来自我帮我同学购买搬瓦工付款成功的截图)~~
 
-    ![tu](https://wx1.sinaimg.cn/large/a8c38b53gy1fg62lr5ozzj20mm0b1q53.jpg)
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/005.jpg)
 
 ## 安装 Shadowsocks 服务器
 
 *   确保你已经成功付款之后, 打开： [https://bandwagonhost.com/clientarea.php?action=products](https://bandwagonhost.com/clientarea.php?action=products)
 
-    ![tu](https://wx3.sinaimg.cn/large/a8c38b53gy1fg62ltnycyj20ml02qdge.jpg)
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/006.jpg)
 
 *   选择 `KiwiVM Control Panel`
 *   这是首次登录的界面，稍等一会，等待资源分配即可。
 
-    ![tu](https://wx4.sinaimg.cn/large/a8c38b53gy1fg62lw7hj0j20hu04l3zi.jpg)
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/007.jpg)
 
 *   这是登录后的界面，里面有详细的关于服务器运行的情况，比如说，流量的使用。这些先不管它，安装
     Shadowsocks 服务器先，搬瓦工已经为我们准备 Shadowsocks 服务器的安装，呵呵，不用打命令了，一键安装。在左边选择 `Shadowsocks Server`
 
-    ![tu](https://wx3.sinaimg.cn/large/a8c38b53gy1fg62lyicvvj20n70ebtd2.jpg)
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/008.jpg)
 
 *   然后选择 `Install Shadowsocks Server`
 *   等待安装完成之后选择 `Go Back`
 *   Shadowsocks Server 在运行~
 
-    ![tu](https://wx1.sinaimg.cn/large/a8c38b53gy1fg62m1j4jkj20h007pta0.jpg)?
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/009.jpg)
 
 *   至此, Shadowsocks 服务器安装完毕.
 
@@ -136,13 +136,13 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 8.  进入设置如下所示
 9.  请注意,您可以简单地复制粘贴标记为黄色的字段:
 
-    ![tu](https://wx1.sinaimg.cn/large/a8c38b53gy1fg62m41jvjj20de08pmyf.jpg)
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/010.jpg)
 
 然后点击确定
 
 10.  不要忘记了勾上`启用系统代理`（鼠标右键 Shadowsocks 托盘图标）
 
-    ![tu](https://wx3.sinaimg.cn/large/a8c38b53gy1fg62m5z988j209v06maao.jpg)
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/011.jpg)
 
 至此，Shadowsocks 服务器已经安装完成，尽情的翻墙吧!
 
@@ -177,4 +177,4 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 *   请在苹果 App Store 内下载 [网际飞梭](https://itunes.apple.com/cn/app/id982708939?mt=8) 软件.  
 *   下载完成后，安装，打开, 配置方法与 Android 类似。
 
-    ![tu](https://wx4.sinaimg.cn/large/a8c38b53gy1fg62oi314kj20c00bvt9u.jpg)
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/012.jpg)
