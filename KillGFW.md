@@ -174,7 +174,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 
 ## 手机端的使用方法（iOS）
 
-*   请在苹果 App Store 内用 `影梭` 或者 `Shadowsocks` 关键词搜索, 可找到很多客户端, 根据你自己的选择下载合适的客户端软件.
+*   请在苹果 App Store 内下载 [网际飞梭](https://itunes.apple.com/cn/app/id982708939?mt=8) 软件.  
 *   下载完成后，安装，打开, 配置方法与 Android 类似。
 
     ![tu](https://wx4.sinaimg.cn/large/a8c38b53gy1fg62oi314kj20c00bvt9u.jpg)
