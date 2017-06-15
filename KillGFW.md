@@ -1,6 +1,6 @@
 # 搬瓦工搭建 Shadowsocks 服务器(一键搭建)详细图文教程
 
-(小白不要恐慌, 只要你看得懂中文, 有初中英文水平, 有支付宝账号, 你就可以在十分钟之内购买一个美国虚拟主机并且在它上面搭好 Shadowsocks 服务器.) 
+(小白不要恐慌, 只要您看得懂中文, 有初中英文水平, 有支付宝账号, 您就可以在十分钟之内购买一个美国虚拟主机并且在它上面搭好 Shadowsocks 服务器.) 
 
 > 前言
 
@@ -11,12 +11,12 @@
 
 Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、手机通吃。
 为什么用搬瓦工搭建 Shadowsocks 服务器？因为性价比高，呵呵。
-最便宜的只要 20 美金一年，每月 500G 流量，足够十个人无限制翻墙上任何网站，因此你可以与亲友分摊费用。(套餐在下面会详细介绍的)
+最便宜的只要 20 美金一年，每月 500G 流量，足够十个人无限制翻墙上任何网站，因此您可以与亲友分摊费用。(套餐在下面会详细介绍的)
 
 租用搬瓦工提供的虚拟主机搭建 Shadowsocks 服务器的好处：
 * 便宜，比购买各种专卖VPN的商家便宜得多。
-* 安全，只要你不把你虚拟主机的IP地址泄漏出去被 GFW 获取，就不会被封，而VPN商家的那些主机由于使用的人来源不明，就很难说了。
-* 灵活，就算万一你主机IP地址不慎被封，也可以通过简单的机房切换操作更换IP地址；而且由于您租用的是处于公网上的独立主机，您还可以在这台主机上安装别的任何您想安装的服务器，如 SSR， GFW.Press ，甚至数据库服务器，个人网站等等。
+* 安全，只要您不把您虚拟主机的IP地址泄漏出去被 GFW 获取，就不会被封，而VPN商家的那些主机由于使用的人成份复杂，就很难说了。
+* 灵活，就算万一您主机IP地址不慎被封，也可以通过简单的机房切换操作更换IP地址；而且由于您租用的是处于公网上的独立主机，您还可以在这台主机上安装别的任何您想安装的服务器，如 SSR， GFW.Press ，甚至数据库服务器，个人网站等等。
 
 ## 需要准备的东西
 
@@ -29,28 +29,28 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 ### 温馨提示
 
 *   由于下面的教程搭建翻墙环境的服务器是在美国的，速度可能不是很快。
-*   由于官网属于被墙的状态，如你在下面点击链接打开官网显示出错，建议你首先用别的方式翻着墙，这是个鸡生蛋蛋生鸡的悖论，各位读者明察。
+* ? 由于官网属于被墙的状态，如您在下面点击链接打开官网显示出错，建议您首先用别的方式翻着墙，这是个鸡生蛋蛋生鸡的悖论，各位读者明察。
 
 ## 现已支持支付宝交易
 
-*   应该是最近些天开始支持的，说白了就是搬瓦工官方人员知道我们大天朝内太多人们需要从那里购买 VPS 搭建 Shadowsocks 服务器来翻墙。
-*   没办法，面对这个奇葩的大天朝，外国佬还是挺会做事的，从之前配置了一键安装 Shadowsocks Server 再到现在支持支付宝交易，我大天朝内人们折腾自己搭建翻墙环境又将更加简单化，小白化，也感谢他们官网的机智，了解中国国情。
+* ? 应该是最近些天开始支持的，说白了就是搬瓦工官方人员知道我们大天朝内太多人们需要从那里购买 VPS 搭建 Shadowsocks 服务器来翻墙。
+* ? 没办法，面对这个奇葩的大天朝，外国佬还是挺会做事的，从之前配置了一键安装 Shadowsocks Server 再到现在支持支付宝交易，我大天朝内人们折腾自己搭建翻墙环境又将更加简单化，小白化，也感谢他们官网的机智，了解中国国情。
 *   下面的注册 Paypal 账号教程请跳过吧。
 
 ## ~~先注册 Paypal 国际账号~~
 
 *   ~~这是购买搬瓦工付款必备的。~~
-*   ~~`如果你有 Paypal 账号，请确定是国际账号的，国内的 Paypal 是付款不了的`~~
+*   ~~`如果您有 Paypal 账号，请确定是国际账号的，国内的 Paypal 是付款不了的`~~
 *   ~~`已有 Paypal 国际账号的请跳过这步`~~
-*   ~~如果你银行卡没有开通网银或者是不想注册 Paypal，可以找我代购。~~
+*   ~~如果您银行卡没有开通网银或者是不想注册 Paypal，可以找我代购。~~
 *   ~~Paypal 国际账号注册地址：[https://www.pay<wbr>pal.com/c2/home](https://www.paypal.com/c2/home)~~
 *   ~~打开之后，选择右上角的`“注册”`~~
 *   ~~然后选择`“个人”`——`“立即开始”`~~
 *   ~~再然后按照提示填写自己的信息，需要注意的是：`注册 PayPal 账户的姓名必须与您的银行账户开户名完全一致`,还有就是如果密码太简单了，是无法创建账号的。~~
 *   ~~同意并创建账号—-输入验证码—-`继续`~~
 *   ~~设置密码提示问题——`提交`~~
-*   ~~之后你就会看到`“祝贺您！您已注册PayPal账户”`,再然后呢，输入你的银行卡号，再选择：`是`，然后：`提交`~~
-*   ~~至此你已经完成 Paypal 账号的注册。（^_^好简单是不是）~~
+*   ~~之后您就会看到`“祝贺您！您已注册PayPal账户”`,再然后呢，输入您的银行卡号，再选择：`是`，然后：`提交`~~
+*   ~~至此您已经完成 Paypal 账号的注册。（^_^好简单是不是）~~
 
 ## 看看搬瓦工套餐吧
 
@@ -67,42 +67,42 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 `以上参数均来自官网`
 
 *   上面列出的套餐只是一部分，也是自我搭建 Shadowsocks 服务器推荐的套餐。
-*   说着当然，你土豪的话也可以选择其他的套餐，或者购买 `linode` 的 VPS。
+*   说着当然，您土豪的话也可以选择其他的套餐，或者购买 `linode` 的 VPS。
 *   有多个套餐，我应该选择哪个啊？
-*   如果只是自己一个人用，想体验一下，强烈推荐选择套餐1就好，毕竟够用就好，不要浪费。感觉不错的话，是可以升级到其他套餐的。
-*   一般来说，如果只是个人普通使用，哪个便宜选哪个；当然，如果你使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。又或者你土豪的话，选择最贵的也行。
-    记住，一分钱一分货。
+* ? 如果只是自己一个人用，想体验一下，强烈推荐选择套餐1就好，毕竟够用就好，不要浪费。感觉不错的话，是可以升级到其他套餐的。
+* ? 一般来说，如果只是个人普通使用，哪个便宜选哪个；当然，如果您使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。又或者您土豪的话，选择最贵的也行。
+ ? ?记住，一分钱一分货。
 
 ## 好啦，开始购买搬瓦工
 
 *   火速打开 [官网](https://bandwagonhost.com/aff.php?aff=12816)
-*   如果你只想购买最便宜的套餐1，直接点击这个 [链接](https://bandwagonhost.com/aff.php?aff=12816&pid=43) ,就会出现如下画面.
+* ? 如果您只想购买最便宜的套餐1，直接点击这个 [链接](https://bandwagonhost.com/aff.php?aff=12816&pid=43) ,就会出现如下画面.
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/001.jpg)
 
 *   需要说明的是：在 `Billing Cycle` 选项那里选择：`$xxx USD Annually`，每年付 XXX 元的意思。
-*   其次需要注意的是：在 `location` 选项那里选择 `US West Coast - Los Angeles (USCA_2)` 或者 `US West Coast - Arizona (USAZ_2)`，注意！这是选择服务器的地区，是直接影响到你的访问速度的。
+*   其次需要注意的是：在 `location` 选项那里选择 `US West Coast - Los Angeles (USCA_2)` 或者 `US West Coast - Arizona (USAZ_2)`，注意！这是选择服务器的地区，是直接影响到您的访问速度的。
 *   然后点击`Add To Cart`
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/002.jpg)
 
 *   再然后点击 `Checkout`
-*   提示你要注册账号，请按照下面图片提示来填写~
+*   提示您要注册账号，请按照下面图片提示来填写~
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/003.jpg)
 
-*   图片是参考，要注意的是，`Country` 选项记得选择 `China`。
-*   不要忘了勾上 `I have read and agree to the Terms of Service`。
-*   重要提示！现在已支持 `支付宝` 交易。
-*   `Payment Method` 的时候选择 `AliPay` 就好！也就是说，`支付方式` 选择 `支付宝`。
-*   然后 `Complete Order`。
+* ? 图片是参考，要注意的是，`Country` 选项记得选择 `China`。
+* ? 不要忘了勾上 `I have read and agree to the Terms of Service`。
+* ? 重要提示！现在已支持 `支付宝` 交易。
+* ? `Payment Method` 的时候选择 `AliPay` 就好！也就是说，`支付方式` 选择 `支付宝`。
+* ? 然后 `Complete Order`。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/004.jpg)
 
-*   再然后 `Pay now`，你就会有看到有 `支付宝` 的登录窗口，支付又变得简单了。科科。
+*   再然后 `Pay now`，您就会有看到有 `支付宝` 的登录窗口，支付又变得简单了。科科。
 
 
-*   ~~如果你选择的是 paypal，并 `Complete Order` 的话~~
+*   ~~如果您选择的是 paypal，并 `Complete Order` 的话~~
 *   ~~然后就会自动跳转到 Paypal 付款界面。~~
 *   ~~登录之前注册的 Paypal 账号，然后选择 `立即付款`~~
 *   ~~下面这已是付款成功的^_^(这图片来自我帮我同学购买搬瓦工付款成功的截图)~~
@@ -111,23 +111,23 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
 ## 安装 Shadowsocks 服务器
 
-*   确保你已经成功付款之后, 打开： [https://bandwagonhost.com/clientarea.php?action=products](https://bandwagonhost.com/clientarea.php?action=products)
+*   确保您已经成功付款之后, 打开： [https://bandwagonhost.com/clientarea.php?action=products](https://bandwagonhost.com/clientarea.php?action=products)
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/006.jpg)
 
 *   选择 `KiwiVM Control Panel`
-*   这是首次登录的界面，稍等一会，等待资源分配完成即可。
+* ? 这是首次登录的界面，稍等一会，等待资源分配完成即可。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/007.jpg)
 
 *   这是登录后的界面，里面有详细的关于服务器运行的情况，比如说，流量的使用。这些先不管它，安装
-    Shadowsocks 服务器先，搬瓦工已经为我们准备好了 Shadowsocks 服务器的安装入口，呵呵，不用打命令了，一键安装。在左下角选择 `Shadowsocks Server`
+ ? ?Shadowsocks 服务器先，搬瓦工已经为我们准备好了 Shadowsocks 服务器的安装入口，呵呵，不用打命令了，一键安装。在左下角选择 `Shadowsocks Server`
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/008.jpg)
 
 *   然后选择 `Install Shadowsocks Server`
 *   等待安装完成之后选择 `Go Back`
-*   Shadowsocks  服务器就运行起来了~
+* ? Shadowsocks  服务器就运行起来了~
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/009.jpg)
 
@@ -164,7 +164,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 *   我怎么修改Shadowsocks服务器的加密方式？
     答：在Shadowsocks server controls下点击Change encryption，然后选择要更改的加密方式之后save，然后Go back
 *   我的KiwiVM Control Panel账号是什么呀？
-    答：你的服务器IP地址
+    答：您的服务器IP地址
 *   我怎么修改KiwiVM Control Panel密码？
     答：在登录KiwiVM Control Panel界面的时候选择左边KiwiVM password modification，输入新密码后，点击Set new password
 
@@ -172,10 +172,10 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
 *   下载地址：[http://pan.baidu.com/s/1bni3kYz](http://pan.baidu.com/s/1bni3kYz)
 *   下载完成后，安装，打开。
-*   服务器：填写你的服务器IP
-*   远程端口：填写你的服务器的远程端口，比如默认是443
+*   服务器：填写您的服务器IP
+*   远程端口：填写您的服务器的远程端口，比如默认是443
 *   本地端口：1080
-*   密码：填写你的 Shadowsocks 服务器的密码
+*   密码：填写您的 Shadowsocks 服务器的密码
 *   加密方式：选择相对应的加密方式，例如AES-256-CFB或<wbr>者RC4-MD5.
 *   路由：选择绕过局域网及中国大陆地址
 *   勾上全局代理
