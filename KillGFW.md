@@ -28,13 +28,13 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
 ### 温馨提示
 
-*   由于下面的教程搭建翻墙环境的服务器是在美国的，速度可能不是很快。
-* ? 由于官网属于被墙的状态，如您在下面点击链接打开官网显示出错，建议您首先用别的方式翻着墙，这是个鸡生蛋蛋生鸡的悖论，各位读者明察。
+* 由于下面的教程搭建翻墙环境的服务器是在美国的，速度可能不是很快。
+* 由于官网属于被墙的状态，如您在下面点击链接打开官网显示出错，建议您首先用别的方式翻着墙，这是个鸡生蛋蛋生鸡的悖论，各位读者明察。
 
 ## 现已支持支付宝交易
 
-* ? 应该是最近些天开始支持的，说白了就是搬瓦工官方人员知道我们大天朝内太多人们需要从那里购买 VPS 搭建 Shadowsocks 服务器来翻墙。
-* ? 没办法，面对这个奇葩的大天朝，外国佬还是挺会做事的，从之前配置了一键安装 Shadowsocks Server 再到现在支持支付宝交易，我大天朝内人们折腾自己搭建翻墙环境又将更加简单化，小白化，也感谢他们官网的机智，了解中国国情。
+* 应该是最近些天开始支持的，说白了就是搬瓦工官方人员知道我们大天朝内太多人们需要从那里购买 VPS 搭建 Shadowsocks 服务器来翻墙。
+* 没办法，面对这个奇葩的大天朝，外国佬还是挺会做事的，从之前配置了一键安装 Shadowsocks Server 再到现在支持支付宝交易，我大天朝内人们折腾自己搭建翻墙环境又将更加简单化，小白化，也感谢他们官网的机智，了解中国国情。
 *   下面的注册 Paypal 账号教程请跳过吧。
 
 ## ~~先注册 Paypal 国际账号~~
@@ -66,17 +66,17 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
 `以上参数均来自官网`
 
-*   上面列出的套餐只是一部分，也是自我搭建 Shadowsocks 服务器推荐的套餐。
-*   说着当然，您土豪的话也可以选择其他的套餐，或者购买 `linode` 的 VPS。
-*   有多个套餐，我应该选择哪个啊？
-* ? 如果只是自己一个人用，想体验一下，强烈推荐选择套餐1就好，毕竟够用就好，不要浪费。感觉不错的话，是可以升级到其他套餐的。
-* ? 一般来说，如果只是个人普通使用，哪个便宜选哪个；当然，如果您使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。又或者您土豪的话，选择最贵的也行。
- ? ?记住，一分钱一分货。
+* 上面列出的套餐只是一部分，也是自我搭建 Shadowsocks 服务器推荐的套餐。
+* 说着当然，您土豪的话也可以选择其他的套餐，或者购买 `linode` 的 VPS。
+* 有多个套餐，我应该选择哪个啊？
+* 如果只是自己一个人用，想体验一下，强烈推荐选择套餐1就好，毕竟够用就好，不要浪费。感觉不错的话，是可以升级到其他套餐的。
+* 一般来说，如果只是个人普通使用，哪个便宜选哪个；当然，如果您使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。又或者您土豪的话，选择最贵的也行。
+* 记住，一分钱一分货。
 
 ## 好啦，开始购买搬瓦工
 
 *   火速打开 [官网](https://bandwagonhost.com/aff.php?aff=12816)
-* ? 如果您只想购买最便宜的套餐1，直接点击这个 [链接](https://bandwagonhost.com/aff.php?aff=12816&pid=43) ,就会出现如下画面.
+*   如果您只想购买最便宜的套餐1，直接点击这个 [链接](https://bandwagonhost.com/aff.php?aff=12816&pid=43) ,就会出现如下画面.
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/001.jpg)
 
@@ -91,11 +91,11 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/003.jpg)
 
-* ? 图片是参考，要注意的是，`Country` 选项记得选择 `China`。
-* ? 不要忘了勾上 `I have read and agree to the Terms of Service`。
-* ? 重要提示！现在已支持 `支付宝` 交易。
-* ? `Payment Method` 的时候选择 `AliPay` 就好！也就是说，`支付方式` 选择 `支付宝`。
-* ? 然后 `Complete Order`。
+*  图片是参考，要注意的是，`Country` 选项记得选择 `China`。
+*  不要忘了勾上 `I have read and agree to the Terms of Service`。
+*  重要提示！现在已支持 `支付宝` 交易。
+*  `Payment Method` 的时候选择 `AliPay` 就好！也就是说，`支付方式` 选择 `支付宝`。
+*  然后 `Complete Order`。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/004.jpg)
 
@@ -116,18 +116,17 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/006.jpg)
 
 *   选择 `KiwiVM Control Panel`
-* ? 这是首次登录的界面，稍等一会，等待资源分配完成即可。
+*   这是首次登录的界面，稍等一会，等待资源分配完成即可。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/007.jpg)
 
-*   这是登录后的界面，里面有详细的关于服务器运行的情况，比如说，流量的使用。这些先不管它，安装
- ? ?Shadowsocks 服务器先，搬瓦工已经为我们准备好了 Shadowsocks 服务器的安装入口，呵呵，不用打命令了，一键安装。在左下角选择 `Shadowsocks Server`
+*   这是登录后的界面，里面有详细的关于服务器运行的情况，比如说，流量的使用。这些先不管它，安装 Shadowsocks 服务器先，搬瓦工已经为我们准备好了 Shadowsocks 服务器的安装入口，呵呵，不用打命令了，一键安装。在左下角选择 `Shadowsocks Server`
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/008.jpg)
 
 *   然后选择 `Install Shadowsocks Server`
 *   等待安装完成之后选择 `Go Back`
-* ? Shadowsocks  服务器就运行起来了~
+*   下图是 Shadowsocks  服务器就运行起来的样子~
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/009.jpg)
 
