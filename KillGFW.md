@@ -89,12 +89,13 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 *   图片是参考，要注意的是，`Country` 选项记得选择 `China`。
 *   不要忘了勾上 `I have read and agree to the Terms of Service`。
 *   重要提示！现在已支持 `支付宝` 交易。
-*   `Payment Method` 的时候选择 `Credit Card and AliPay (Stripe)` 就好！也就是说，`支付方式` 选择 `支付宝`。
+*   `Payment Method` 的时候选择 `AliPay` 就好！也就是说，`支付方式` 选择 `支付宝`。
 *   然后 `Complete Order`。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/004.jpg)
 
 *   再然后 `Pay now`，你就会有看到有 `支付宝` 的登录窗口，支付又变得简单了。科科。
+
 
 *   ~~如果你选择的是 paypal，并 `Complete Order` 的话~~
 *   ~~然后就会自动跳转到 Paypal 付款界面。~~
@@ -110,18 +111,18 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/006.jpg)
 
 *   选择 `KiwiVM Control Panel`
-*   这是首次登录的界面，稍等一会，等待资源分配即可。
+*   这是首次登录的界面，稍等一会，等待资源分配完成即可。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/007.jpg)
 
 *   这是登录后的界面，里面有详细的关于服务器运行的情况，比如说，流量的使用。这些先不管它，安装
-    Shadowsocks 服务器先，搬瓦工已经为我们准备 Shadowsocks 服务器的安装，呵呵，不用打命令了，一键安装。在左边选择 `Shadowsocks Server`
+    Shadowsocks 服务器先，搬瓦工已经为我们准备好了 Shadowsocks 服务器的安装入口，呵呵，不用打命令了，一键安装。在左下角选择 `Shadowsocks Server`
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/008.jpg)
 
 *   然后选择 `Install Shadowsocks Server`
 *   等待安装完成之后选择 `Go Back`
-*   Shadowsocks Server 在运行~
+*   Shadowsocks  服务器就运行起来了~
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/009.jpg)
 
@@ -147,7 +148,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/011.jpg)
 
-至此，Shadowsocks 服务器已经安装完成，尽情的翻墙吧!
+至此，Shadowsocks 的 Windows 客户端已经安装完毕，尽情的翻墙吧!
 
 ## 下面是一些使用说明
 
