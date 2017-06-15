@@ -5,7 +5,7 @@
 > 前言
 
 相信来看这文章的同学都知道什么是`翻墙`了吧，我就不重复说了。
-只要是详细的介绍用 [搬瓦工](https://bandwagonhost.com/aff.php?aff=12816) 搭建 Shadowsocks 服务器来翻墙。
+本文只详细介绍用 [搬瓦工](https://bandwagonhost.com/aff.php?aff=12816) 搭建 Shadowsocks 服务器来翻墙。
 
 > `搬瓦工来自 = bandwagonhost，一家美国的 VPS 服务商`
 
@@ -21,15 +21,15 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 
 > ### 教程开始~
 
-### 温馨提示（2016-7-30更新）
+### 温馨提示
 
 *   由于下面的教程搭建翻墙环境的服务器是在美国的，速度可能不是很快。
-*   由于官网属于被墙的状态，如你在下面点击链接打开官网显示出错，建议你首先用别的方式翻着墙,这是个鸡生蛋蛋生鸡的悖论,我目前无法解决.
+*   由于官网属于被墙的状态，如你在下面点击链接打开官网显示出错，建议你首先用别的方式翻着墙，这是个鸡生蛋蛋生鸡的悖论，我目前无法解决。
 
 ## 现已支持支付宝交易
 
-*   应该是最近些天开始支持的，说白了就是搬瓦工官方人员知道我们大天朝内太多人们需要从那里购买 VPS 搭建 Shadowsocks 来翻墙。
-*   没办法，面对这个奇葩的大天朝，外国佬还是挺会做事的，从之前配置了一键安装 Shadowsocks Server 再到现在支持支付宝交易，我大天朝内人们折腾自己搭建翻墙环境又将更加简单，小白化，也感谢他们官网的机智，了解国情。
+*   应该是最近些天开始支持的，说白了就是搬瓦工官方人员知道我们大天朝内太多人们需要从那里购买 VPS 搭建 Shadowsocks 服务器来翻墙。
+*   没办法，面对这个奇葩的大天朝，外国佬还是挺会做事的，从之前配置了一键安装 Shadowsocks Server 再到现在支持支付宝交易，我大天朝内人们折腾自己搭建翻墙环境又将更加简单化，小白化，也感谢他们官网的机智，了解中国国情。
 *   下面的注册 Paypal 账号教程请跳过吧。
 
 ## ~~先注册 Paypal 国际账号~~
@@ -64,14 +64,14 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 *   上面列出的套餐只是一部分，也是自我搭建 Shadowsocks 服务器推荐的套餐。
 *   说着当然，你土豪的话也可以选择其他的套餐，或者购买 `linode` 的 VPS。
 *   有多个套餐，我应该选择哪个啊？
-*   如果只是自己一个人用，想体验一下，强烈推荐选择套餐1就好，毕竟够用就好，不要浪费。感觉不错的话，是可以升级到其他的套餐的
-*   一般来说，如果只是个人普通使用，哪个便宜选择那个，说着当然如果你使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。又或者你土豪的话，选择最贵的也行。
-    注意，记住一分钱一分货。
+*   如果只是自己一个人用，想体验一下，强烈推荐选择套餐1就好，毕竟够用就好，不要浪费。感觉不错的话，是可以升级到其他套餐的。
+*   一般来说，如果只是个人普通使用，哪个便宜选哪个；当然，如果你使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。又或者你土豪的话，选择最贵的也行。
+    记住，一分钱一分货。
 
 ## 好啦，开始购买搬瓦工
 
 *   火速打开 [官网](https://bandwagonhost.com/aff.php?aff=12816)
-*   如果你只想购买套餐1，直接点击这个 [链接](https://bandwagonhost.com/aff.php?aff=12816&pid=43) ,就会出现如下画面.
+*   如果你只想购买最便宜的套餐1，直接点击这个 [链接](https://bandwagonhost.com/aff.php?aff=12816&pid=43) ,就会出现如下画面.
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/001.jpg)
 
@@ -86,12 +86,15 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/003.jpg)
 
-*   下面图片是参考，要注意的是，`Country` 选项记得选择 `China`。不要忘了勾上 `I have read and agree to the Terms of Service`， 然后 `Complete Order`
-*   重要提示！现在已支持 `支付宝` 交易。
-*   `Payment Method` 的时候选择 `Credit Card and AliPay (Stripe)` 就好！
-*   支持方式选择 `Credit Card and AliPay (Stripe)` 之后，然后 `Complete Order`，再然后 `Pay now`，你就会有看到有 `支付宝` 的登录窗口，支付又变得简单了。科科。
+*   图片是参考，要注意的是，`Country` 选项记得选择 `China`。
+*   不要忘了勾上 `I have read and agree to the Terms of Service`。
+*   重要提示！现在已支持 `支付宝` 交易。
+*   `Payment Method` 的时候选择 `Credit Card and AliPay (Stripe)` 就好！也就是说，`支付方式` 选择 `支付宝`。
+*   然后 `Complete Order`。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/004.jpg)
+
+*   再然后 `Pay now`，你就会有看到有 `支付宝` 的登录窗口，支付又变得简单了。科科。
 
 *   ~~如果你选择的是 paypal，并 `Complete Order` 的话~~
 *   ~~然后就会自动跳转到 Paypal 付款界面。~~
