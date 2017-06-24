@@ -36,6 +36,8 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 * 由于官网属于被墙的状态，如您在下面点击链接打开官网显示出错，建议您首先用别的方式翻着墙，这是个鸡生蛋蛋生鸡的悖论，各位读者明鉴。
 * **这个时候的翻墙，请将您的翻墙客户端切换到全局模式（Global Mode），因为很多客户端没有将 [搬瓦工官网](https://bandwagonhost.com/aff.php?aff=12816) 加入代理列表，导致自动或PAC模式时访问搬瓦工失败。**
 
+    ![tu](https://github.com/OneSecure/ShadowAgentNotes/raw/master/image/global.png)
+
 ## 现已支持支付宝交易
 
 * 应该是最近些天开始支持的，说白了就是搬瓦工官方人员知道我们大天朝内太多人们需要从那里购买 VPS 搭建 Shadowsocks 服务器来翻墙。
