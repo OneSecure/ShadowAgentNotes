@@ -159,7 +159,11 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/011.jpg)
 
-至此，Shadowsocks 的 Windows 客户端已经安装完毕，尽情的翻墙吧!
+    至此，Shadowsocks 的 Windows 客户端已经安装完毕，尽情的翻墙吧!
+11. 对于 Windows 用户, 最后的最后忠告: **珍爱生命, 远离 360.** 下面是一些讨论和诅咒.
+
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/anit-360.jpg)
+
 
 ## 下面是一些使用说明
 
