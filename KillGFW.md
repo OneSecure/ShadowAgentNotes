@@ -180,7 +180,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 * 配置和启用与 Windows 下差不多. 下图是运行结果和配置图.
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/mac-01.jpg)
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/mac-01.jpg)
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/mac-02.jpg)
 
 
 ## 手机端的使用方法（Android）
