@@ -174,6 +174,11 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 *   我怎么修改KiwiVM Control Panel密码？
     答：在登录KiwiVM Control Panel界面的时候选择左边KiwiVM password modification，输入新密码后，点击Set new password
 
+## 苹果笔记本 macOS 端的使用方法
+
+* macOS 的 Shadowsocks 客户端可以在 [这里](https://github.com/shadowsocks/Shadowsocks-ios/releases) 找到, 或者直接点击 [这个链接](https://github.com/shadowsocks/shadowsocks-iOS/releases/download/2.6.3/ShadowsocksX-2.6.3.dmg) 下载 dmg 文件.
+
+
 ## 手机端的使用方法（Android）
 
 *   下载地址：[http://pan.baidu.com/s/1bni3kYz](http://pan.baidu.com/s/1bni3kYz)
