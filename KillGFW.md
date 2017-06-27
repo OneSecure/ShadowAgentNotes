@@ -160,8 +160,12 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/011.jpg)
 
-    至此，Shadowsocks 的 Windows 客户端已经安装完毕，尽情的翻墙吧!
-11. 对于 Windows 用户, 最后的最后忠告: **珍爱生命, 远离 360.** 国产的杀毒软件, 安全卫士之类的垃圾, 百分之百是间谍软件, 它们会忠实地将你的翻墙线路, 实时地发送到 GFW 服务器, 然后第一时间将你的翻墙服务器 IP 加入 GFW 黑名单. 下面是一些讨论和诅咒, 大家严肃点, 不准笑.
+    至此，Shadowsocks 的 Windows 客户端已经安装完毕，尽情的翻墙吧!
+11. 如果您想要手机也同时使用这个线路，由于输入密码是个极容易出错的活儿，请照下图所示生成`二维码`，然后用手机上的Shadowsocks客户端软件扫描进去，又快又准。
+
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/QRcode.png)
+    
+12. 对于 Windows 用户, 最后的最后忠告: **珍爱生命, 远离 360.** 国产的杀毒软件, 安全卫士之类的垃圾, 百分之百是间谍软件, 它们会忠实地将你的翻墙线路, 实时地发送到 GFW 服务器, 然后第一时间将你的翻墙服务器 IP 加入 GFW 黑名单。下面是一些讨论和诅咒，大家严肃点，不准笑。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/anit-360.jpg)
 
