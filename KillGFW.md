@@ -106,8 +106,9 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/004.jpg)
 
-*   再然后 `Pay now`，您就会有看到有 `支付宝` 的登录窗口，支付又变得简单了。科科。
+*   再然后 `Pay now`，您就会有看到有 `支付宝` 的登录窗口，支付又变得简单了。科科。下图是支付页面。
 
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/alipay.png)
 
 *   ~~如果您选择的是 paypal，并 `Complete Order` 的话~~
 *   ~~然后就会自动跳转到 Paypal 付款界面。~~
