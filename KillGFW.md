@@ -98,7 +98,8 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/003.jpg)
 
-*  图片是参考，要注意的是，`Country` 选项记得选择 `China`。
+*  图片供参考，要注意的是，`Country` 选项记得选择 `China`。`电邮`、`密码`，请认真对待并牢记，它就是您在`搬瓦工`上的账号。其他信息包括手机号码等，可以随意填写。
+
 *  不要忘了勾上 `I have read and agree to the Terms of Service`。
 *  重要提示！现在已支持 `支付宝` 交易。
 *  `Payment Method` 的时候选择 `AliPay` 就好！也就是说，`支付方式` 选择 `支付宝`。
