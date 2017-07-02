@@ -151,11 +151,11 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 6.  如果您没有看到如下所示的设置窗口,然后找到Shadowsoc<wbr>ks托盘图标并双击：
 7.  步骤2，Shadowsocks GUI设置
 8.  进入设置如下所示
-9.  请注意,您可以简单地复制粘贴标记为黄色的字段:
+9.  请注意,您可以简单地复制粘贴标记为黄色的字段。请务必复制粘贴，否则，你能分辨 l 是 i 还是 L 吗？
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/010.jpg)
 
-    然后点击确定
+    然后点击确定。
 
 10. 不要忘记了勾上`启用系统代理`（鼠标右键 Shadowsocks 托盘图标）.
 
