@@ -124,8 +124,11 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/006.jpg)
 
-*   选择 `KiwiVM Control Panel`
-*   这是首次登录的界面，稍等一会，等待资源分配完成即可。
+*   选择 `KiwiVM Control Panel`。这时，如果你遇到下图的页面，表明搬瓦工后台对主机的初始化尚未完成，请关闭浏览器，等待大约十分钟，再重新进入 [搬瓦工网站](https://bandwagonhost.com/clientarea.php?action=products)。
+
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/logoff.png)
+
+*   下图是首次登录的界面，稍等一会，等待资源分配完成即可。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/007.jpg)
 
