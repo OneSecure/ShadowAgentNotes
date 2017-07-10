@@ -1,5 +1,7 @@
 # 搬瓦工搭建 Shadowsocks 服务器(一键搭建)详细图文教程
 
+![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/title.png)
+
 ## 摘要
 1. 小白不要恐慌, 只要您看得懂中文, 有初中英文水平, 有支付宝账号, 您就可以在十分钟之内购买一个美国虚拟主机并且在它上面搭好 Shadowsocks 服务器。
 2. 本教程似乎洋洋洒洒卷帙浩繁，其实只讲两件事：㈠用支付宝租用美国虚拟主机，㈡在虚拟主机上搭建 Shadowsocks 服务器。
