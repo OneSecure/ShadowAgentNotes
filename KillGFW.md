@@ -201,7 +201,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
 ## 手机端的使用方法（Android）
 
-*   下载地址：[http://pan.baidu.com/s/1bni3kYz](http://pan.baidu.com/s/1bni3kYz)
+*   [下载地址](https://github.com/shadowsocks/shadowsocks-android/releases)
 *   下载完成后，安装，打开。
 *   服务器：填写您的服务器IP
 *   远程端口：填写您的服务器的远程端口，比如默认是443
