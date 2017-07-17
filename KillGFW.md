@@ -212,9 +212,12 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 *   勾上全局代理
 *   然后右上角！启用
 
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/android.jpg)
+
+
 ## 手机端的使用方法（iOS）
 
-*   请在苹果 App Store 内下载 [网际飞梭](https://itunes.apple.com/cn/app/id982708939?mt=8) 软件.  
+*   请在苹果 App Store 内下载 [网际飞梭](https://itunes.apple.com/us/app/id982708939?mt=8) 软件.
 *   下载完成后，安装，打开, 配置方法与 Android 类似。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/012.jpg)
