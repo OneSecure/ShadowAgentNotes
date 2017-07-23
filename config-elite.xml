@@ -5,7 +5,7 @@
 	<key>reviewPopup</key>
 	<false/>
 	<key>ADsEnabled</key>
-	<true/>
+	<false/>
 	<key>ShowRemoveADsButton</key>
 	<true/>
 	<key>ShowWatchADsButton</key>
