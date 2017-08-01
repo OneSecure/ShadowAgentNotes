@@ -12,7 +12,7 @@
 
 * 为了减少不必要的麻烦，请在整个操作过程中一直**全局翻墙到美国**。为了验证你当前的IP是不是在美国，请访问 http://ip138.com 网站查看。
 * 请使用 Gmail 之类的外国邮箱注册，不要用国内的邮箱！
-* ~~~如果你确实翻不了墙，你可以百度“网际飞梭”找到我的QQ，我可以给你个临时SS线路二维码。如果你还不明所以，请关了这个网页。掰掰。~~~
+* ~~~如果你确实翻不了墙，你可以百度“网际飞梭”找到我的QQ，我可以给你个临时SS线路二维码。如果你还不明所以，请关闭这个网页。掰掰。~~~
 
 ## 第一步：到官网下载最新的 iTunes
 
@@ -37,7 +37,7 @@
 
 * 我这里以 QQ 为例，反正 QQ 在哪个区域都有。
 * 搜索 QQ ，并点击“Get”来弹出登陆框。
-* **一定要通过下载应用弹出的登陆框来注册 Apple ID ，否则在“支付方式”的设定页面并没有“None”的选项。**
+* **一定要通过下载应用弹出的登陆框来注册 Apple ID ，否则在“支付方式”的设定页面并没有“None”的选项。苹果很龌龊的，你懂的。**
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200654.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200733.png)
