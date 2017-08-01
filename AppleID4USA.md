@@ -24,13 +24,13 @@ PS ：请使用 Gmail 之类的外国邮箱注册，不要用国内的邮箱！�
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200255.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200342.png)
 
-第三步：在应用商店拉到页面最底下，改 App Store 的区域
+## 第三步：在应用商店拉到页面最底下，改 App Store 的区域
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200458.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200526.png)
 
 
-第四步：下载一个免费的 App
+## 第四步：下载一个免费的 App
 
 * 我这里以 QQ 为例，反正 QQ 在哪个区域都有。
 * 搜索 QQ ，并点击“Get”来弹出登陆框。
@@ -39,7 +39,7 @@ PS ：请使用 Gmail 之类的外国邮箱注册，不要用国内的邮箱！�
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200654.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200733.png)
 
-第五步：填写信息注册 Apple ID
+## 第五步：填写信息注册 Apple ID
 
 Google 地图放大到看的到街道名的大小，然后选个建筑物，就有详细地址啦。电话也可以网上直接搜，懒的话就直接复制我上面的地址就好了。
 
@@ -52,8 +52,6 @@ Los Angeles – CA – 90033
 
 
 
-第六步，大功告成，可以在 iPhone 上登陆这个号下载了。。。
+## 第六步，大功告成，可以在 iPhone 上登陆这个号下载了。。。
 
-如果要购买应用的话，可以到马云购买美区的礼品卡充值。。
-
-
+如果要购买应用的话，可以到马云购买美区的礼品卡充值……（你懂的）
