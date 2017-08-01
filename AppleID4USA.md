@@ -48,15 +48,15 @@ PS ：请使用 Gmail 之类的外国邮箱注册，不要用国内的邮箱！�
 
 Google 地图放大到看的到街道名的大小，然后选个建筑物，就有详细地址啦。电话也可以网上直接搜，懒的话就直接复制我上面的地址就好了。
 
-338 N Fickett ST
-Los Angeles – CA – 90033
+> 338 N Fickett ST
+> Los Angeles – CA – 90033
 
- 
+![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202043.png)
 
-卡在验证码这一步的。建议用美国的 ss 试试。
+卡在验证码这一步的。建议你**全局翻墙到美国**试试。
 
+![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202156.png)
 
-
-## 第六步，大功告成，可以在 iPhone 上登陆这个号下载了。。。
+## 第六步，大功告成，可以在 iPhone 上登陆这个号下载 App 了。
 
 如果要购买应用的话，可以到马云购买美区的礼品卡充值……（你懂的）
