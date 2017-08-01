@@ -32,16 +32,12 @@ PS ：请使用 Gmail 之类的外国邮箱注册，不要用国内的邮箱！�
 
 第四步：下载一个免费的 App
 
+* 我这里以 QQ 为例，反正 QQ 在哪个区域都有。
+* 搜索 QQ ，并点击“Get”来弹出登陆框。
+* **一定要通过下载应用弹出的登陆框来注册 Apple ID ，否则在“支付方式”的设定页面并没有“None”的选项。**
+
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200654.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200733.png)
-
-
-我这里以 QQ 为例。。反正 QQ 在哪个区域都有。
-搜索 QQ ，并点击“Get”来弹出登陆框。
-一定要通过下载应用弹出的登陆框来注册 Apple ID ，否则在“支付方式”的设定页面并没有“None”的选项。
-
-
-
 
 第五步：填写信息注册 Apple ID
 
