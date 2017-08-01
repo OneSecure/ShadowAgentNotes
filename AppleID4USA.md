@@ -49,7 +49,7 @@
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729201428.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202004.png)
 
-Google 地图放大到看的到街道名的大小，然后选个建筑物，就有详细地址啦。电话也可以网上直接搜，懒的话就直接复制我上面的地址就好了。
+Google 地图放大到看的到街道名的大小，然后选个建筑物，就有详细地址啦。电话也可以网上直接搜，懒的话就直接复制我上面的地址就好了。**不过懒人不要太多，否则太多人使用同一住址，同样会导致注册失败。**
 
 > 338 N Fickett ST
 > Los Angeles – CA – 90033
