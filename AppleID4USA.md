@@ -37,7 +37,7 @@
 
 * 我这里以 QQ 为例，反正 QQ 在哪个区域都有。
 * 搜索 QQ ，并点击“Get”来弹出登陆框。
-* **一定要通过下载应用弹出的登陆框来注册 Apple ID ，否则在“支付方式”的设定页面并没有“None”的选项。苹果很龌龊的，你懂的。**
+* **一定要通过下载应用弹出的登陆框来注册 Apple ID ，否则在“支付方式”的设定页面并没有“None”的选项。苹果一贯很龌龊，你懂的。**
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200654.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200733.png)
@@ -56,7 +56,7 @@ Google 地图放大到看的到街道名的大小，然后选个建筑物，就�
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202043.png)
 
-卡在验证码这一步的。建议你**全局翻墙到美国**试试。
+卡在验证码这一步的。建议你一定一定要**全局翻墙到美国**试试。
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202156.png)
 
