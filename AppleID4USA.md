@@ -1,4 +1,4 @@
-# 教程：一步步教你注册美区 Apple ID，到美区 APP Store 下载应用
+# 教程：一步一步教你注册美区免信用卡 Apple ID，到美区 APP Store 下载免费应用
 
 ## 前言
 
@@ -60,6 +60,6 @@ Google 地图放大到看的到街道名的大小，然后选个建筑物，就�
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202156.png)
 
-## 第六步，大功告成，可以在 iPhone 上登陆这个号下载 App 了。
+## 第六步，大功告成，可以在 iPhone 上登录这个号下载 App 了。
 
 如果要购买应用的话，可以到马云购买美区的礼品卡充值……（你懂的）
