@@ -4,9 +4,9 @@
 
 因为一些 Apps 在中国区被下架，这时，你就需要一个美区账号。下文详述注册美区苹果账号的过程。
 
-教程使用的注册方式是通过 PC 机上的 iTunes 软件进行。请按教程一步步设置，否则有可能会在支付方式设置页面没有“None”的选项，导致没有美国信用卡的同学无法注册。
+教程使用的注册方式是通过 PC 机上的 iTunes 软件进行。请按教程一步步设置，否则有可能会在支付方式设置页面没有“None”选项，导致没有美国信用卡的同学无法注册。
 
-举一反三，要注册其他区域只需要在注册时候的区域选择正确就可以。
+举一反三，要注册其他区域只需要在注册时候的区域选择正确并且全局翻墙到这个区域就可以。
 
 ## 注意事项
 
@@ -36,8 +36,8 @@
 ## 第四步：下载一个免费的 App
 
 * 我这里以 QQ 为例，反正 QQ 在哪个区域都有。
-* 搜索 QQ ，并点击“Get”来弹出登陆框。
-* **一定要通过下载应用弹出的登陆框来注册 Apple ID ，否则在“支付方式”的设定页面并没有“None”的选项。苹果一贯很龌龊，你懂的。**
+* 搜索 QQ ，并点击“Get”来弹出登录框。
+* **一定要通过下载应用弹出的登录框来注册 Apple ID ，否则在“支付方式”的设定页面将没有“None”选项。苹果一贯很龌龊，你懂的。**
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200654.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200733.png)
@@ -49,7 +49,7 @@
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729201428.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202004.png)
 
-Google 地图放大到看的到街道名的大小，然后选个建筑物，就有详细地址啦。电话也可以网上直接搜，懒的话就直接复制我上面的地址就好了。**不过懒人不要太多，否则太多人使用同一住址，同样会导致注册失败。**
+Google 地图放大到看的到街道名的大小，然后选个建筑物，就有详细地址啦。电话也可以网上直接搜，懒的话就直接复制我上面的地址就好了。**不过懒人不要太多，否则太多人使用同一住址，会导致注册失败。**
 
 > 338 N Fickett ST
 > Los Angeles – CA – 90033
