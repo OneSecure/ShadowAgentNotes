@@ -8,6 +8,9 @@
 
 举一反三，要注册其他区域只需要在注册时候的区域选择正确并且全局翻墙到这个区域就可以。
 
+> * [这个YouTube视频](https://www.youtube.com/watch?v=EXUbgANMgNE) 讲述的是直接在 iPhone 上创建 Apple ID. 大家可以学习参考.
+> * [这个文字教程](http://bbs.feng.com/read-htm-tid-11383798.html) 差不多是上面视频的文字版.
+
 ## 注意事项
 
 * 为了减少不必要的麻烦，请在整个操作过程中一直**全局翻墙到美国**。为了验证你当前的IP是不是在美国，请访问 http://ip138.com 网站查看。
