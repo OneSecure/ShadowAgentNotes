@@ -53,10 +53,11 @@
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729201428.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202004.png)
 
-Google 地图放大到看的到街道名的大小，然后选个建筑物，就有详细地址啦。电话也可以网上直接搜，懒的话就直接复制我上面的地址就好了。**不过懒人不要太多，否则太多人使用同一住址，会导致注册失败。**
+**打开 Google 地图，输入 USA，选择 AK、DE、MT、NH，NJ，OR，这五个免税州中的任意一个，再选择一个城市，然后放大到能看到 Street 为止，
+将 Google 地图放大到看的到街道名的大小，然后选个建筑物，就有详细地址啦。多找找，有些地址是带有电话的。**
 
-> 338 N Fickett ST
-> Los Angeles – CA – 90033
+> 77 Massachusetts Ave, Cambridge, MA 02139, USA
+> 617-253-1000
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202043.png)
 
