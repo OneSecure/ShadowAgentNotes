@@ -67,6 +67,8 @@
 
 ## 第六步，大功告成，可以在 iPhone 上登录这个号下载 App 了。
 
+![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202256.png)
+
 如果要购买应用的话，可以到马云购买美区的礼品卡充值……（你懂的）
 
-> 如果实在不行，一直失败，转区加拿大吧，还是使用 [假名生成器](http://www.fakenamegenerator.com/) 生成一个加拿大地址，在 **非翻墙状态** 下，按照上述流程走一遍，一般会成功的，如果最后一步还卡住，就没皮没脸地多试几次。
+> 如果实在不行，一直失败，转区加拿大吧，还是使用 [假名生成器](http://www.fakenamegenerator.com/) 生成一个加拿大地址，在 **非翻墙状态** 下，按照上述流程走一遍，一般会成功的，如果最后一步还卡住，就没皮没脸地多 Verify 几次。
