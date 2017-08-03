@@ -56,8 +56,8 @@
 **打开 Google 地图，输入 USA，选择 AK、DE、MT、NH，OR，(NJ，) 这五个免税州中的任意一个，再选择一个城市，然后放大到能看到 Street 为止，
 将 Google 地图放大到看的到街道名的大小，然后选个建筑物，就有详细地址啦。多找找，有些地址是带有电话的。**
 
-> *  全美共有五个州免消费税，分别是Oregon（俄勒冈州），Alaska（阿拉斯加州），Delaware（特拉华州），Montana（蒙大拿州）和New Hampshire（新罕布什尔州）。 另外，New Jersey（新泽西）部分免税。
-> * 291 W 8th Ave, Eugene, OR 97401, USA 541-687-2746
+> * 全美共有五个州免消费税，分别是Oregon（俄勒冈州），Alaska（阿拉斯加州），Delaware（特拉华州），Montana（蒙大拿州）和New Hampshire（新罕布什尔州）。 另外，New Jersey（新泽西）部分免税。
+> * 对于懒人，强烈建议使用这个网页：[生成美国地址](http://www.fakenamegenerator.com/)，选好性别（Gender），点击 `Generate` 按钮, 查看地址结尾是否出现了AK、DE、MT、NH，OR，这五个免税州，如果不是请继续点击 `Generate` 按钮，直到出现。 将生成的 **姓名、街道、邮编、电话**，复制粘贴进相应位置。
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202043.png)
 
@@ -68,3 +68,5 @@
 ## 第六步，大功告成，可以在 iPhone 上登录这个号下载 App 了。
 
 如果要购买应用的话，可以到马云购买美区的礼品卡充值……（你懂的）
+
+> 如果实在不行，一直失败，转区加拿大吧，还是使用 [假名生成器](http://www.fakenamegenerator.com/) 生成一个加拿大地址，在 **非翻墙状态** 下，按照上述流程走一遍，一般会成功的，如果最后一步还卡住，就没皮没脸地多试几次。
