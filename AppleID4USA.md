@@ -53,11 +53,11 @@
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729201428.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202004.png)
 
-**打开 Google 地图，输入 USA，选择 AK、DE、MT、NH，NJ，OR，这五个免税州中的任意一个，再选择一个城市，然后放大到能看到 Street 为止，
+**打开 Google 地图，输入 USA，选择 AK、DE、MT、NH，OR，(NJ，) 这五个免税州中的任意一个，再选择一个城市，然后放大到能看到 Street 为止，
 将 Google 地图放大到看的到街道名的大小，然后选个建筑物，就有详细地址啦。多找找，有些地址是带有电话的。**
 
-> 77 Massachusetts Ave, Cambridge, MA 02139, USA
-> 617-253-1000
+> *  全美共有五个州面消费税，分别是Oregon（俄勒冈州），Alaska（阿拉斯加州），Delaware（特拉华州），Montana（蒙大拿州）和New Hampshire（新罕布什尔州）。 另外，New Jersey（新泽西）部分免税。
+> * 291 W 8th Ave, Eugene, OR 97401, USA 541-687-2746
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202043.png)
 
