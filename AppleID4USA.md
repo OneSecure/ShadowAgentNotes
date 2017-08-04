@@ -43,7 +43,6 @@
 * **一定要通过下载应用弹出的登录框来注册 Apple ID ，否则在“支付方式”的设定页面将没有“None”选项。苹果一贯很龌龊，你懂的。**
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200654.png)
-![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200733.png)
 
 ## 第五步：填写信息注册 Apple ID
 
