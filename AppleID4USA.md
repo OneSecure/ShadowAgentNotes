@@ -50,6 +50,9 @@
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200911.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729201332.png)
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729201428.png)
+
+**绝大部分人在下一步翻车，简而言之，人名必须看起来是真的，住址必须是位于免税州内的看起来是真的地址。**
+
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202004.png)
 
 **打开 Google 地图，输入 USA，选择 AK、DE、MT、NH，OR，(NJ，) 这五个免税州中的任意一个，再选择一个城市，然后放大到能看到 Street 为止，
