@@ -38,8 +38,8 @@
 
 ## 第四步：下载一个免费的 App
 
-* 我这里以 QQ 为例，反正 QQ 在哪个区域都有。
-* 搜索 QQ ，并点击“Get”来弹出登录框。
+* 我这里以 网际飞梭 为例，反正 网际飞梭 在中国区以外的所有区域都有。
+* 搜索 网际飞梭 ，并点击“Get”来弹出登录框。
 * **一定要通过下载应用弹出的登录框来注册 Apple ID ，否则在“支付方式”的设定页面将没有“None”选项。苹果一贯很龌龊，你懂的。**
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729200654.png)
