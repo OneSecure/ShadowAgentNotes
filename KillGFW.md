@@ -122,7 +122,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
 ## 安装 Shadowsocks 服务器
 
-*   确保您已经成功付款之后, 打开： [https://bandwagonhost.com/clientarea.php?action=products](https://bandwagonhost.com/clientarea.php?action=products)
+*   确保您已经成功付款之后，请 "Client Area -> "Services" -> "My Services" 打开VPS控制台，或者直接点 [这个连接](https://bandwagonhost.com/clientarea.php?action=products) 打开。 
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/006.jpg)
 
