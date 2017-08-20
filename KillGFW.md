@@ -122,7 +122,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
 ## 安装 Shadowsocks 服务器
 
-*   确保您已经成功付款之后，请 "Client Area -> "Services" -> "My Services" 打开VPS控制台，或者直接点 [这个连接](https://bandwagonhost.com/clientarea.php?action=products) 打开。 
+*   确保您已经成功付款之后，请 "Client Area" -> "Services" -> "My Services" 打开VPS控制台，或者直接点 [这个连接](https://bandwagonhost.com/clientarea.php?action=products) 打开。 
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/006.jpg)
 
@@ -189,10 +189,14 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
     答：您的服务器IP地址
 *   我怎么修改KiwiVM Control Panel密码？
     答：在登录KiwiVM Control Panel界面的时候选择左边KiwiVM password modification，输入新密码后，点击Set new password
-    
+*   **服务器运行越来越慢, 怎么办?**
+    答: **在控制台主页面, 点 reboot 或者 reset 按钮, 重启整个 VPS 主机.** 一般能解决问题, 重启很快的, 几秒钟就完成. 如果还有很慢, 请 **切换机房**. 
+
+    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/008.jpg)
+
 ## 机房切换
 
-如果您的 IP 不幸被审查部门发现并被屏蔽，您可以切换机房来达到更换 IP 的目的，或者仅仅想测试一下其它机房的速度。如下图所示，首先停掉主机，其次迁移数据到您选定的机房。过几分钟后，关闭您浏览器所有页面，重新登录搬瓦工网站，然后再照下图启动主机，整个操作才算完成。值得注意的是，在进行这些操作的时候，您 **必须用另一条线路翻着墙，否则，你懂的。**
+如果您的 IP 不幸被审查部门发现并被屏蔽，您可以切换机房来达到更换 IP 的目的，或者您仅仅想测试一下其它机房的速度。如下图所示，首先停掉主机，其次迁移数据到您选定的机房。过几分钟后，关闭您浏览器所有页面，重新登录搬瓦工网站，然后再照下图启动主机，整个操作才算完成。值得注意的是，在进行这些操作的时候，您 **必须用另一条线路翻着墙，否则，你懂的。**
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/migrate.png)
 
