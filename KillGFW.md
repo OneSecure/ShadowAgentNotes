@@ -190,7 +190,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 *   我怎么修改KiwiVM Control Panel密码？
     答：在登录KiwiVM Control Panel界面的时候选择左边KiwiVM password modification，输入新密码后，点击Set new password
 *   **服务器运行越来越慢, 怎么办?**
-    答: **在控制台主页面, 点 reboot 或者 reset 按钮, 重启整个 VPS 主机.** 一般能解决问题, 重启很快的, 几秒钟就完成. 如果还是很慢, 请 **切换机房**. 
+    答: **在控制台主页面, 点 reboot 或者 reset 按钮, 重启整个 VPS 主机.** 一般能解决问题, 重启很快的, 几秒钟就完成. 由于这个操作对改善性能是如此有效, 请记得没事就来一发. 如果还是很慢, 请 **切换机房**. 
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/008.jpg)
 
