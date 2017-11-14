@@ -14,7 +14,7 @@
 
 ## 注意事项
 
-* 由于苹果公司出于 [某些原因](https://support.apple.com/zh-cn/HT203905) , 注册时设备的 IP 必须与所注册的国家区域一致, 否则将没有 "None" 选项, 必须 ***硬件级别全局翻墙到美国***。 目前的唯一途径就是用 Windows 上的带内核驱动的代理软件才可胜任. 我们可以使用 [SSTap 软件](https://www.sockscap64.com/en/sstap-enjoy-gaming-enjoy-sstap/) 来达到目的, 本文末尾有这个软件的运行截图. 这一点 ***至关重要***. 为了验证你当前的IP是不是在美国，请访问 http://ip138.com 网站查看。
+* 由于苹果公司出于 [某些原因](https://support.apple.com/zh-cn/HT203905) , 注册时设备的 IP 必须与所注册的国家区域一致, 否则将没有 "None" 选项, 必须 **全局硬件级别翻墙** 到美国。 目前的唯一途径就是用 Windows 上的 **内核驱动** 级别代理软件才可胜任. 我们可以使用 [SSTap 软件](https://www.sockscap64.com/en/sstap-enjoy-gaming-enjoy-sstap/) 达到目的, 本文末尾有这个软件的运行截图. 这一点 **至关重要**. 为了验证你当前的 IP 是不是在美国，请访问 http://ip138.com 网站查看结果。
 * 请使用 Gmail 之类的外国邮箱注册，不要用国内的邮箱！
 * ~~~如果你确实翻不了墙，你可以百度“网际飞梭”找到我的QQ，我可以给你个临时SS线路二维码。如果你还不明所以，请关闭这个网页。掰掰。~~~
 
@@ -62,7 +62,7 @@
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202043.png)
 
-卡在验证码这一步的。建议你一定一定要**全局翻墙到美国**试试。
+卡在验证码这一步的。建议你一定一定要 **全局硬件级别翻墙** 到美国试试。
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202156.png)
 
@@ -72,11 +72,8 @@
 
 如果要购买应用的话，可以到马云购买美区的礼品卡充值……（你懂的）
 
-> 如果实在不行，一直失败，转区加拿大吧，还是使用 [假名生成器](http://www.fakenamegenerator.com/) 生成一个加拿大地址，在 **非翻墙状态** 下，按照上述流程走一遍，一般会成功的，如果最后一步还卡住，就没皮没脸地多 Verify 几次。
+> 如果实在不行，一直失败，转区加拿大吧，还是使用 [假名生成器](http://www.fakenamegenerator.com/) 生成一个加拿大地址，**全局硬件级别翻墙** 到加拿大，按照上述流程再走一遍，一般会成功的，如果最后一步还卡住，就没皮没脸地多 Verify 几次。
 
 > SSTap 的运行截图.
 
 ![SSTap](https://www.sockscap64.com/wp-content/uploads/2017/05/EN.png)
-
-
-
