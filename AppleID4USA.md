@@ -74,6 +74,6 @@
 
 > 如果实在不行，一直失败，转区加拿大吧，还是使用 [假名生成器](http://www.fakenamegenerator.com/) 生成一个加拿大地址，**全局硬件级别翻墙** 到加拿大，按照上述流程再走一遍，一般会成功的，如果最后一步还卡住，就没皮没脸地多 Verify 几次。
 
-> SSTap 的运行截图.
+> [SSTap](https://www.sockscap64.com/en/sstap-enjoy-gaming-enjoy-sstap/) 的运行截图.
 
 ![SSTap](https://www.sockscap64.com/wp-content/uploads/2017/05/EN.png)
