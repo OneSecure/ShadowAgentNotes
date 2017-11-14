@@ -4,23 +4,23 @@
 
 因为一些 Apps 在中国区被下架，这时，你就需要一个美区账号。下文详述注册美区苹果账号的过程。
 
-教程使用的注册方式是通过 PC 机上的 iTunes 软件进行。请按教程一步步设置，否则有可能会在支付方式设置页面没有“None”选项，导致没有美国信用卡的同学无法注册。
+教程使用的注册方式是通过 PC 机的 Windows 环境上的 [iTunes 软件](https://drive.google.com/file/d/1ZY3YR9ssWptXHuYCP8W-TSVhTAlW2_pa/view?usp=sharing) 进行 (而且这是唯一的方式. 憋给我提什么在带有 VPN 的 iPhone 手机上操作. 我干什么吃的?! 图样图森破!)。请按教程一步步设置，否则有可能会在支付方式设置页面没有“None”选项，导致没有美国信用卡的同学无法注册。
 
 举一反三，要注册其他区域只需要在注册时候的区域选择正确并且全局翻墙到这个区域就可以。
 
-> * 这个 YouTube [视频](https://www.youtube.com/watch?v=EXUbgANMgNE) 讲述的是直接在 iPhone 上创建 Apple ID. 大家可以学习参考. [这里](https://www.vpnask.com/fanqiang/how-to-get-america-apple-id/) 是这个视频的文字版.
-> * 这个 [教程](http://bbs.feng.com/read-htm-tid-11383798.html) 差不多是上述视频的文字版, 值得仔细阅读.
-> * 这个 [苹果官方教程](https://support.apple.com/zh-cn/HT204034) 仅供参考.
+> * ~~~这个 YouTube [视频](https://www.youtube.com/watch?v=EXUbgANMgNE) 讲述的是直接在 iPhone 上创建 Apple ID. 大家可以学习参考. [这里](https://www.vpnask.com/fanqiang/how-to-get-america-apple-id/) 是这个视频的文字版.~~~
+> * ~~~这个 [教程](http://bbs.feng.com/read-htm-tid-11383798.html) 差不多是上述视频的文字版, 值得仔细阅读.~~~
+> * ~~~这个 [苹果官方教程](https://support.apple.com/zh-cn/HT204034) 仅供参考.~~~
 
 ## 注意事项
 
-* 为了减少不必要的麻烦，请在整个操作过程中一直**全局翻墙到美国**。为了验证你当前的IP是不是在美国，请访问 http://ip138.com 网站查看。
+* 由于苹果公司出于某些原因, 注册时设备的 IP 必须与所注册的国家区域一致, 否则将没有 "None" 选项, 必须 ***硬件级别全局翻墙到美国***。 目前的唯一途径就是用 Windows 上的带内核驱动的代理软件才可胜任. 我们可以使用 [SSTap 软件](https://www.sockscap64.com/en/sstap-enjoy-gaming-enjoy-sstap/) 来达到目的, 本文末尾有这个软件的运行截图. 这一点 ***至关重要***. 为了验证你当前的IP是不是在美国，请访问 http://ip138.com 网站查看。
 * 请使用 Gmail 之类的外国邮箱注册，不要用国内的邮箱！
 * ~~~如果你确实翻不了墙，你可以百度“网际飞梭”找到我的QQ，我可以给你个临时SS线路二维码。如果你还不明所以，请关闭这个网页。掰掰。~~~
 
 ## 第一步：到官网下载最新的 iTunes
 
-官网下载地址： https://www.apple.com/cn/itunes/download/
+官网下载地址： https://support.apple.com/zh-cn/HT208079  或者这个 [链接](https://drive.google.com/file/d/1ZY3YR9ssWptXHuYCP8W-TSVhTAlW2_pa/view?usp=sharing) 下载 Windows 64 位版本. 
 下载后安装。安装没啥要注意的。一路下一步就可以了。
 
 
@@ -73,3 +73,10 @@
 如果要购买应用的话，可以到马云购买美区的礼品卡充值……（你懂的）
 
 > 如果实在不行，一直失败，转区加拿大吧，还是使用 [假名生成器](http://www.fakenamegenerator.com/) 生成一个加拿大地址，在 **非翻墙状态** 下，按照上述流程走一遍，一般会成功的，如果最后一步还卡住，就没皮没脸地多 Verify 几次。
+
+> SSTap 的运行截图.
+
+![SSTap](https://www.sockscap64.com/wp-content/uploads/2017/05/EN.png)
+
+
+
