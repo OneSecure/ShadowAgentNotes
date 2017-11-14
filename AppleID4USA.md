@@ -4,7 +4,7 @@
 
 因为一些 Apps 在中国区被下架，这时，你就需要一个美区账号。下文详述注册美区苹果账号的过程。
 
-教程使用的注册方式是通过 PC 机的 Windows 环境上的 [iTunes 软件](https://drive.google.com/file/d/1ZY3YR9ssWptXHuYCP8W-TSVhTAlW2_pa/view?usp=sharing) 进行 (而且这是唯一的方式. 憋给我提什么在带有 VPN 的 iPhone 手机上操作. 我干什么吃的?! 图样图森破!)。请按教程一步步设置，否则有可能会在支付方式设置页面没有“None”选项，导致没有美国信用卡的同学无法注册。
+教程使用的注册方式是通过 PC 机的 Windows 环境上的 [iTunes 软件](https://drive.google.com/file/d/1ZY3YR9ssWptXHuYCP8W-TSVhTAlW2_pa/view?usp=sharing) 进行 (而且这是 **唯一方式**. 憋给我提什么在带有 VPN 的 iPhone 手机上操作. 我干什么吃的?! 图样图森破!)。请按教程一步步设置，否则有可能会在支付方式设置页面没有“None”选项，导致没有美国信用卡的同学无法注册。
 
 举一反三，要注册其他区域只需要在注册时候的区域选择正确并且全局翻墙到这个区域就可以。
 
