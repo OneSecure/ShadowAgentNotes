@@ -78,4 +78,4 @@
 
 > [SSTap](https://www.sockscap64.com/en/sstap-enjoy-gaming-enjoy-sstap/) 的运行截图.
 
-![SSTap](https://www.sockscap64.com/wp-content/uploads/2017/05/EN.png)
+![SSTap](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/sstap.png)
