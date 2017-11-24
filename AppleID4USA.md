@@ -20,9 +20,9 @@
 * 请使用 Gmail 之类的外国邮箱注册，不要用国内的邮箱！
 * ~~~如果你确实翻不了墙，你可以百度“网际飞梭”找到我的QQ，我可以给你个临时SS线路二维码。如果你还不明所以，请关闭这个网页。掰掰。~~~
 
-## 第一步：到官网下载最新的 iTunes
+## 第一步：到官网下载 12.6.3 版本 iTunes
 
-官网下载地址： https://support.apple.com/zh-cn/HT208079  或者这个 [链接](https://drive.google.com/file/d/1ZY3YR9ssWptXHuYCP8W-TSVhTAlW2_pa/view?usp=sharing) 下载 Windows 64 位版本. 
+官网下载地址： https://support.apple.com/zh-cn/HT208079  或者这个 [链接](https://drive.google.com/file/d/1ZY3YR9ssWptXHuYCP8W-TSVhTAlW2_pa/view?usp=sharing) 下载 Windows 64 位版本. 请注意，不要下载最新版本，那已经去掉了 App Store 应用商店功能。
 下载后安装。安装没啥要注意的。一路下一步就可以了。
 
 
