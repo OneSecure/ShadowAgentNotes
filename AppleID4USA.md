@@ -23,7 +23,7 @@
 ## 第一步：到官网下载 12.6.3 版本 iTunes
 
 官网下载地址： https://support.apple.com/zh-cn/HT208079  或者这个 [链接](https://drive.google.com/file/d/1ZY3YR9ssWptXHuYCP8W-TSVhTAlW2_pa/view?usp=sharing) 下载 Windows 64 位版本. 请注意，不要下载最新版本，那已经去掉了 App Store 应用商店功能。
-下载后安装。安装没啥要注意的。一路下一步就可以了。
+下载后安装。安装没啥要注意的。一路下一步就可以了。（如果安装过程中出现错误说库文件格式太新，那么就将 “我的电脑”/“音乐” 文件夹下的 **iTunes** 文件夹删除。）
 
 
 ## 第二步：进入 iTunes 的应用商店
