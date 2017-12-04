@@ -60,7 +60,7 @@
 将 Google 地图放大到看的到街道名的大小，然后选个建筑物，就有详细地址啦。多找找，有些地址是带有电话的。**
 
 > * 全美共有五个州免消费税，分别是Oregon（俄勒冈州），Alaska（阿拉斯加州），Delaware（特拉华州），Montana（蒙大拿州）和New Hampshire（新罕布什尔州）。 另外，New Jersey（新泽西）部分免税。
-> * 对于懒人，强烈建议使用这个网页：[生成美国地址](http://www.fakenamegenerator.com/)，选好性别（Gender），点击 `Generate` 按钮, 查看地址结尾是否出现了AK、DE、MT、NH，OR这五个免税州；如果不是，请继续点击 `Generate` 按钮，直到出现。 将生成的 **姓、名、街道、城市、邮编、电话**，复制粘贴进上图相应位置。
+> * 对于懒人，强烈建议使用这个 [虚假个人信息生成器](http://www.fakenamegenerator.com/) 生成美国住址，选好性别（Gender），点击 `Generate` 按钮, 查看地址结尾是否出现了AK、DE、MT、NH，OR这五个免税州；如果不是，请继续点击 `Generate` 按钮，直到出现。 将生成的 **姓、名、街道、城市、邮编、电话**，复制粘贴进上图相应位置。
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/AppleID/20170729202043.png)
 
@@ -74,7 +74,7 @@
 
 如果要购买应用的话，可以到马云购买美区的礼品卡充值……（你懂的）
 
-> 如果实在不行，一直失败，转区加拿大吧，还是使用 [假名生成器](http://www.fakenamegenerator.com/) 生成一个加拿大地址，**全局硬件级别翻墙** 到加拿大，按照上述流程再走一遍，一般会成功的，如果最后一步还卡住，就没皮没脸地多 Verify 几次。
+> 如果实在不行，一直失败，转区加拿大吧，还是使用 [虚假个人信息生成器](http://www.fakenamegenerator.com/) 生成一个加拿大地址，**全局硬件级别翻墙** 到加拿大，按照上述流程再走一遍，一般会成功的，如果最后一步还卡住，就没皮没脸地多 Verify 几次。
 
 > [SSTap](https://www.sockscap64.com/en/sstap-enjoy-gaming-enjoy-sstap/) 运行截图（请一定要在 Win10 上操作，否则没有全局选项）。
 
