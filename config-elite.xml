@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>showUnlockDialog</key>
-	<true/>
+	<false/>
 	<key>reviewPopup</key>
 	<false/>
 	<key>ADsEnabled</key>
 	<true/>
 	<key>ShowRemoveADsButton</key>
-	<true/>
+	<false/>
 	<key>ShowWatchADsButton</key>
-	<true/>
+	<false/>
 	<key>ShowQRCodeButton</key>
 	<true/>
 	<key>AutoProxyEnabled</key>
