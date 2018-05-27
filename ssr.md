@@ -13,19 +13,30 @@
 
 ## 步骤
 
-1. 首先停止 VPS 主机. 在 "Main controls" 页面, 点击 "stop" 按钮, 就停止了主机. 
+1. 首先停止 VPS 主机. 在 `Main controls` 页面, 点击 `stop` 按钮, 就停止了主机. 
 
     <img src="ssr/start.png" />
 
 
 
-2. 在 "Root password modification" 页面, 点击 "Generate and set new root password" 按钮. 
+2. 在 `Root password modification` 页面, 点击 `Generate and set new root password` 按钮. 
     系统就为你生成新的 `root` 密码.
    
     <img src="ssr/root-password.png" />
    
+    请注意, 系统`不会`为你`保存`这里生成的`密码`, 请马上将其复制粘贴`保存`到一个`安全的地方`.以备下次登录时不用再次生成.
    
    
-3. 在 "Root shell - interactive" 页面, 点击 "Launch" 按钮. 就进入了 Linux 的字符界面了.
+3. 在 `Root shell - interactive` 页面, 点击 `Launch` 按钮. 就进入了 `Linux` 的字符界面了.
 
     <img src="ssr/root-shell.png" />
+
+4. 在出现的 `Linux` 登录界面上, 请在 `host login:` 后面键入账号名 `root` 并回车. 
+    在随后出现的 `Password:` 后摸黑键入上面生成的密码并回车.
+    如果出现下图的界面, 表明成功登录 Linux 主机.
+    
+    <img src="ssr/root-login.png" />
+    
+    
+    
+    
