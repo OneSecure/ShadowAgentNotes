@@ -35,10 +35,14 @@
     在随后出现的 `Password:` 后摸黑键入上面生成的密码并回车.
     如果出现下图的界面, 表明成功登录 Linux 主机.
     
+    > 注: 搬瓦工早期提供的 Linux 系统不需要登录, 这一步就略过了. 
+    
     <img src="ssr/root-login.png" />
     
 5. 现在, 开始安装 `SSR` 的流程. 请逐行键入以下命令并回车, 不要复制粘贴, 否则吃不了兜着走. 
-    注意, 下列命令中从`井号`到`行末`的内容是注释, 不要输入(没中文输入法, 想输也输不了).
+    
+    > 注意, 下列命令中从`井号`到`行末`的内容是注释, 不要输入(没中文输入法, 想输也输不了).
+    
 ```bash
 sudo su                               # 将当前账号的权限提升到超级用户
 cd /                                  # 将当前工作路经切换到根目录
@@ -49,5 +53,5 @@ sh ./initcfg.sh                       # 执行 SSR 配置文件的初始化, 这
 vi /shadowsocksr/user-config.json     # 运行 vi 编辑器编辑配置文件. 小白请先看下文详述
 vi /etc/rc.local                      # 运行 vi 编辑器编辑 Linux 自启动文件 rc.local
 chmod +x /etc/rc.local                # 为 自启动文件 rc.local 添加 可执行文件 属性
-reboot                                # 重新启动 Linux 主机
+reboot                                # 配置完毕后, 重启 Linux 主机
 ```
