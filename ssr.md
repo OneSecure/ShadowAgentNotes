@@ -17,8 +17,15 @@
 
     <img src="ssr/start.png" />
 
+
+
 2. 在 "Root password modification" 页面, 点击 "Generate and set new root password" 按钮. 
     系统就为你生成新的 `root` 密码.
    
     <img src="ssr/root-password.png" />
    
+   
+   
+3. 在 "Root shell - interactive" 页面, 点击 "Launch" 按钮. 就进入了 Linux 的字符界面了.
+
+    <img src="ssr/root-shell.png" />
