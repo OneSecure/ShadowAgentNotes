@@ -47,11 +47,11 @@
 sudo su                               # 将当前账号的权限提升到超级用户
 cd /                                  # 将当前工作路经切换到根目录
 yum install git -y                    # 安装 git 软件
-git clone https://github.com/koolshare/shadowsocksr.git  # 拉取 SSR 源代码
+git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
 cd shadowsocksr                       # 进入 SSR 软件目录
 sh ./initcfg.sh                       # 执行 SSR 配置文件的初始化, 这一步将创建 user-config.json 配置文件
-vi /shadowsocksr/user-config.json     # 运行 vi 编辑器编辑配置文件. 小白请先看下文详述
-vi /etc/rc.local                      # 运行 vi 编辑器编辑 Linux 自启动文件 rc.local
-chmod +x /etc/rc.local                # 为 自启动文件 rc.local 添加 可执行文件 属性
+vi /shadowsocksr/user-config.json     # 运行 vi 编辑器修改配置文件. 下文专开一节详述
+vi /etc/rc.local                      # 运行 vi 编辑器修改或创建 Linux 自启动脚本文件 rc.local
+chmod +x /etc/rc.local                # 为 自启动脚本文件 rc.local 添加 可执行文件 属性
 reboot                                # 配置完毕后, 重启 Linux 主机
 ```
