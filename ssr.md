@@ -81,4 +81,30 @@ reboot                                # 配置完毕后, 重启 Linux 主机
     
 7. 使用 `vi` 修改或创建 自启动脚本 `/etc/rc.local` 文件  
     
-
+    启动 `vi` 编辑 `/etc/rc.local` 的命令如下. 
+    
+    ```bash
+        vi /etc/rc.local
+    ```
+    
+    我们必须保证 `rc.local` 文件的第一行是 `#!/bin/bash` , 这是确定这个文件被解释为可执行的 `bash` 脚本的标志.
+    
+    然后, 我们在文件的最后加上 `/shadowsocksr/shadowsocks/logrun.sh` 语句, 它就是 SSR 软件的启动命令.
+    
+    经过修改后的 `rc.local` 文件像下面这样.
+    
+    ```bash
+    #!/bin/bash
+    #
+    # 其它语句...
+    #
+    /shadowsocksr/shadowsocks/logrun.sh
+    ```
+    
+    如下图. 然后按下 `Esc` 并用 `:wq` 命令保存退出.
+    
+    <img src="ssr/auto-ssr.png" />
+    
+    为了保证 `rc.local` 文件有可执行属性. 我们执行 `chmod +x /etc/rc.local` 命令给它加上, 
+    虽然一般说来它是有这属性的, 为图省事儿还是来一家伙. 俗话说, “有枣没枣打一杆子”, 说的就是这种情况.
+    
