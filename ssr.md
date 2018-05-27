@@ -51,7 +51,7 @@ git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 
 cd shadowsocksr                       # 进入 SSR 软件目录
 sh ./initcfg.sh                       # 执行 SSR 配置文件的初始化, 这一步将创建 user-config.json 配置文件
 vi /shadowsocksr/user-config.json     # 运行 vi 编辑器修改配置文件. 下文专开一节详述
-vi /etc/rc.local                      # 运行 vi 编辑器修改或创建 Linux 自启动脚本文件 rc.local
+vi /etc/rc.local                      # 运行 vi 编辑器修改或创建 Linux 自启动脚本文件 rc.local 下文专开一节详述
 chmod +x /etc/rc.local                # 为 自启动脚本文件 rc.local 添加 可执行文件 属性
 reboot                                # 配置完毕后, 重启 Linux 主机
 ```
