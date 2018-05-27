@@ -51,27 +51,34 @@ git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 
 cd shadowsocksr                       # 进入 SSR 软件目录
 sh ./initcfg.sh                       # 执行 SSR 配置文件的初始化, 这一步将创建 user-config.json 配置文件
 vi /shadowsocksr/user-config.json     # 运行 vi 编辑器修改配置文件. 下文第 6 节详述
-vi /etc/rc.local                      # 运行 vi 编辑器修改或创建 Linux 自启动脚本文件 rc.local 下文专开一节详述
+vi /etc/rc.local                      # 运行 vi 编辑器修改或创建 Linux 自启动脚本文件 rc.local 下文第 7 节详述
 chmod +x /etc/rc.local                # 为 自启动脚本文件 rc.local 添加 可执行文件 属性
 reboot                                # 配置完毕后, 重启 Linux 主机
 ```
 
 6. 使用 `vi` 修改 `user-config.json` 配置文件
+    
+    启动 `vi` 编辑 `user-config.json` 的命令如下. 该命令在第 5 步里有写, 这里重复一次.
+    
+    ```bash
+        vi /shadowsocksr/user-config.json
+    ```
+
+    如果你进入 `vi` 后两眼一抹黑, 手足无措, 请先看下列极简 `vi` 入门手册. 
+
     > * `vi` 是 Linux 内置的文本编辑器, 是文本界面的软件, 其违反直觉的诡异操作方式与现今流行的图形界面编辑软件很不相同.
     > * `vi` 创建或打开文件后, 文件是 `只读` 的, 也就是说这时不能修改. 必须按下 `i` 键(Insert)后, 文件才处于可编辑模式.
     > 这时屏幕左下角会出现 `-- INSERT --` 字样标记着这个状态, 这时就可以输入文字了.
     > * 当编辑完毕以后, 需要保存退出, 要首先按键盘左上角的 `Esc` 键, 这时 `-- INSERT --` 标记消失, 表明文件又进入只读模式了.
     > 这时再输入 `:wq` 就是保存(**w**rite)退出(**q**uit)了, 注意最开始的冒号别看漏了, 
-    > 这些命令字符也是出现在屏幕左下角.
+    > 这些命令字符也显示在屏幕左下角.
     > * 如果你打开一个文件后并没有修改它, 可以使用 `:q` 命令(冒号**q**uit)退出 `vi`.
     > * 如果你打开一个文件并做了些修改, 但你反悔了不想保存你的修改, 使用 `:q!` 命令(冒号**q**uit感叹号)退出 `vi`.
-    
-    如果你进入 `vi` 后两眼一抹黑, 请先看上面的极简 `vi` 入门手册.
-    
+
     配置文件 `user-config.json` 主要修改两处, `server_port` 和 `password` 的值, 看下图.
 
     <img src="ssr/ssr-config.png" />
     
-    
+7. 使用 `vi` 修改或创建 自启动脚本 `/etc/rc.local` 文件  
     
 
