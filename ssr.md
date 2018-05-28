@@ -19,8 +19,6 @@
 
     <img src="ssr/start.png" />
 
-
-
 2. 在 `Root password modification` 页面, 点击 `Generate and set new root password` 按钮. 
     系统就为你生成新的 `root` 密码.
    
@@ -49,18 +47,18 @@
     
     > 下文涉及的 `yum` 命令是 `CentOS` 系统的软件安装命令, `ubuntu` 和 `Debian` 等系统的对应命令是 `apt-get`.
     
-```bash
-sudo su                               # 将当前账号的权限提升到超级用户
-cd /                                  # 将当前工作路经切换到根目录
-yum install git -y                    # 安装 git 软件
-git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
-cd shadowsocksr                       # 进入 SSR 软件目录
-sh ./initcfg.sh                       # 执行 SSR 配置文件的初始化, 这一步将创建 user-config.json 配置文件
-vi /shadowsocksr/user-config.json     # 运行 vi 编辑器修改配置文件. 下文第 6 节详述
-vi /etc/rc.local                      # 运行 vi 编辑器修改或创建 Linux 自启动脚本文件 rc.local 下文第 7 节详述
-chmod +x /etc/rc.local                # 为 自启动脚本文件 rc.local 添加 可执行文件 属性
-reboot                                # 配置完毕后, 重启 Linux 主机
-```
+    ```bash
+    sudo su                               # 将当前账号的权限提升到超级用户
+    cd /                                  # 将当前工作路经切换到根目录
+    yum install git -y                    # 安装 git 软件
+    git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
+    cd shadowsocksr                       # 进入 SSR 软件目录
+    sh ./initcfg.sh                       # 执行 SSR 配置文件的初始化, 这一步将创建 `user-config.json` 配置文件
+    vi /shadowsocksr/user-config.json     # 运行 vi 编辑器修改配置文件. 下文第 6 节详述
+    vi /etc/rc.local                      # 运行 vi 编辑器修改或创建 Linux 自启动脚本文件 `rc.local` 下文第 7 节详述
+    chmod +x /etc/rc.local                # 为 自启动脚本文件 `rc.local` 添加 可执行文件 属性
+    reboot                                # 配置完毕后, 重启 Linux 主机
+    ```
 
 6. 使用 `vi` 修改 `user-config.json` 配置文件
     
@@ -73,7 +71,7 @@ reboot                                # 配置完毕后, 重启 Linux 主机
     如果你进入 `vi` 后两眼一抹黑, 手足无措, 请先看下列极简 `vi` 入门手册. 
 
     > * `vi` 是 Linux 内置的文字编辑器, 是文本界面, 而不是图形界面, 其违反直觉的傻逼操作方式咱就忍忍吧, 很快就过去了.
-    > * `vi` 创建或打开文件后, 文件是 `只读` 的, 也就是说这时不能修改. 必须按下 `i` 键(Insert)后, 文件才处于可编辑模式.
+    > * `vi` 创建或打开文件后, 文件是 `只读` 的, 也就是说这时不能修改. 必须按下 `i` 键后, 文件才处于可编辑模式.
     > 这时屏幕左下角会出现 `-- INSERT --` 字样标记着这个状态, 这时就可以输入文字了.
     > * 当编辑完毕以后, 需要保存退出, 要首先按键盘左上角的 `Esc` 键, 这时 `-- INSERT --` 标记消失, 表明文件又进入只读模式了.
     > 这时再输入 `:wq` 就是保存(**w**rite)退出(**q**uit)了, 注意最开始的冒号别看漏了, 
