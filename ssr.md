@@ -67,7 +67,7 @@ reboot                                # 配置完毕后, 重启 Linux 主机
     启动 `vi` 编辑 `user-config.json` 的命令如下. 该命令在第 5 步里有写, 这里重复一次.
     
     ```bash
-        vi /shadowsocksr/user-config.json
+    vi /shadowsocksr/user-config.json
     ```
 
     如果你进入 `vi` 后两眼一抹黑, 手足无措, 请先看下列极简 `vi` 入门手册. 
@@ -90,10 +90,10 @@ reboot                                # 配置完毕后, 重启 Linux 主机
     启动 `vi` 编辑 `/etc/rc.local` 的命令如下. 
     
     ```bash
-        vi /etc/rc.local
+    vi /etc/rc.local
     ```
     
-    我们必须保证 `rc.local` 文件的第一行是 `#!/bin/bash` , 这是确定这个文件被解释为可执行的 `bash` 脚本的标志.
+    我们必须保证 `rc.local` 文件的第一行是 `#!/bin/bash` , 这是确定这个文件被解释为 `可执行` 的 `bash` 脚本的标志.
     
     然后, 我们在文件的最后加上 `/shadowsocksr/shadowsocks/logrun.sh` 语句, 它就是 SSR 软件的启动命令.
     
@@ -111,8 +111,8 @@ reboot                                # 配置完毕后, 重启 Linux 主机
     
     <img src="ssr/auto-ssr.png" />
     
-    为了保证 `rc.local` 文件有可执行属性. 我们执行 `chmod +x /etc/rc.local` 命令给它加上, 
-    虽然一般说来它是有这属性的, 为图省事儿还是来一家伙. 俗话说, “有枣没枣打一杆子”, 说的就是这种情况.
+    为了保证 `rc.local` 文件有 `可执行` 属性. 我们执行 `chmod +x /etc/rc.local` 命令给它加上, 
+    虽然一般说来它是有这属性的, 为图省事儿还是来一家伙. 俗话说`有枣没枣打一杆子`就是这种情况.
     
 8. 重启 VPS 主机
     
@@ -139,13 +139,11 @@ reboot                                # 配置完毕后, 重启 Linux 主机
 
 10. 防火墙(firewall)
 
-    如果你按照以上教程一步不错地走完了, 还是翻不了墙, 那就有可能是系统防火墙的配置问题.
-    那就永久性地关闭这玩意儿. 操作步骤如下
+    如果你按照以上教程一步不错地走完了, 还是翻不了墙, 那就有可能是系统防火墙的配置问题, 它挡住了你手机连接这个 VPS 的你前文设定的端口,
+    那就永久性地关闭这玩意儿好了. 操作步骤如下
     
     ```bash
     chkconfig --level 35 iptables off
     /etc/init.d/iptables stop  
     iptables -P INPUT DROP  
     ```
-   
-    
