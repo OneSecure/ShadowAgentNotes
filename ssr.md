@@ -35,17 +35,15 @@
     在随后出现的 `Password:` 后摸黑键入上面生成的密码并回车.
     如果出现下图的界面, 表明成功登录 Linux 主机.
     
-    > 注: 搬瓦工早期提供的 Linux 系统不需要登录, 这一步就略过了. 
-    
-    > 注: 密码在输入时不会显示, 你摸黑输入即可, 如果输错了会提示你重新输入的.
+    > * 搬瓦工早期提供的 Linux 系统不需要登录, 这一步就略过了. 
+    > * 密码在输入时不会显示, 你摸黑输入即可, 如果输错了会提示你重新输入的.
     
     <img src="ssr/root-login.png" />
     
 5. 现在, 开始安装 `SSR` 的流程. 请逐行键入以下命令并回车, 不要复制粘贴, 否则吃不了兜着走. 
     
-    > 注意, 下列命令中从`井号`到`行末`的内容是注释, 不要输入(没中文输入法, 想输也输不了).
-    
-    > 下文涉及的 `yum` 命令是 `CentOS` 系统的软件安装命令, `ubuntu` 和 `Debian` 等系统的对应命令是 `apt-get`.
+    > * 下列命令中从`井号`到`行末`的内容是注释, 不要输入(没中文输入法, 想输也输不了).
+    > * 下文涉及的 `yum` 命令是 `CentOS` 系统的软件安装命令, `ubuntu` 和 `Debian` 等系统的对应命令是 `apt-get`.
     
     ```bash
     sudo su                               # 将当前账号的权限提升到超级用户
@@ -53,10 +51,10 @@
     yum install git -y                    # 安装 git 软件
     git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
     cd shadowsocksr                       # 进入 SSR 软件目录
-    sh ./initcfg.sh                       # 执行 SSR 配置文件的初始化, 这一步将创建 `user-config.json` 配置文件
+    sh ./initcfg.sh                       # 执行 SSR 配置文件的初始化, 这一步将创建 user-config.json 配置文件
     vi /shadowsocksr/user-config.json     # 运行 vi 编辑器修改配置文件. 下文第 6 节详述
-    vi /etc/rc.local                      # 运行 vi 编辑器修改或创建 Linux 自启动脚本文件 `rc.local` 下文第 7 节详述
-    chmod +x /etc/rc.local                # 为 自启动脚本文件 `rc.local` 添加 可执行文件 属性
+    vi /etc/rc.local                      # 运行 vi 编辑器修改或创建 Linux 自启动脚本文件 rc.local 下文第 7 节详述
+    chmod +x /etc/rc.local                # 为 自启动脚本文件 rc.local 添加 可执行文件 属性
     reboot                                # 配置完毕后, 重启 Linux 主机
     ```
 
