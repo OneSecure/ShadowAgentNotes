@@ -43,10 +43,10 @@
 5. 现在, 开始安装 `SSR` 的流程. 请逐行键入以下命令并回车, 不要复制粘贴, 否则吃不了兜着走. 
     
     > * 下列命令中从`井号`到`行末`的内容是注释, 不要输入(没中文输入法, 想输也输不了).
-    > * 下文涉及的 `yum` 命令是 `CentOS` 系统的软件安装命令, `ubuntu` 和 `Debian` 等系统的对应命令是 `apt-get`.
+    > * 下文涉及的 `yum` 命令是 `CentOS` 系统的软件安装命令, `ubuntu` 和 `Debian` 等系统的对应命令是 `apt-get` 或 `apt`.
     
     ```bash
-    sudo su                               # 将当前账号的权限提升到超级用户
+    sudo su                               # 将当前账号的权限提升到超级用户(super user, 简写为 su)
     cd /                                  # 将当前工作路经切换到根目录
     yum install git -y                    # 安装 git 软件
     git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
@@ -60,7 +60,7 @@
 
 6. 使用 `vi` 修改 `user-config.json` 配置文件
     
-    启动 `vi` 编辑 `user-config.json` 的命令如下. 该命令在第 5 步里有写, 这里重复一次.
+    启动 `vi` 编辑 `user-config.json` 的命令如下. 该命令在第 5 节里有写, 这里重复一次.
     
     ```bash
     vi /shadowsocksr/user-config.json
@@ -114,7 +114,7 @@
     
     到这里, `SSR` 的配置工作差不多就做完了. 
     为了验证我们工作的有效性, 使用 `reboot` 命令重启 VPS.
-    然后用第 4 步描述的方法再次用 `root` 账号和密码登录主机.
+    然后用第 4 节描述的方法再次用 `root` 账号和密码登录主机.
     最后用 `ps aux` 命令查看进程列表, 看有没有 `python2.6 server.py a` 信息, 如果有就配好啦. 如下图.
     如果没有, 那再照文章重做一遍, 直到弄好为止.
     
@@ -124,9 +124,9 @@
     
     | 参数名称 |  参数值  | 
     | ------- | ------- | 
-    | 服务器IP | 你VPS的IP (本教程第1步配图里的 `IP address` 就是) |
-    | 服务器端口 | 你在第6步设定的端口值 |
-    | 密码 | 你在第6步设定的密码 |
+    | 服务器IP | 你VPS的IP (本教程第 1 节配图里的 `IP address` 就是) |
+    | 服务器端口 | 你在第 6 节设定的端口值 |
+    | 密码 | 你在第 6 节设定的密码 |
     | 加密方式 | aes-128-ctr |
     | 协议 | auth_aes128_md5 |
     | 混淆 | tls1.2_ticket_auth |
