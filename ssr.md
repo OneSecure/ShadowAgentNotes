@@ -46,7 +46,7 @@
     > * 下文涉及的 `yum` 命令是 `CentOS` 系统的软件安装命令, `ubuntu` 和 `Debian` 等系统的对应命令是 `apt-get` 或 `apt`.
     
     ```bash
-    sudo su                               # 将当前账号的权限提升到超级用户(super user, 简写为 su)
+    sudo su                               # 将当前账号的权限切换到超级用户(switch user, 简写为 su)
     cd /                                  # 将当前工作路经切换到根目录
     yum install git -y                    # 安装 git 软件
     git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
