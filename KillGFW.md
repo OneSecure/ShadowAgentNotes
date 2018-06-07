@@ -120,7 +120,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/005.jpg)
 
-## 安装 Shadowsocks 服务器
+## 进入 搬瓦工 VPS 操作后台
 
 *   确保您已经成功付款之后，请 "Client Area" -> "Services" -> "My Services" 打开VPS主机列表页面，或者直接点 [这个连接](https://bandwagonhost.com/clientarea.php?action=products) 打开。 
 
@@ -137,6 +137,11 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 *   这是登录后的界面，里面有详细的关于服务器运行的情况，比如说，流量的使用。这些先不管它，安装 Shadowsocks 服务器先，搬瓦工已经为我们准备好了 Shadowsocks 服务器的安装入口，呵呵，不用打命令了，一键安装。在左下角选择 `Shadowsocks Server`
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/008.jpg)
+    
+*   现在(2018.6.7)很多人反应, 搬瓦工后台已经没有了 `Shadowsocks Server` 这个选项, 为了能够简单地完成 SS/SSR 的安装, 请看本文的最后一节. [ManualInstallation](#ManualInstallation)
+
+
+## 安装 Shadowsocks 服务器
 
 *   然后选择 `Install Shadowsocks Server`
 *   等待安装完成之后选择 `Go Back`
@@ -232,3 +237,11 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 *   下载完成后，安装，打开, 配置方法与 Android 类似。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/012.jpg)
+
+
+## ManualInstallation
+
+本段讲述 *手工安装 SS/SSR* 服务器方法. 
+
+![tu](https://www1.wi.to/2018/04/16/35b114dc780908f376d85a7fe9b5f173.jpg)
+
