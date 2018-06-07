@@ -264,3 +264,7 @@ https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocksr
 
 ![tu](https://upload-images.jianshu.io/upload_images/8605641-1f952d6dc443920c.jpg)
 ![tu](https://www1.wi.to/2018/04/16/a84f0868dc91c8fce8e60f61b56dba12.png)
+
+### SSR Installation
+
+文章 [纯手工安装 SSR 服务器](https://github.com/OneSecure/ShadowAgentNotes/edit/master/ssr.md)
