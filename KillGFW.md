@@ -247,9 +247,13 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
 ![tu](https://www1.wi.to/2018/04/16/35b114dc780908f376d85a7fe9b5f173.jpg)
 
-解决办法, 在当前浏览器中输入网址 
+解决办法, 在当前浏览器中输入网址(SS) 
 ```bash
 https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocks
+```
+或者网址(SSR)
+```bash
+https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocksr
 ```
 进入界面后，系统会自动运行安装脚本，啥都不用做，等装完后返回就好了，如下：
 
