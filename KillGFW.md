@@ -141,7 +141,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 *   现在(2018.6.7)很多人反应, 搬瓦工后台已经没有了 `Shadowsocks Server` 这个选项, 为了能够简单地完成 SS/SSR 的安装, 请看本文的最后一节. [手工安装 SS/SSR 服务器](#manualinstallation)
 
 *  如果以上手段都失效了, 那就采用终极解决方案, 
-[纯手工安装 SSR 服务器](https://github.com/OneSecure/ShadowAgentNotes/edit/master/ssr.md),
+[纯手工安装 SSR 服务器](https://github.com/OneSecure/ShadowAgentNotes/blob/master/ssr.md),
 一步一步地敲入 Linux 命令吧! 这个实际上不难, 克服你对未知领域的 **恐惧**, 这就完全足够了. 
 
 ## 安装 Shadowsocks 服务器
@@ -267,4 +267,4 @@ https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocksr
 
 ### SSR Installation
 
-文章 [纯手工安装 SSR 服务器](https://github.com/OneSecure/ShadowAgentNotes/edit/master/ssr.md)
+文章 [纯手工安装 SSR 服务器](https://github.com/OneSecure/ShadowAgentNotes/blob/master/ssr.md)
