@@ -138,7 +138,7 @@ Shadowsocks 是目前最好的翻墙的工具，没有之一，而且电脑、�
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/008.jpg)
     
-*   现在(2018.6.7)很多人反应, 搬瓦工后台已经没有了 `Shadowsocks Server` 这个选项, 为了能够简单地完成 SS/SSR 的安装, 请看本文的最后一节. [手工安装 SS/SSR 服务器](#ManualInstallation)
+*   现在(2018.6.7)很多人反应, 搬瓦工后台已经没有了 `Shadowsocks Server` 这个选项, 为了能够简单地完成 SS/SSR 的安装, 请看本文的最后一节. [手工安装 SS/SSR 服务器](#manualinstallation)
 
 
 ## 安装 Shadowsocks 服务器
