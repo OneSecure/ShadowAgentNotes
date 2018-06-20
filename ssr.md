@@ -17,6 +17,8 @@
 
 1. 首先停止 VPS 主机. 在 `Main controls` 页面, 点击 `stop` 按钮, 就停止了主机. 
 
+   下图中有两个参数很重要, 请复制粘贴保存到安全的地方, 以后可能用得到, 一个是 `IP address`, 另一个是 `SSH port`.
+
     <img src="ssr/start.png" />
 
 2. 在 `Root password modification` 页面, 点击 `Generate and set new root password` 按钮. 
