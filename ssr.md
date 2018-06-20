@@ -11,7 +11,7 @@
 
 > * 提醒一句. 由于搬瓦工网站已经被墙, 本文的所有操作必须在你已经使用别的方式翻着墙的状态下进行.
 > * 重要提示: 记得把你的输入法切换成英文输入模式. 这很重要.
-> * 如果你会使用远程登录工具 [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) 软件是最好不过的了, 它可以极大提高你的操作效率. 由于涉及过多细枝末节会干扰本教程的简洁性,这里就不再赘述, 详情请自行 Google.
+> * 如果你会使用远程登录工具 [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) 软件是最好不过的了, 它可以极大提高你的操作效率. 由于过多细枝末节会干扰读者将注意力集中到最主要的工作上,这里就不再赘述, 详情请自行 Google.
 
 ## 步骤
 
@@ -47,7 +47,7 @@
     
     ```bash
     sudo su                               # 将当前账号的权限切换到超级用户(switch user, 简写为 su)
-    cd /                                  # 将当前工作路经切换到根目录, 注意 cd 和 斜杠 之间的 空格 别漏了.
+    cd /                                  # 将当前工作路径切换到根目录, 注意 cd 和 斜杠 之间的 空格 别漏了.
     yum install git -y                    # 安装 git 软件
     git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
     cd shadowsocksr                       # 进入 SSR 软件目录
