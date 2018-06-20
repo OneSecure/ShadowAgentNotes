@@ -9,9 +9,9 @@
 
 至于 搬瓦工 VPS 的购买小白教程, 请戳 [这里](https://github.com/OneSecure/ShadowAgentNotes/blob/master/KillGFW.md)
 
-最后再提醒一句. 由于搬瓦工网站已经被墙, 本文的所有操作必须在你已经使用别的方式翻着墙的状态下进行.
-
-重要提示: 记得把你的输入法切换成英文输入模式. 这很重要.
+> * 最后再提醒一句. 由于搬瓦工网站已经被墙, 本文的所有操作必须在你已经使用别的方式翻着墙的状态下进行.
+> * 重要提示: 记得把你的输入法切换成英文输入模式. 这很重要.
+> * 如果你了解 `PUTTY` 软件用法是最好不过的了, 它可以极大提高你的操作效率. 由于这会干扰本教程目标的单一性,这里不赘述, 详情请自行 Google.
 
 ## 步骤
 
@@ -47,7 +47,7 @@
     
     ```bash
     sudo su                               # 将当前账号的权限切换到超级用户(switch user, 简写为 su)
-    cd /                                  # 将当前工作路经切换到根目录
+    cd /                                  # 将当前工作路经切换到根目录, 注意 cd 和 斜杠 之间的 空格 别漏了.
     yum install git -y                    # 安装 git 软件
     git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
     cd shadowsocksr                       # 进入 SSR 软件目录
