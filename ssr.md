@@ -25,10 +25,26 @@
     系统就为你生成新的 `root` 密码.
    
     <img src="ssr/root-password.png" />
+    
+    请返回到第 1 步, 在 `Main controls` 页面, 点击 `start` 按钮, 再次启动 VPS 主机, 否则下面第 3 步会报错.
    
     * 请注意, 系统`不会`为你`保存`这里生成的`密码`, 请马上将其复制粘贴`保存`到一个`安全的地方`.方便下次登录时重复使用不用再次生成.
-    * 请返回到第 1 步, 在 `Main controls` 页面, 点击 `start` 按钮, 再次启动 VPS 主机, 否则第 3 步会报错.
-   
+    * 如果你不幸一再在这一步操作失败, 老是出现上图所示的错误信息. 那就 `重装` `操作系统` 吧. 步骤如下.
+    
+        2.1. 先停掉主机, 如第 1 步所言. 然后点击左侧的 `Install new OS` 跳到操作系统选择页面，如图：
+        
+        <img src="ssr/install-os.png" />
+            
+        2.2 建议选择 `ubuntu-16.04-x86`, 勾选复选框, 点击 `Reload` 之后，提示正在重装，且把新的 `VPS` 的 `root` `密码` 和 `SSH` `端口号` 展示给了我们, 请马上将它们复制粘贴 `保存` 到一个 `安全的地方`.
+        
+        <img src="ssr/root-ssh.png" />
+            
+        2.3 这是我们登录 `VPS` 的凭证，如果没有保存，重装好后 `搬瓦工` 会给我们发送一封邮件，里面也包含了这部分信息，如图：
+        
+        <img src="ssr/email.png" />
+            
+        这就是我们登录 `VPS` 的新凭证，如果没有收到，去垃圾箱找找，说不定被分类到垃圾箱了。
+
 3. 在 `Root shell - interactive` 页面, 点击 `Launch` 按钮. 就进入了 `Linux` 的字符界面了.
 
     <img src="ssr/root-shell.png" />
@@ -50,7 +66,7 @@
     ```bash
     sudo su                               # 将当前账号的权限切换到超级用户(switch user, 简写为 su)
     cd /                                  # 将当前工作路径切换到根目录, 注意 cd 和 斜杠 之间的 空格 别漏了.
-    yum install git -y                    # 安装 git 软件
+    yum install git -y                    # 安装 git 软件. 如果是 ubuntu 系统请用 apt 替换命令中的 yum 字样.
     git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
     cd shadowsocksr                       # 进入 SSR 软件目录
     sh ./initcfg.sh                       # 执行 SSR 配置文件的初始化, 这一步将创建 user-config.json 配置文件
