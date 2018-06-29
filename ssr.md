@@ -147,11 +147,11 @@
 如果你按照以上教程一步不错地走完了, 还是翻不了墙, 那就有可能是系统防火墙的配置问题, 它挡住了你手机连接这个 VPS 的你前文设定的端口,
 那就永久性地关闭这玩意儿好了. 操作步骤如下
     
-    ```bash
-    chkconfig --level 35 iptables off
-    /etc/init.d/iptables stop  
-    iptables -P INPUT DROP  
-    ```
+```bash
+chkconfig --level 35 iptables off
+/etc/init.d/iptables stop  
+iptables -P INPUT DROP  
+```
 
 ## 重装操作系统
     
@@ -167,5 +167,4 @@
         
    <img src="ssr/email.png" />
             
-   这就是我们登录 `VPS` 的新凭证，如果没有收到，去垃圾箱找找，说不定被分类到垃圾箱了。
-        
+   4. 这就是我们登录 `VPS` 的新凭证，如果没有收到，去垃圾箱找找，说不定被分类到垃圾箱了。
