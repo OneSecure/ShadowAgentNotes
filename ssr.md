@@ -159,7 +159,7 @@ iptables -P INPUT DROP
         
    <img src="ssr/install-os.png" />
             
-   2. 建议选择 `ubuntu-16.04-x86`, 勾选复选框, 点击 `Reload` 之后，提示正在重装，且把新的 `VPS` 的 `root` `密码` 和 `SSH` `端口号` 展示给了我们, 请马上将它们复制粘贴 `保存` 到一个 `安全的地方`.
+   2. 建议选择 `ubuntu-16.04-x86_64`, 勾选复选框, 点击 `Reload` 之后，提示正在重装，且把新的 `VPS` 的 `root` `密码` 和 `SSH` `端口号` 展示给了我们, 请马上将它们复制粘贴 `保存` 到一个 `安全的地方`.
         
    <img src="ssr/root-ssh.png" />
             
