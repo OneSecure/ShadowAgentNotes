@@ -142,7 +142,7 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 
 *  如果以上手段都失效了, 那就采用终极解决方案, 
 [纯手工安装 SSR 服务器](https://github.com/OneSecure/ShadowAgentNotes/blob/master/ssr.md),
-一步一步地敲入 Linux 命令吧! 这个实际上不难, 克服你对未知领域的 **恐惧**, 这就完全足够了. 
+一步一步地敲入 Linux 命令吧! 这个实际上不难, 克服你对未知领域的 **恐惧** 就足够. 
 
 ## 安装 Shadowsocks 服务器
 
@@ -164,13 +164,13 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 6.  如果您没有看到如下所示的设置窗口,然后找到Shadowsoc<wbr>ks托盘图标并双击：
 7.  步骤2，Shadowsocks GUI设置
 8.  进入设置如下所示
-9.  请注意,您可以简单地复制粘贴标记为黄色的字段。请务必复制粘贴，否则，你能分辨 l 是 i 还是 L 吗？
+9.  请注意,您可以简单地复制粘贴标记为黄色的字段。请务必复制粘贴，否则，你能分辨 l 是 i 还是 L 或者数字 1 吗？
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/010.jpg)
 
     然后点击确定。
 
-10. 不要忘记了勾上`启用系统代理`（鼠标右键 Shadowsocks 托盘图标）.
+10. 不要忘了勾上`启用系统代理`（鼠标右键 Shadowsocks 托盘图标）.
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/011.jpg)
 
@@ -180,12 +180,12 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/QRcode.png)
 
-12. 对于 Windows 用户, 最后的最后忠告: **珍爱生命, 远离 360.** 国产的杀毒软件, 安全卫士之类的垃圾, 百分之百是间谍软件, 它们会忠实地将你的翻墙线路, 实时地发送到 GFW 服务器, 然后第一时间将你的翻墙服务器 IP 加入 GFW 黑名单。下面是一些讨论和诅咒，大家严肃点，不准笑。
+12. 对于 Windows 用户, 最后的最后忠告: **珍爱生命, 远离 360.** 国产杀毒软件, 安全卫士之类垃圾, 百分百是间谍软件, 它们会忠实地将你的翻墙线路, 实时地发送到 GFW 服务器, 然后第一时间将你的翻墙服务器 IP 加入 GFW 黑名单。下面是一些讨论和诅咒，大家严肃点，不准笑。
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/anit-360.jpg)
 
 
-## 下面是一些使用说明
+## 一些使用说明
 
 *   我怎么修改 Shadowsocks 服务器的密码？
     答：在Shadowsocks server controls下点击Generate new password
@@ -198,13 +198,13 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 *   我怎么修改KiwiVM Control Panel密码？
     答：在登录KiwiVM Control Panel界面的时候选择左边KiwiVM password modification，输入新密码后，点击Set new password
 *   **服务器运行越来越慢, 怎么办?**
-    答: **在控制台主页面, 点 reboot 或者 reset 按钮, 重启整个 VPS 主机.** 一般能解决问题, 重启很快的, 几秒钟就完成. 由于这个操作对改善性能是如此有效, 请记得没事就来一发. 如果还是很慢, 请 **切换机房**. 
+    答: **在控制台主页面, 点 reboot 或者 reset 按钮, 重启整个 VPS 主机.** 一般能解决问题, 重启很快的, 几秒钟就完成. 由于这个操作对改善性能是如此有效, 请记得没事就来一发. 如果还是很慢, 请 [**切换机房**](#机房切换). 
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/008.jpg)
 
 ## 机房切换
 
-如果您的 IP 不幸被审查部门发现并被屏蔽，您可以切换机房来达到更换 IP 的目的，或者您仅仅想测试一下其它机房的速度。如下图所示，首先停掉主机，其次迁移数据到您选定的机房。过几分钟后，关闭您浏览器所有页面，重新登录搬瓦工网站，然后再照下图启动主机，整个操作才算完成。值得注意的是，在进行这些操作的时候，您 **必须用另一条线路翻着墙，否则，你懂的。**
+如果您的 IP 不幸被审查部门发现并被屏蔽，您可以切换机房来达到更换 IP 的目的，又或者您仅仅想测试其它机房的速度。如下图所示，首先停掉主机，其次迁移数据到您选定的机房。过几分钟后，关闭您浏览器所有页面，重新登录搬瓦工网站，然后再照下图启动主机，整个操作才算完成。值得注意的是，在进行这些操作的时候，您 **必须用另一条线路翻着墙，否则，你懂的。**
 
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/migrate.png)
 
@@ -265,6 +265,6 @@ https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocksr
 ![tu](https://upload-images.jianshu.io/upload_images/8605641-1f952d6dc443920c.jpg)
 ![tu](https://www1.wi.to/2018/04/16/a84f0868dc91c8fce8e60f61b56dba12.png)
 
-### SSR Installation
+### 纯手工安装 SSR 服务器
 
 文章 [纯手工安装 SSR 服务器](https://github.com/OneSecure/ShadowAgentNotes/blob/master/ssr.md)
