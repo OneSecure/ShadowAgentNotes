@@ -142,7 +142,7 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 
 *  如果以上手段都失效了, 那就采用终极解决方案, 
 [**纯手工安装 SSR 服务器**](https://github.com/OneSecure/ShadowAgentNotes/blob/master/ssr.md),
-一步一步地敲入 Linux 命令吧! 这个实际上不难, 克服你对未知领域的 **恐惧** 足矣. 
+一步一步地敲入 Linux 命令吧! 这个实际上不难, 克服你对未知领域的 **恐惧**, 足矣. 
 
 ## 安装 Shadowsocks 服务器
 
