@@ -3,6 +3,23 @@
 
 ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/title.png)
 
+## 索引
+- [摘要](#摘要)
+- [前言](#前言)
+- [需要准备的东西](#需要准备的东西)
+- [教程开始](#教程开始)
+- [搬瓦工套餐](#看看搬瓦工套餐吧)
+- [购买搬瓦工](#好啦开始购买搬瓦工)
+- [搬瓦工 VPS 操作后台](#进入-搬瓦工-vps-操作后台)
+- [安装 Shadowsocks 服务器](#安装-shadowsocks-服务器)
+- [机房切换](#机房切换)
+- [Mac客户端使用方法](#苹果笔记本-macos-端的使用方法)
+- [Android 客户端使用方法](#手机端的使用方法android)
+- [iOS 客户端使用方法](#手机端的使用方法ios)
+- [手工安装 SS/SSR 服务器](#手工安装-ssssr-服务器)
+- [纯手工安装 SSR 服务器](ssr.md)
+
+
 ## 摘要
 1. 小白不要恐慌, 只要您看得懂中文, 有初中英文水平, 有支付宝账号, 您就可以在十分钟之内购买一个美国虚拟主机并且在它上面搭好 Shadowsocks 服务器。
 2. 本教程似乎洋洋洒洒卷帙浩繁，其实只讲两件事：㈠用支付宝租用美国虚拟主机，㈡在虚拟主机上搭建 Shadowsocks 服务器。
@@ -242,7 +259,7 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
     ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/012.jpg)
 
 
-### 手工安装 SS/SSR 服务器
+## 手工安装 SS/SSR 服务器
 
 本段讲述 **手工安装 SS/SSR** 服务器方法. 
 
@@ -265,6 +282,6 @@ https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocksr
 ![tu](https://upload-images.jianshu.io/upload_images/8605641-1f952d6dc443920c.jpg)
 ![tu](https://www1.wi.to/2018/04/16/a84f0868dc91c8fce8e60f61b56dba12.png)
 
-### 纯手工安装 SSR 服务器
+## 纯手工安装 SSR 服务器
 
 文章 [纯手工安装 SSR 服务器](https://github.com/OneSecure/ShadowAgentNotes/blob/master/ssr.md)
