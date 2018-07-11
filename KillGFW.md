@@ -30,7 +30,7 @@
 相信来看本文的同学都知道什么是`翻墙`了吧。简而言之，就是：**通过一台位于美国的公网主机，在上面安装特定服务器软件, 我们的手机或电脑就借助这个服务器软件来访问其他网站或服务, 从而规避网络审查的干扰。**
 本文专注于详细介绍用 [搬瓦工提供的 VPS](https://bandwagonhost.com/aff.php?aff=12816) 搭建 Shadowsocks 服务器翻墙。
 
-> * 搬瓦工来自 = bandwagonhost，一家美国的 VPS 服务商
+> * 搬瓦工 = 是 bandwagonhost 的音译，一家美国的 VPS 服务商
 > * VPS = Virtual private server, 虚拟专用服务器
 
 Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手机通吃。
@@ -158,7 +158,7 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 *   目前(2018.06.07 之后)多人反应, 搬瓦工后台已经没有了 `Shadowsocks Server` 和 `ShadowsocksR Server` 选项, 为了能简单完成 SS/SSR 安装, 请看本文最后一节. [手工安装 SS/SSR 服务器](#%E6%89%8B%E5%B7%A5%E5%AE%89%E8%A3%85-ssssr-%E6%9C%8D%E5%8A%A1%E5%99%A8)
 
 *  如果以上手段都失效了, 那就采用终极解决方案, 
-[**纯手工安装 SSR 服务器**](https://github.com/OneSecure/ShadowAgentNotes/blob/master/ssr.md),
+[**纯手工安装 SSR 服务器**](ssr.md),
 一步一步地敲入 Linux 命令吧! 这个实际上不难, 克服你对未知领域的 **恐惧**, 足矣. 
 
 ## 安装 Shadowsocks 服务器
@@ -284,4 +284,4 @@ https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocksr
 
 ## 纯手工安装 SSR 服务器
 
-文章 [纯手工安装 SSR 服务器](https://github.com/OneSecure/ShadowAgentNotes/blob/master/ssr.md)
+文章 [纯手工安装 SSR 服务器](ssr.md)
