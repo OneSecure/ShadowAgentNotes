@@ -1,7 +1,7 @@
 搬瓦工搭建 Shadowsocks 服务器(一键搭建)详细图文教程
 ========================
 
-![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/title.png)
+![tu](image/title.png)
 
 ## 索引
 - [摘要](#摘要)
@@ -57,7 +57,7 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 * 由于官网属于被墙的状态，如您在下面点击链接打开官网显示出错，建议您首先用别的方式翻着墙，这是个鸡生蛋蛋生鸡的悖论，各位读者明鉴。
 * **这个时候的翻墙，请将您的翻墙客户端切换到全局模式（Global Mode），因为很多客户端没有将 [搬瓦工官网](https://bandwagonhost.com/aff.php?aff=12816) 加入代理列表，导致自动或PAC模式时访问搬瓦工失败。**
 
-    ![tu](https://github.com/OneSecure/ShadowAgentNotes/raw/master/image/global.png)
+    ![tu](image/global.png)
 
 ### 现已支持支付宝交易
 
@@ -105,18 +105,18 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 *   火速打开 [官网](https://bandwagonhost.com/aff.php?aff=12816)
 *   如果您只想购买最便宜的套餐1，直接点击这个 [链接](https://bandwagonhost.com/aff.php?aff=12816&pid=43) ,出现如下画面.
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/001.jpg)
+    ![tu](image/001.jpg)
 
 *   需要说明的是：在 `Billing Cycle` 选项那里选择：`$xxx USD Annually`，每年付 XXX 元的意思, 这比按月或者按季度付费要便宜很多。
 *   其次需要注意的是：在 `location` 选项那里选择 `加拿大`, `荷兰`, `纽约` 等地, 慎选 `洛杉矶`——这是被封的重灾区。毕竟我们选购 VPS 的首选考虑希望它畅通无阻，访问速度还在其次。
 *   然后点击`Add To Cart`
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/002.jpg)
+    ![tu](image/002.jpg)
 
 *   再然后点击 `Checkout`
 *   提示您要注册账号，请按照下面图片提示来填写~
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/003.jpg)
+    ![tu](image/003.jpg)
 
 *  图片供参考，要注意的是，`Country` 选项记得选择 `China`。**`电邮`、`密码`，请认真对待并牢记，它就是您在`搬瓦工`上的账号。** 其他信息包括手机号码等，可以随意填写。
 
@@ -124,38 +124,38 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 *  `Payment Method` 的时候选择 `AliPay` 就好！也就是说，`支付方式` 选择 `支付宝`。
 *  然后 `Complete Order`。
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/004.jpg)
+    ![tu](image/004.jpg)
 
 *   再然后 `Pay now`，您就会有看到有 `支付宝` 的登录窗口，支付变得很简单了。下图是支付页面。**支付之前，请再次核对金额是否正确。**
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/alipay.png)
+    ![tu](image/alipay.png)
 
 *   ~~如果您选择的是 paypal，并 `Complete Order` 的话~~
 *   ~~然后就会自动跳转到 Paypal 付款界面。~~
 *   ~~登录此前注册的 Paypal 账号，然后选择 `立即付款`~~
 *   ~~下面这是已成功付款的截图^_^~~
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/005.jpg)
+    ![tu](image/005.jpg)
 
 ## 进入 搬瓦工 VPS 操作后台
 
 *   确保您已经成功付款之后，请 `Client Area` -> `Services` -> `My Services` 打开 VPS 主机列表页面，或者直接点 [这个连接](https://bandwagonhost.com/clientarea.php?action=products) 打开。 
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/006.jpg)
+    ![tu](image/006.jpg)
 
 *   选择 `KiwiVM Control Panel`。这时，如果你遇到下图的页面，表明搬瓦工后台对主机的初始化尚未完成，请关闭浏览器，等待大约十分钟，再重新进入 [搬瓦工网站](https://bandwagonhost.com/clientarea.php?action=products)。
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/logoff.png)
+    ![tu](image/logoff.png)
 
 *   下图是首次登录的界面，稍等一会，等待资源分配完成即可。
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/007.jpg)
+    ![tu](image/007.jpg)
 
 *   这是登录后的界面，里面有详细的关于服务器运行的情况，比如说，流量的使用。这些先不管它，安装 Shadowsocks 服务器先，搬瓦工已经为我们准备好了 Shadowsocks 服务器的安装入口，呵呵，不用打命令了，一键安装。在左下角选择 `Shadowsocks Server`
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/008.jpg)
+    ![tu](image/008.jpg)
     
-*   目前(2018.06.07 之后)多人反应, 搬瓦工后台已经没有了 `Shadowsocks Server` 和 `ShadowsocksR Server` 选项, 为了能简单完成 SS/SSR 安装, 请看本文最后一节. [手工安装 SS/SSR 服务器](#%E6%89%8B%E5%B7%A5%E5%AE%89%E8%A3%85-ssssr-%E6%9C%8D%E5%8A%A1%E5%99%A8)
+*   目前(2018.06.07 之后)多人反应, 搬瓦工后台已经没有了 `Shadowsocks Server` 和 `ShadowsocksR Server` 选项, 为了能简单完成 SS/SSR 安装, 请看本文最后一节. [手工安装 SS/SSR 服务器](#手工安装-ssssr-服务器)
 
 *  如果以上手段都失效了, 那就采用终极解决方案, 
 [**纯手工安装 SSR 服务器**](ssr.md),
@@ -167,7 +167,7 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 *   等待安装完成之后选择 `Go Back`
 *   下图是 Shadowsocks  服务器运行起来的样子~
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/009.jpg)
+    ![tu](image/009.jpg)
 
 *   至此, Shadowsocks 服务器安装完毕.
 
@@ -183,23 +183,23 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 8.  进入设置如下所示
 9.  请注意,您可以简单地复制粘贴标记为黄色的字段。请务必复制粘贴，否则，你能分辨 l 是 i 还是 L 或者数字 1 吗？
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/010.jpg)
+    ![tu](image/010.jpg)
 
     然后点击确定。
 
 10. 不要忘了勾上`启用系统代理`（鼠标右键 Shadowsocks 托盘图标）.
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/011.jpg)
+    ![tu](image/011.jpg)
 
     至此，Shadowsocks 的 Windows 客户端已经安装完毕，尽情的翻墙吧!
 
 11. 如果您想要手机也同时使用这个线路，由于输入密码是个极容易出错的活儿，请照下图所示生成`二维码`，然后用手机上的Shadowsocks客户端软件扫描进去，又快又准。
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/QRcode.png)
+    ![tu](image/QRcode.png)
 
 12. 对于 Windows 用户, 最后的最后忠告: **珍爱生命, 远离 360.** 国产杀毒软件, 安全卫士之类垃圾, 百分百是间谍软件, 它们会忠实地将你的翻墙线路, 实时地发送到 GFW 服务器, 然后第一时间将你的翻墙服务器 IP 加入 GFW 黑名单。下面是一些讨论和诅咒，大家严肃点，不准笑。
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/anit-360.jpg)
+    ![tu](image/anit-360.jpg)
 
 
 ## 一些使用说明
@@ -217,13 +217,13 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 *   **服务器运行越来越慢, 怎么办?**
     答: **在控制台主页面, 点 reboot 或者 reset 按钮, 重启整个 VPS 主机.** 一般能解决问题, 重启很快的, 几秒钟就完成. 由于这个操作对改善性能是如此有效, 请记得没事就来一发. 如果还是很慢, 请 [**切换机房**](#机房切换). 
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/008.jpg)
+    ![tu](image/008.jpg)
 
 ## 机房切换
 
 如果您的 IP 不幸被审查部门发现并被屏蔽，您可以切换机房来达到更换 IP 的目的，又或者您仅仅想测试其它机房的速度。如下图所示，首先停掉主机，其次迁移数据到您选定的机房。过几分钟后，关闭您浏览器所有页面，重新登录搬瓦工网站，然后再照下图启动主机，整个操作才算完成。值得注意的是，在进行这些操作的时候，您 **必须用另一条线路翻着墙，否则，你懂的。**
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/migrate.png)
+    ![tu](image/migrate.png)
 
 
 ## 苹果笔记本 macOS 端的使用方法
@@ -231,8 +231,8 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 * macOS 的 Shadowsocks 客户端可以在 [这里](https://github.com/shadowsocks/Shadowsocks-ios/releases) 找到, 或者直接点击 [这个链接](https://github.com/shadowsocks/shadowsocks-iOS/releases/download/2.6.3/ShadowsocksX-2.6.3.dmg) 下载 dmg 文件.
 * 配置和启用与 Windows 下差不多. 下图是运行结果和配置图.
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/mac-01.jpg)
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/mac-02.jpg)
+    ![tu](image/mac-01.jpg)
+    ![tu](image/mac-02.jpg)
 
 
 ## 手机端的使用方法（Android）
@@ -248,7 +248,7 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 *   勾上全局代理
 *   然后右上角！启用
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/android.jpg)
+    ![tu](image/android.jpg)
 
 
 ## 手机端的使用方法（iOS）
@@ -256,7 +256,7 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 *   请在苹果 App Store 内下载 [网际飞梭](https://itunes.apple.com/us/app/id982708939?mt=8) 软件.
 *   下载完成后，安装，打开, 配置方法与 Android 类似。
 
-    ![tu](https://raw.githubusercontent.com/OneSecure/ShadowAgentNotes/master/image/012.jpg)
+    ![tu](image/012.jpg)
 
 
 ## 手工安装 SS/SSR 服务器
