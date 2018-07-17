@@ -108,6 +108,9 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
     ![tu](image/001.jpg)
 
 *   需要说明的是：在 `Billing Cycle` 选项那里选择：`$xxx USD Annually`，每年付 XXX 元的意思, 这比按月或者按季度付费要便宜很多。
+
+    ![tu](image/billing-cycle.png)
+
 *   其次需要注意的是：在 `location` 选项那里选择 `加拿大`, `荷兰`, `纽约` 等地, 慎选 `洛杉矶`——这是被封的重灾区。毕竟我们选购 VPS 的首选考虑希望它畅通无阻，访问速度还在其次。
 *   然后点击`Add To Cart`
 
