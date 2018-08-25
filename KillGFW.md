@@ -16,7 +16,7 @@
 - [Mac客户端使用方法](#苹果笔记本-macos-端的使用方法)
 - [Android 客户端使用方法](#手机端的使用方法android)
 - [iOS 客户端使用方法](#手机端的使用方法ios)
-- [手工安装 SS/SSR 服务器](#手工安装-ssssr-服务器)
+- [手工安装 SSR/SS 服务器](#手工安装-ssrss-服务器)
 - [纯手工安装 SSR 服务器](ssr.md)
 
 
@@ -262,7 +262,7 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
     ![tu](image/012.jpg)
 
 
-## 手工安装 SS/SSR 服务器
+## 手工安装 SSR/SS 服务器
 
 本段讲述 **手工安装 SS/SSR** 服务器方法. 
 目前, 搬瓦工并没有删除 SS/SSR 的安装脚本, 只是把后台的安装入口去掉了.
@@ -270,13 +270,13 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 
 ![tu](https://www1.wi.to/2018/04/16/35b114dc780908f376d85a7fe9b5f173.jpg)
 
-在当前浏览器中输入网址(SS) 
-```bash
-https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocks
-```
-或者网址(SSR)
+在当前浏览器中输入网址(SSR) 
 ```bash
 https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocksr
+```
+或者网址(SS)
+```bash
+https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocks
 ```
 进入界面后，系统会自动运行安装脚本，啥都不用做，等装完后返回就好了，如下：
 
