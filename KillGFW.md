@@ -158,7 +158,7 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 
     ![tu](image/008.jpg)
     
-*   目前(2018.06.07 之后)多人反应, 搬瓦工后台已经没有了 `Shadowsocks Server` 和 `ShadowsocksR Server` 选项, 为了能简单完成 SS/SSR 安装, 请看本文最后一节. [手工安装 SS/SSR 服务器](#手工安装-ssssr-服务器)
+*   目前(2018.06.07 之后)多人反应, 搬瓦工后台已经没有了 `Shadowsocks Server` 和 `ShadowsocksR Server` 选项, 为了能简单完成 SS/SSR 安装, 请看本文最后一节. [手工安装 SSR/SS 服务器](#手工安装-ssrss-服务器)
 
 *  如果以上手段都失效了, 那就采用终极解决方案, 
 [**纯手工安装 SSR 服务器**](ssr.md),
