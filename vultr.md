@@ -40,6 +40,15 @@
 
 <img src="vultr/created.png" />
 
-9. 在 `主机信息` 页面, 可以看到 `IP Address`(IP地址), 用户名 root, 登录密码 等关键信息.
+9. 在 `主机信息` 页面, 可以看到 `IP Address`(IP地址), 用户名 root, 登录密码 等关键信息. 
+   这里把 `SSH` 端口号 `22` 漏掉了, 我用红字添了上去. 
 
 <img src="vultr/host.png" />
+
+   由于很多 IP 已经被 GFW 屏蔽, 安装完成, 并从控制台确认系统已经在运行, 请在[这个网站](http://tool.chinaz.com/port/) 上试一下主机 IP 和 22 端口, 看是否畅通, 如果不通， 再新建虚拟主机，直到能试通为止， 后再把不用的虚拟主机删除. 
+
+10. 登录进入系统
+    以 root 用户名 和 密码 登入主机. 
+
+<img src="vultr/login.png" />
+
