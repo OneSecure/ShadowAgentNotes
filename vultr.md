@@ -66,7 +66,7 @@ chmod +x shadowsocksR.sh
 然后你什么都不用做，只需要静静地等它运行完就好。结束后就会看到你所部署的 ShadowsocksR 的配置信息。
 下图是我的安装结果.
 
-<img src="vultr/host.png" />
+<img src="vultr/ssr.png" />
 
 记住红色高亮的内容，就是服务器 IP、服务器端口、你设的密码和加密方式, 混淆, 协议 等等, 
 你把它们输入你的手机, 电脑上的 SSR 客户端就可以 翻墙啦。
