@@ -2,6 +2,10 @@
 
 <a href="https://www.vultr.com/?ref=7492090"><img src="https://www.vultr.com/media/banner_1.png" width="728" height="90"></a>
 
+## 索引
+- [创建虚拟主机](#创建虚拟主机)
+- [部署 ShadowsocksR (SSR) 服务器](#部署-shadowsocksr-ssr-服务器)
+
 ## 创建虚拟主机
 
 1. 在 [Vultr](https://www.vultr.com/?ref=7492090) 上注册帐户并登录.
