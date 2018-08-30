@@ -36,3 +36,10 @@
 
 <img src="vultr/deploy.png" />
 
+8. 创建好的主机像下图的样子, 点击 `Manage` 按钮进入主机信息页面.
+
+<img src="vultr/created.png" />
+
+9. 在 `主机信息` 页面, 可以看到 `IP Address`(IP地址), 用户名 root, 登录密码 等关键信息.
+
+<img src="vultr/host.png" />
