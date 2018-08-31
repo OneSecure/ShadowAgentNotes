@@ -2,6 +2,8 @@
 
 <a href="https://www.vultr.com/?ref=7492090"><img src="https://www.vultr.com/media/banner_1.png" width="728" height="90"></a>
 
+- 说明: V家 的 VPS 其实速度不是很快, 夜里上网高峰时段更是龟速. 但好处是显而易见的: **可以随意换 IP**, 这点对 `墙国` 的网民至关重要. 当 虚拟主机 IP 被墙, 可以删掉此主机, 再创建一新的, IP 就变了, 举手之劳.
+
 ## 索引
 - [创建虚拟主机](#创建虚拟主机)
 - [部署 ShadowsocksR (SSR) 服务器](#部署-shadowsocksr-ssr-服务器)
