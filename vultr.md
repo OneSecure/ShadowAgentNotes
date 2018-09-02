@@ -1,6 +1,6 @@
 # 在 Vultr 主机上搭建 SSR 服务器 图文教程
 
-<a href="https://www.vultr.com/?ref=7492090"><img src="https://www.vultr.com/media/banner_1.png" width="728" height="90"></a>
+<a href="https://www.vultr.com/?ref=7492090"><img src="https://www.vultr.com/media/banner_2.png" width="468" height="60"></a>
 
 - 说明: V家 的 VPS 部署相对简单, 但网速不是很快, 夜间上网高峰时段更是龟速. 但好处是显而易见的: **可以随意换 IP**, 仅仅这一点, 其重要性对 `墙国` 网民就够了. 当 虚拟主机 IP 被墙, 可以删掉此主机, 再创建一新的, IP 就变了, 举手之劳.
 
