@@ -35,7 +35,7 @@
 
     <img src="ssr/root-shell.png" />
 
-4. 在出现的 `Linux` 登录界面上, 请在 `host login:` 后面键入账号名 `root` 并回车. 
+4. 在出现的 `Linux` 登录界面上, 请在 `host login:` 后面键入账号名 `root` 这四个字符并回车. 
     在随后出现的 `Password:` 后摸黑键入上面生成的密码并回车.
     如果出现下图的界面, 表明成功登录 Linux 主机.
     
@@ -52,7 +52,7 @@
     ```bash
     sudo su                               # 将当前账号的权限切换到超级用户(switch user, 简写为 su)
     cd /                                  # 将当前工作路径切换到根目录, 注意 cd 和 斜杠 之间的 空格 别漏了.
-    yum install git -y                    # 安装 git 软件. 如果是 ubuntu 系统请用 apt 替换命令中的 yum 字样.
+    yum install git -y                    # 安装 git 软件. 如果是 ubuntu 系统请用 apt-get 替换命令中的 yum 字样.
     git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
     cd shadowsocksr                       # 进入 SSR 软件目录
     sh ./initcfg.sh                       # 执行 SSR 配置文件的初始化, 这一步将创建 user-config.json 配置文件
