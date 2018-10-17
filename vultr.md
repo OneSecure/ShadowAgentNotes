@@ -73,7 +73,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsoc
 
 chmod +x shadowsocksR.sh
 
-./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
+./shadowsocksR.sh 2>&1 | tee ssr.log
 ```
 
 最后一步输入完毕并回车后，你应该会看到有几个地方询问你, 要求你填写密码, 监听端口号, 选定协议, 等等, 按照提示输入你自己的选项并回车即可。
