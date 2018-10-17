@@ -2,7 +2,7 @@
 
 <a href="https://www.vultr.com/?ref=7492090"><img src="https://www.vultr.com/media/banner_2.png" width="468" height="60"></a>
 
-- 说明: Vultr 的 VPS 部署相对简单, 网速不是很快, 但好处是显而易见的: **可以随意换 IP**, 仅仅这一点, 其重要性对 `墙国` 网民就够了. 当 虚拟主机 IP 被墙, 可以删掉此主机, 再创建一新的, IP 就变了, 举手之劳.
+- 说明: [Vultr](https://www.vultr.com/?ref=7492090) 的 VPS 部署相对简单, 网速不是很快, 但好处是显而易见的: **可以随意换 IP**, 仅仅这一点, 其重要性对 `墙国` 网民就够了. 当 虚拟主机 IP 被墙, 可以删掉此主机, 再创建一新的, IP 就变了, 举手之劳.
 
 ## 索引
 - [创建虚拟主机](#创建虚拟主机)
@@ -62,11 +62,15 @@
 
 在主机内的命令行窗口敲入以下命令.
 每次输入一行、回车，等待屏幕上的操作完成后再输入下一条。
+注意, 第二行相当长, 以 `.sh` 结尾, 请耐心正确地输入完毕, 然后敲回车.
 
 ```bash
 sudo su
+
 wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
+
 chmod +x shadowsocksR.sh
+
 ./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 ```
 
