@@ -77,7 +77,8 @@ python3 /mtprotoproxy/mtprotoproxy.py &
 4. 配置你的手机、电脑、平板 上的 `TG` 客户端. 如下图所示. 到这里, 差不多就可以用起来了.
 <img src="mtproxy/mt-01.png" />
 
-### 写给小白
+
+## 写给小白
 - 关于 vi 的使用, 请参看 [这篇文章的第六节](ssr.md)
 - 关于添加 `自启动` 项目, 请参看 [这篇文章的第七节](ssr.md)
 - 关于 udp 问题, 请运行 `systemctl stop firewalld` 命令彻底关闭 `防火墙`.
