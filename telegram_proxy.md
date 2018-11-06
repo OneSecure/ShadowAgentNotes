@@ -60,16 +60,14 @@ head -c 16 /dev/urandom | xxd -ps
 ```bash
 vi /mtprotoproxy/config.py
 ```
-编辑后的文件内容如下图.
+编辑后的文件去掉了多余的内容, 如下图.
 ```
 PORT = 4567
-
 USERS = {
     "tg2": "a843b0aaf852b611dff4024a3a1e0f86"
 }
-
 ```
-
+其中 `port` 的值是监听端口, 下一条是 密钥.
 
 
 
