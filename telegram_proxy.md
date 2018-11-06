@@ -74,7 +74,8 @@ USERS = {
 python3 /mtprotoproxy/mtprotoproxy.py &
 ```
 
-4. 配置你的手机、电脑、平板 上的 `TG` 客户端. 如下图所示. 到这里, 差不多就可以用起来了.
+### 配置 TG 客户端
+配置你手机、电脑、平板 上的 `TG` 客户端. 如下图所示. 到这里, 差不多就可以用起来了.
 <img src="mtproxy/mt-01.png" />
 
 
