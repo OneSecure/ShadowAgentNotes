@@ -54,9 +54,20 @@ git clone -b stable https://github.com/alexbers/mtprotoproxy.git
 ```bash
 head -c 16 /dev/urandom | xxd -ps
 ```
+作者得到的密钥是 `a843b0aaf852b611dff4024a3a1e0f86`
+
 再用 vi 命令编辑 `config.py` 文件
 ```bash
 vi /mtprotoproxy/config.py
+```
+编辑后的文件内容如下图.
+```
+PORT = 4567
+
+USERS = {
+    "tg2": "a843b0aaf852b611dff4024a3a1e0f86"
+}
+
 ```
 
 
