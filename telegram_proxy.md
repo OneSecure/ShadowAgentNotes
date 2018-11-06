@@ -29,7 +29,7 @@ yum update -y
 yum install python36u python36u-pip -y
 ln -s /opt/rh/rh-python36/root/usr/bin/python /usr/bin/python3
 ```
-- 装好以后可以敲入 `python3` 命令验证一下. 然后在 `python3` 环境控制台上敲入 `quit()` 语句退出 `python3` 环境.
+- 装好以后敲入 `python3` 命令验证一下. 然后在 `python3` 环境控制台上敲入 `quit()` 语句退出 `python3` 环境.
 
 ### 安装 git
 - CentOS / Fedora / RHEL
@@ -43,4 +43,26 @@ apt-get install git -y
 
 ### 安装 Async MTProto Proxy 服务器
 
-1. 
+1. 获取 `Async MTProto Proxy` 源代码
+```bash
+git clone -b stable https://github.com/alexbers/mtprotoproxy.git
+```
+
+2. 编辑配置文件
+
+首先用如下命令生成密钥
+```bash
+head -c 16 /dev/urandom | xxd -ps
+```
+再用 vi 命令编辑 `config.py` 文件
+```bash
+vi /mtprotoproxy/config.py
+```
+
+
+
+
+
+
+
+
