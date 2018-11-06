@@ -14,9 +14,10 @@ Telegram(简称 TG 或者 电报) 在咱 `兲朝上国` 是不能直接访问的
 - 网络上的替代品是 python3 版的 [Async MTProto Proxy](https://github.com/alexbers/mtprotoproxy). 它 几乎不占 CPU, 表现平稳, 相当令人满意.
 
 ### 准备工作
+- 下列命令中从 `井号` 到行末的内容是注释, 不要输入.
 ```bash
-sudo su
-cd /
+sudo su  # 将当前账号的权限切换到超级用户(switch user, 简写为 su)
+cd /     # 将当前工作路径切换到根目录, 注意 cd 和 斜杠 之间的 空格 别漏了.
 ```
 
 ### 安装 python3 
