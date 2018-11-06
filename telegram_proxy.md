@@ -1,16 +1,16 @@
 # Telegram 代理服务器 搭建 图文教程
 
-Telegram(简称 TG 或者 电报) 在咱 `兲朝上国` 是不能直接访问的. 
+`Telegram`(简称 `TG` 或者 `电报`) 在咱 `兲朝上国` 是不能直接访问的. 
 
-由于 TG 自身某些原因, 即使在全局 `翻墙` 的状态下, 目前有些 客户端 也不能访问.
+由于 `TG` 自身某些原因, 即使在全局 `翻墙` 的状态下, 目前有些 客户端 也不能访问.
 
-因此, 自己搭建 TG 独家支持的 `MTProto` 协议的代理服务器, 一劳永逸地支持所有平台和设备, 就显得很有必要了.
+因此, 自己搭建 `TG` 独家支持的 `MTProto` 协议的代理服务器, 一劳永逸地支持所有平台和设备, 就显得很有必要了.
 
 ## 购买 VPS, 创建公网虚拟主机
 参看 [vultr 主机 教程](vultr.md#创建虚拟主机) 
 
 ## 部署 `MTProto` 代理服务器
-- 经过测试, 由 `TG` 社区提供的 c 语言[版本](https://github.com/TelegramMessenger/MTProxy) 有严重问题, CPU 占用率长期畸高, 还可能偷跑大量流量, 费用账单会直接把你吓尿. 因此不要使用.
+- 经过测试, 由 `TG` 社区提供的 `C` 语言[版本](https://github.com/TelegramMessenger/MTProxy) 有严重问题, CPU 占用率长期畸高, 还可能偷跑大量流量, 费用账单会直接把你吓尿. 因此不要使用.
 - 网络上的替代品是 python3 版的 [Async MTProto Proxy](https://github.com/alexbers/mtprotoproxy). 它 几乎不占 CPU, 表现平稳, 相当令人满意.
 
 ### 准备工作
@@ -50,11 +50,11 @@ git clone -b stable https://github.com/alexbers/mtprotoproxy.git
 
 2. 编辑配置文件
 
-首先用如下命令生成密钥
+首先用如下命令生成随机密钥
 ```bash
 head -c 16 /dev/urandom | xxd -ps
 ```
-作者得到的密钥是 `a843b0aaf852b611dff4024a3a1e0f86`
+作者得到的随机密钥是 `a843b0aaf852b611dff4024a3a1e0f86`
 
 再用 vi 命令编辑 `config.py` 文件
 ```bash
@@ -67,7 +67,7 @@ USERS = {
     "tg2": "a843b0aaf852b611dff4024a3a1e0f86"
 }
 ```
-其中 `port` 的值是监听端口, 下一条语句是 `密钥` 值.
+其中 `port` 的值是监听端口, 下一条语句是随机 `密钥` 值.
 
 3. 运行  代理服务器
 ```bash
@@ -79,6 +79,6 @@ python3 /mtprotoproxy/mtprotoproxy.py &
 
 
 ## 写给小白
-- 关于 vi 的使用, 请参看 [这篇文章的第六节](ssr.md)
+- 关于 `vi` 的使用, 请参看 [这篇文章的第六节](ssr.md)
 - 关于添加 `自启动` 项目, 请参看 [这篇文章的第七节](ssr.md)
-- 关于 udp 问题, 请运行 `systemctl stop firewalld` 命令彻底关闭 `防火墙`.
+- 关于 `UDP` 问题, 请运行 `systemctl stop firewalld` 命令彻底关闭 `防火墙`.
