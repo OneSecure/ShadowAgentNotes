@@ -73,3 +73,6 @@ USERS = {
 ```bash
 python3 /mtprotoproxy/mtprotoproxy.py &
 ```
+
+4. 配置你的手机、电脑、平板 上的 `TG` 客户端. 如下图所示.
+<img src="mtproxy/mt-01.png" />
