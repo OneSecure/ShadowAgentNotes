@@ -14,14 +14,15 @@ Telegram(简称 TG 或者 电报) 在咱 `兲朝上国` 是不能直接访问的
 - 网络上的替代品是 python3 版的 [Async MTProto Proxy](https://github.com/alexbers/mtprotoproxy). 它 几乎不占 CPU, 表现平稳, 相当令人满意.
 
 ### 安装 python3 
-- 由于 CentOS 7 及以下系统并不搭载 python3, 用户得自己安装, 参考[这个文章](https://www.scivision.co/python3-centos-install/), 提炼出如下几个命令 即可装上. 当然, 其它系统如 ubuntu 等已经搭载了 python3 的, 可以跳过这一步.
+- 由于 CentOS 7 及以下系统并不搭载 python3, 用户得自己安装, 参考[这个文章](https://www.scivision.co/python3-centos-install/), 执行作者提炼出的如下几个命令 即可装上. 
+- 当然, 其它系统如 ubuntu 等已经搭载了 python3 的, 可以跳过这一步.
 ```bash
 yum install https://centos7.iuscommunity.org/ius-release.rpm -y
 yum update -y
 yum install python36u python36u-pip -y
 ln -s /opt/rh/rh-python36/root/usr/bin/python /usr/bin/python3
 ```
-装好以后可以敲入 `python3` 命令验证一下. 然后在 python 环境控制台上敲入 `quit()` 语句退出 `python` 环境.
+- 装好以后可以敲入 `python3` 命令验证一下. 然后在 python 环境控制台上敲入 `quit()` 语句退出 `python` 环境.
 
 
 
