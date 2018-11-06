@@ -2,7 +2,7 @@
 
 <a href="https://www.vultr.com/?ref=7492090"><img src="https://www.vultr.com/media/banner_2.png" width="468" height="60"></a>
 
-- 说明: [Vultr](https://www.vultr.com/?ref=7492090) 的 VPS 部署相对简单, 网速不是很快, 但好处是显而易见的: **可以随意换 IP**, 仅仅这一点, 其重要性对 `墙国` 网民就够了. 当 虚拟主机 IP 被墙, 可以删掉此主机, 再创建一新的, IP 就变了, 举手之劳.
+- 说明: [Vultr](https://www.vultr.com/?ref=7492090) 的 VPS 网速不是很快, 但好处是显而易见的: 部署相对简单, **可以随意换 IP**, 仅凭这一点, 其重要性对 `墙国` 网民就够了. 当 虚拟主机 IP 被墙, 可以删掉此主机, 再创建一新的, IP 就变了, 举手之劳.
 
 ## 索引
 - [创建虚拟主机](#创建虚拟主机)
