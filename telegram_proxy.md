@@ -22,7 +22,7 @@ yum update -y
 yum install python36u python36u-pip -y
 ln -s /opt/rh/rh-python36/root/usr/bin/python /usr/bin/python3
 ```
-- 装好以后可以敲入 `python3` 命令验证一下. 然后在 python 环境控制台上敲入 `quit()` 语句退出 `python` 环境.
+- 装好以后可以敲入 `python3` 命令验证一下. 然后在 `python3` 环境控制台上敲入 `quit()` 语句退出 `python3` 环境.
 
 
 
