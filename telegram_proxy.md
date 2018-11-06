@@ -67,11 +67,9 @@ USERS = {
     "tg2": "a843b0aaf852b611dff4024a3a1e0f86"
 }
 ```
-其中 `port` 的值是监听端口, 下一条是 密钥.
+其中 `port` 的值是监听端口, 下一条语句是 `密钥` 值.
 
-
-
-
-
-
-
+3. 运行  代理服务器
+```bash
+python3 /mtprotoproxy/mtprotoproxy.py &
+```
