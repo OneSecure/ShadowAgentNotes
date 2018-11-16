@@ -271,7 +271,7 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 目前, 搬瓦工并没有删除 SS/SSR 的安装脚本, 只是把后台的安装入口去掉了.
 我们只需要在浏览器 `网址输入框` 里输入即可执行安装.
 
-![tu](https://www1.wi.to/2018/04/16/35b114dc780908f376d85a7fe9b5f173.jpg)
+![tu](image/img-m-01.jpg)
 
 在当前浏览器中输入网址(SSR) 
 ```bash
@@ -283,12 +283,12 @@ https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocks
 ```
 进入界面后，系统会自动运行安装脚本，啥都不用做，等装完后返回就好了，如下：
 
-![tu](https://upload-images.jianshu.io/upload_images/8605641-143cbde79b69177b.png)
+![tu](image/img-m-02.jpg)
 
 安装后
 
-![tu](https://upload-images.jianshu.io/upload_images/8605641-1f952d6dc443920c.jpg)
-![tu](https://www1.wi.to/2018/04/16/a84f0868dc91c8fce8e60f61b56dba12.png)
+![tu](image/img-m-03.jpg)
+![tu](image/img-m-04.jpg)
 
 ## 纯手工安装 SSR 服务器
 
