@@ -98,9 +98,15 @@ chmod +x shadowsocksR.sh
 ```
 cat ssr.log
 ```
+如果你不确定`日志`文件 `ssr.log` 在不在, 可以用 `ls` 命令列出当前目录下的所有文件, 看看它是否在列.
+
 如果你不确定服务器 `IP` 是否已改变, 可用下列命令找回本机的 `公网` `IP`.
 ```
 curl -s checkip.dyndns.org | sed 's/.*IP Address: \([0-9\.]*\).*/\1/g'
+```
+如果你想重新安装或者不想保留这个 `SSR` 服务器了, 可以 `卸载` 它, 命令如下.
+```
+./shadowsocksR.sh uninstall
 ```
 
 ## 防火墙
