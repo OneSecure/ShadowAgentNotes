@@ -102,7 +102,7 @@ cat ssr.log
 
 如果你不确定服务器 `IP` 是否已改变, 可用下列命令找回主机的 `公网` `IP`.
 ```
-curl -s checkip.dyndns.org | sed 's/.*IP Address: \([0-9\.]*\).*/\1/g'
+wget -qO- -t1 -T2 ipv4.icanhazip.com
 ```
 如果你想重新安装或者不想保留这个 `SSR` 服务器了, 可以 `卸载` 它, 命令如下.
 ```
