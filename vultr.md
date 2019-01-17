@@ -1,8 +1,8 @@
 # 在 Vultr 主机上搭建 SSR 服务器 图文教程
 
-<a href="https://www.vultr.com/?ref=7583029"><img src="https://www.vultr.com/media/banner_2.png" width="468" height="60"></a>
+<a href="https://www.vultr.com/?ref=7772227-4F"><img src="https://www.vultr.com/media/banner_2.png" width="468" height="60"></a>
 
-- 说明: [Vultr](https://www.vultr.com/?ref=7583029) 的 VPS 网速不是很快, 但好处是显而易见的: 部署相对简单, **可以随意换 IP**, 仅凭这一点, 其重要性对 `墙国` 网民怎么强调都不为过. 当 虚拟主机 IP 被墙, 可以删掉此主机, 再创建一新的, IP 就变了, 举手之劳.
+- 说明: [Vultr](https://www.vultr.com/?ref=7772227-4F) 的 VPS 网速不是很快, 但好处是显而易见的: 部署相对简单, **可以随意换 IP**, 仅凭这一点, 其重要性对 `墙国` 网民怎么强调都不为过. 当 虚拟主机 IP 被墙, 可以删掉此主机, 再创建一新的, IP 就变了, 举手之劳.
 
 ## 索引
 - [创建虚拟主机](#创建虚拟主机)
@@ -11,9 +11,9 @@
 
 ## 创建虚拟主机
 
-1. 在 [Vultr](https://www.vultr.com/?ref=7583029) 上注册帐户并登录.
+1. 在 [Vultr](https://www.vultr.com/?ref=7772227-4F) 上注册帐户并登录.
 
-2. 如果你新注册的账号, `Vultr` 会有 $10 美元的赠金. 当然你得首先 `充值至少 $10 美元` 后赠金才可能到账. 
+2. 如果你新注册的账号, `Vultr` 会有 $50 美元的赠金. 当然你得首先 `充值至少 $25 美元` 后赠金才可能到账. 
    充值的方式有 `信用卡`, `Paypal (贝宝)`, `支付宝 (Alipay)`, `微信支付 (WeChat Pay)` 等等, 非常方便.
    下图是作者使用 `Paypal` 充值的图文过程.
 
