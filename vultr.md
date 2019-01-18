@@ -13,6 +13,8 @@
 
 1. 在 [Vultr](https://www.vultr.com/?ref=7772227-4F) 上注册帐户并登录.
 
+<a href="https://www.vultr.com/?ref=7772227-4F"><img src="vultr/logo_onwhite.svg" width="250" height="50"></a>
+
 2. 如果你新注册的账号, `Vultr` 会有 $50 美元的赠金. 当然你得首先 `充值至少 $25 美元` 后赠金才可能到账. 
    充值的方式有 `信用卡`, `Paypal (贝宝)`, `支付宝 (Alipay)`, `微信支付 (WeChat Pay)` 等等, 非常方便.
    下图是作者使用 `Paypal` 充值的图文过程.
