@@ -8,6 +8,7 @@
 - [纯手工安装 ShadowsocksR (SSR) 服务器软件](#纯手工安装-shadowsocksr-ssr-服务器软件)
 - [防火墙 (Firewall)](#防火墙-firewall)
 - [重装操作系统](#重装操作系统)
+- [全自动安装 SSR 服务器](ssr.md#部署-shadowsocksr-ssr-服务器软件)
 
 ## 前言
 由于 搬瓦工 目前已经将 一键安装 SS/SSR 功能取消了. 特编写此详细手工安装 SSR 服务器 教程. 
