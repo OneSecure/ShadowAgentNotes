@@ -5,8 +5,8 @@
 ## 索引
 - [前言](#前言)
 - [登录搬瓦工主机](#登录搬瓦工主机)
-- [纯手工安装 ShadowsocksR(SSR) 服务器软件](#纯手工安装-shadowsocksr-ssr-服务器软件)
-- [防火墙](#防火墙-firewall)
+- [纯手工安装 ShadowsocksR (SSR) 服务器软件](#纯手工安装-shadowsocksr-ssr-服务器软件)
+- [防火墙 (Firewall)](#防火墙-firewall)
 - [重装操作系统](#重装操作系统)
 
 ## 前言
@@ -51,7 +51,7 @@
     
     <img src="ssr/root-login.png" />
     
-## 纯手工安装 ShadowsocksR(SSR) 服务器软件
+## 纯手工安装 ShadowsocksR (SSR) 服务器软件
     
 5. 现在, 开始安装 `SSR` 的流程. 请逐行键入以下命令并回车, 不要复制粘贴, 否则吃不了兜着走. 
     
@@ -151,7 +151,7 @@
 
     然后你就可以使用这些参数设置你的 iPhone / Android / 平板 / PC 上的 SSR 客户端啦.
 
-## 防火墙(firewall)
+## 防火墙 (firewall)
 
 如果你按照以上教程一步不错地走完了, 还是翻不了墙, 那就有可能是系统防火墙的配置问题, 它挡住了你手机连接这个 VPS 的你前文设定的端口,
 那就永久性地关闭这玩意儿好了. 操作步骤如下
