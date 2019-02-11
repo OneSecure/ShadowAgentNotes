@@ -8,7 +8,7 @@
 - [纯手工安装 ShadowsocksR (SSR) 服务器软件](#纯手工安装-shadowsocksr-ssr-服务器软件)
 - [防火墙 (Firewall)](#防火墙-firewall)
 - [重装操作系统](#重装操作系统)
-- [全自动安装 SSR 服务器](vultr.md#部署-shadowsocksr-ssr-服务器软件)
+- [全自动安装 SSR 服务器 (另一种简便方法)](#全自动安装-ssr-服务器-另一种简便方法)
 
 ## 前言
 由于 搬瓦工 目前已经将 一键安装 SS/SSR 功能取消了. 特编写此详细手工安装 SSR 服务器 教程. 
@@ -178,3 +178,33 @@ iptables -P INPUT DROP
    <img src="ssr/email.png" />
             
    4. 如果没有收到，去垃圾箱找找，说不定被分类到垃圾箱了。如果还找不到就自认倒霉再次重装系统吧.
+
+## 全自动安装 SSR 服务器 (另一种简便方法)
+
+在主机内的命令行窗口敲入以下命令.
+
+每次输入一行、回车，等待屏幕上的操作完成后再输入下一条。
+
+注意, 第二行相当长, 以 `.sh` 结尾, 请耐心正确地输入完毕, 然后敲回车.
+
+```bash
+sudo su
+
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
+
+chmod +x shadowsocksR.sh
+
+./shadowsocksR.sh 2>&1 | tee ssr.log
+```
+
+最后一步输入完毕并回车后，你应该会看到有几个地方询问你, 要求你填写密码, 监听端口号, 选定协议, 等等, 按照提示输入你自己的选项并回车即可。
+
+如果你懒, 一路回车也可以, 脚本会用预设值为你生成配置. 
+
+然后你什么都不用做，只需要静静地等它运行完毕就好。结束后你就会看到部署好的 ShadowsocksR 的配置信息。
+下图是作者的安装结果.
+
+<img src="vultr/ssr.png" />
+
+记下红色高亮的内容，就是服务器 IP、服务器端口、你设的密码和加密方式, 混淆, 协议 等等配置信息, 
+把它们输入你手机, 电脑上的 SSR 客户端就可以 翻墙啦。
