@@ -6,7 +6,7 @@
 
 ## 索引
 - [创建虚拟主机](#创建虚拟主机)
-- [部署 ShadowsocksR (SSR) 服务器](#部署-shadowsocksr-ssr-服务器)
+- [部署 ShadowsocksR (SSR) 服务器软件](#部署-shadowsocksr-ssr-服务器软件)
 - [防火墙](#防火墙)
 
 ## 创建虚拟主机
@@ -51,8 +51,8 @@
 
 <img src="vultr/created.png" />
 
-9. 在 `主机信息` 页面, 可以看到 `IP Address`(IP地址), 用户名 root, 登录密码 等关键信息. 
-   这里把 `SSH` 端口号 `22` 漏掉了, 作者用红字添了上去. 
+9. 在 `主机信息` 页面, 可以看到 `IP Address`(IP地址), 用户名 `root`, 登录`密码` 等关键信息. 
+   这里主机提供商漏写了 `SSH` 端口号 `22`, 作者用红字添了上去. 
    
 <img src="vultr/host.png" />
 
@@ -60,11 +60,11 @@
 
 <img src="vultr/port-scan.png" />
 
-   最后, 如下图所示, 以 `root` 用户名 和 `密码` 登入主机. 
+   最后, 如下图所示, 以 `root` 用户名 和 `密码` 登入主机. 在输入密码时, `Linux` 系统是不回显密码的, 连星号都没有, 请摸黑键入, 完毕以后敲回车.
 
 <img src="vultr/host.png" />
 
-## 部署 ShadowsocksR (SSR) 服务器
+## 部署 ShadowsocksR (SSR) 服务器软件
 
 在主机内的命令行窗口敲入以下命令.
 
@@ -106,7 +106,7 @@ cat ssr.log
 ```
 wget -qO- -t1 -T2 ipv4.icanhazip.com
 ```
-如果你想重新安装或者不想保留这个 `SSR` 服务器了, 可以 `卸载` 它, 命令如下.
+如果你想重新安装或者干脆就不想保留这个 `SSR` 服务器了, 可以 `卸载` 它, 命令如下.
 ```
 ./shadowsocksR.sh uninstall
 ```
