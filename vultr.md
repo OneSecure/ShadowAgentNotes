@@ -56,7 +56,7 @@
    
 <img src="vultr/host.png" />
 
-   由于很多 IP 已经被 GFW 屏蔽, 安装完成, 并从控制台确认系统已经在运行以后, 请在 [这个网站](http://old.tool.chinaz.com/port/) 上用主机 IP 和 22 端口试一下, 如下图看是否畅通, 如果不通, 请再次新建 `虚拟主机`, 直到试通为止. 然后再把不用的虚拟主机删除. 
+   由于很多 IP 已经被 GFW 屏蔽, 安装完成, 并从控制台确认系统已经在运行以后, 请在 [aTool在线工具](http://atool.org/port_scanner.php) (或者 [coolaf.com](http://coolaf.com/tool/port) 或者 [站长之家 chinaz](http://old.tool.chinaz.com/port/) ) 上用主机 IP 和 22 端口试一下, 如下图看是否畅通, 如果不通, 请再次新建 `虚拟主机`, 直到试通为止. 然后再把不用的虚拟主机删除. 
 
 <img src="vultr/port-scan.png" />
 
