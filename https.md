@@ -214,7 +214,7 @@ Nginx 启动命令如下
 ## 申请免费域名
 
 - 在免费域名提供商 [freenom.com](https://www.freenom.com) 网站上注册您的账号并登录.
-- 选择 注册一个新域名(Register a New Domain), 这时会出现个搜索框验证您输入域名的有效性.
+- 选择 注册一个新域名(Register a New Domain), 这时会出现个搜索框验证您输入域名的有效性. 我这里随意输入 `amaoagou`, 您得输入您自己的. 
 
 ![tu](https/https01.png)
 
@@ -231,7 +231,7 @@ Nginx 启动命令如下
 一切就绪以后, 勾选 `I have read and agree to the Terms & Conditions` 复选框, 
 点击 `Complete Order` 按钮完成订单.
 
-- 现在, 就可以在 `My Domains` 页面看到您刚才注册的免费域名了. 请点击 `amaoagou.tk` 条目下的 `Manage Domain` 按钮, 进入下一步.
+- 现在, 就可以在 `Services` => `My Domains` 页面看到您刚才注册的免费域名了. 请点击 `amaoagou.tk` 条目下的 `Manage Domain` 按钮, 进入下一步.
 
 - 在 `Managing amaoagou.tk` 页面, 请点击 `Management Tools` 下的 `Nameservers`, 然后选择 `Use custom nameservers (enter below)` 单选按钮. 在下面的输入框中分别输入 `GREG.NS.CLOUDFLARE.COM` 和 `SUE.NS.CLOUDFLARE.COM`, 然后点击 `Change Nameservers` 按钮确认保存. **这一步相当重要**, 原因后面讲.
 
