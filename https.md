@@ -214,7 +214,7 @@ Nginx 启动命令如下
 ## 申请免费域名
 
 - 在免费域名提供商 [freenom.com](https://www.freenom.com) 网站上注册您的账号并登录.
-- 选择 注册一个新域名(Register a New Domain), 这时会出现个搜索框验证您输入域名的有效性. 我这里随意输入 `amaoagou`, 您得输入您自己的. 
+- 选择 注册一个新域名(Register a New Domain), 这时会出现个搜索框验证您输入域名的有效性. 我这里随意输入 `amaoagou`(阿猫阿狗), 您得输入您自己的. 
 
 ![tu](https/https01.png)
 
