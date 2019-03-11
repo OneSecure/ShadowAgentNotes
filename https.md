@@ -90,6 +90,12 @@ make && make install
 
 ### Nginx 配置
 
+- 站点文件准备. 将 NginX 软件中的示例网页文件复制一份出来到 `/mysite` 文件夹.
+```
+cp -r  /usr/local/webserver/nginx/html /mysite
+```
+这样 `/mysite` 文件夹就是你的网页文件放置的地方了.
+
 - 创建 Nginx 运行使用的用户 www
 ```
 groupadd www 
@@ -149,7 +155,7 @@ http
     listen 80;   # 监听端口.
     server_name localhost; # 域名.
     index index.html index.htm index.php;
-    root /usr/local/webserver/nginx/html; # 站点目录.
+    root /mysite; # 站点目录.
     
     location ~ .*\.(php|php5)?$
     {
