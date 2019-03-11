@@ -248,9 +248,9 @@ Nginx 启动命令如下
 - 下一步出现的 `DNS` 设置页面, 加入两条记录, 分别以 `amaoagou.tk` 和 `www.amaoagou.tk` 为名称, 
 以及你安装 `nginx` 软件的主机的 `IP` 地址. 如下图. 
 
-![tu](https/https06.png)
+![tu](https/https07.png)
 
-至此, 您的网站和域名解析就达成了.
+至此, 您的网站和域名解析就达成了. 你现在知道在 `freenom` 网站上填 `*.CLOUDFLARE.COM` 的原因了吧!
 
 
 
