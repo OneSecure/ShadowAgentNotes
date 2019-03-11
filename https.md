@@ -255,5 +255,109 @@ Nginx 启动命令如下
 
 几分钟之后, 请在命令行 `ping` 您的域名, 不出意外的话应该可以 `ping` 通. 命令: `ping amaoagou.tk`
 
-而且在浏览器里输入域名 `amaoagou.tk` 应该也可以访问了. 当然, 这时候的网站协议是 `HTTP` 而不是 `HTTPS`. 下一步我们就来做这个工作.
+而且在浏览器里输入域名 `amaoagou.tk` 应该也可以访问了. 当然, 这时候的网站协议是 `HTTP` 而不是 `HTTPS`. 下一步我们就来完成这个工作.
 
+## 使用 Let's Encrypt 的免费证书为网站添加 SSL 层
+
+[Let's Encrypt](https://letsencrypt.org/) 这个免费、自动化、开放的证书签发服务。它由 ISRG（Internet Security Research Group，互联网安全研究小组）提供服务，而 ISRG 是来自于美国加利福尼亚州的一个公益组织。Let's Encrypt 得到了 Mozilla、Cisco、Akamai、Electronic Frontier Foundation 和 Chrome 等众多公司和机构的支持，发展十分迅猛。
+
+申请 `Let's Encrypt` 证书不但免费，还非常简单，虽然每次只有 90 天的有效期，但可以通过脚本定期更新，配好之后一劳永逸。
+
+### 创建帐号
+- 在您的 VPS 主机上, 创建一个文件夹 `ssl` 来存放各种临时文件和最后的证书文件。进入这个目录，创建一个 RSA 私钥用于 Let's Encrypt 识别你的身份：
+```
+mkdir /ssl
+cd /ssl
+openssl genrsa 4096 > account.key
+```
+### 创建 CSR 文件
+接着就可以生成 CSR（Certificate Signing Request，证书签名请求）文件了。在这之前，还需要创建域名私钥（一定不要使用上面的账户私钥）。
+- 创建 RSA 私钥：
+```
+openssl genrsa 4096 > domain.key
+```
+- 有了私钥文件，就可以生成 CSR 文件了。在 CSR 中推荐至少把域名带 www 和不带 www 的两种情况都加进去，其它子域可以根据需要添加（目前一张证书最多可以包含 100 个域名）, 下面使用交互方式创建 CSR（需要注意 Common Name 必须为你的域名）：
+```
+openssl req -new -sha256 -key domain.key -out domain.csr
+```
+### 配置验证服务
+我们知道，CA 在签发 DV（Domain Validation）证书时，需要验证域名所有权。传统 CA 的验证方式一般是往 admin@yoursite.com 发验证邮件，而 Let's Encrypt 是在你的服务器上生成一个随机验证文件，再通过创建 CSR 时指定的域名访问，如果可以访问则表明你对这个域名有控制权。
+
+首先创建用于存放验证文件的目录，例如：
+```
+mkdir /mysite/challenges/
+```
+然后配置一个 HTTP 服务，以 `Nginx` 为例, 在 `/usr/local/webserver/nginx/conf/nginx.conf` 配置文件 的 `server` 节区, 添加如下内容:
+```
+  server
+  {
+    # ...
+    
+    listen 80;   # 监听端口.
+    server_name amaoagou.tk www.amaoagou.tk; # 域名.
+    root /mysite;
+
+    location ^~ /.well-known/acme-challenge/ {
+        alias /mysite/challenges/;
+        try_files $uri =404;
+    }
+
+    location / {
+        rewrite ^/(.*)$ https://amaoagou.tk/$1 permanent;
+    }
+    
+    # ...
+  }
+```
+以上配置优先查找 `/mysite/challenges/` 目录下的文件，如果找不到就重定向到 `HTTPS` 地址。这个验证服务以后更新证书还要用到，建议一直保留。
+然后 `reload` 服务器软件
+```
+/usr/local/webserver/nginx/sbin/nginx -s reload
+```
+
+### 获取网站证书
+先把 acme-tiny 脚本保存到之前的 ssl 目录：
+```
+wget https://raw.githubusercontent.com/diafygi/acme-tiny/master/acme_tiny.py
+```
+指定账户私钥、CSR 以及验证目录，执行脚本：
+```
+python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /mysite/challenges/ > ./signed.crt
+```
+如果一切正常，当前目录下就会生成一个 `signed.crt`，这就是申请好的证书文件。
+
+搞定网站证书后，还要下载 `Let's Encrypt` 的中间证书。配置 HTTPS 证书时既不要漏掉中间证书，也不要包含根证书。
+在 `Nginx` 配置中，需要把中间证书和网站证书合在一起：
+```
+wget -O - https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem > intermediate.pem
+cat signed.crt intermediate.pem > chained.pem
+```
+为了后续能顺利启用 `OCSP Stapling`，我们再把根证书和中间证书合在一起：
+```
+wget -O - https://letsencrypt.org/certs/isrgrootx1.pem > root.pem
+cat intermediate.pem root.pem > full_chained.pem
+```
+最终，修改 Nginx 中有关证书的配置, 在配置文件 `/usr/local/webserver/nginx/conf/nginx.conf` 加入一个新的 `server` 节区:
+```
+  server
+  {
+    listen 443 ssl;
+    server_name amaoagou.tk www.amaoagou.tk;
+    index index.html index.htm index.php;
+    root /mysite;
+
+    ssl_protocols       TLSv1 TLSv1.1 TLSv1.2;
+    ssl_ciphers         AES128-SHA:AES256-SHA:RC4-SHA:DES-CBC3-SHA:RC4-MD5;
+    ssl_certificate     /ssl/chained.pem;
+    ssl_certificate_key /ssl/domain.key;
+    ssl_session_cache   shared:SSL:10m;
+    ssl_session_timeout 10m;
+  }
+```
+然后 `reload` 服务
+```
+/usr/local/webserver/nginx/sbin/nginx -s reload
+```
+目前为止, 这个玩具网站已经是 `HTTPS` 加持的了. 看看下图.
+
+![tu](https/https08.png)
