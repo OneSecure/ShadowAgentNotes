@@ -62,7 +62,7 @@ pcre-config --version
 ```
 ![tu](https/nginx2.png)
 
-### 安装 Nginx
+## 安装 Nginx
 
 - 下载 Nginx
 ```
@@ -92,7 +92,7 @@ make && make install
 
 到此，nginx安装完成。
 
-### Nginx 配置
+## Nginx 配置
 
 - 站点文件准备. 将 NginX 软件中的示例网页文件复制一份出来到 `/mysite` 文件夹.
 ```
@@ -191,19 +191,19 @@ http
 ```
 ![tu](https/nginx5.png)
 
-### 启动 Nginx
+## 启动 Nginx
 Nginx 启动命令如下
 ```
 /usr/local/webserver/nginx/sbin/nginx
 ```
 ![tu](https/nginx6.png)
 
-### 访问站点
+## 访问站点
 从浏览器访问我们配置的站点 `IP`
 
 ![tu](https/nginx7.png)
 
-### Nginx 其他命令
+## Nginx 其他命令
 以下包含了 Nginx 常用的几个命令
 ```
 /usr/local/webserver/nginx/sbin/nginx -s reload            # 重新载入配置文件.
