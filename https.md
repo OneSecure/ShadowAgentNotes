@@ -175,14 +175,29 @@ http
   }
 }
 ```
+- 检查配置文件 `nginx.conf` 的正确性. 命令
+```
+/usr/local/webserver/nginx/sbin/nginx -t
+```
+![tu](https/nginx5.png)
 
+### 启动 Nginx
+Nginx 启动命令如下
+```
+/usr/local/webserver/nginx/sbin/nginx
+```
+![tu](https/nginx6.png)
 
+### 访问站点
+从浏览器访问我们配置的站点 `IP`
 
+![tu](https/nginx7.png)
 
-
-
-
-
-
-
+### Nginx 其他命令
+以下包含了 Nginx 常用的几个命令
+```
+/usr/local/webserver/nginx/sbin/nginx -s reload            # 重新载入配置文件.
+/usr/local/webserver/nginx/sbin/nginx -s reopen            # 重启 Nginx.
+/usr/local/webserver/nginx/sbin/nginx -s stop              # 停止 Nginx.
+```
 
