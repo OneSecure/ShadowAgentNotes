@@ -1,7 +1,8 @@
 # 全免費 HTTPS 網站 搭建 詳細 图文教程
 
 ## 索引
-- [Nginx 安装配置](#nginx-安装配置)
+- [Nginx 安装前配置](#nginx-安装前配置)
+- [安装 Nginx](#安装-nginx)
 
 
 可能許多人都想過搭建個人網站玩玩，但各種嚇人門檻讓有心探索的人裹足不前。這個搭建過程就值得写写了。
@@ -17,7 +18,7 @@
 如果您尚不具备, 请参看 [Vultr 教程](vultr.md).
 
 
-## Nginx 安装配置
+## Nginx 安装前配置
 
 <img src="https://www.nginx.com/wp-content/uploads/2019/01/logo.svg" />
 
@@ -55,9 +56,35 @@ make && make install
 ```
 pcre-config --version
 ```
-![tu](https/nginx1.png)
+![tu](https/nginx2.png)
 
 ### 安装 Nginx
+
+- 下载 Nginx
+```
+cd /usr/local/src/
+wget http://nginx.org/download/nginx-1.6.2.tar.gz
+```
+![tu](https/nginx3.png)
+
+- 解压 Nginx 安装包
+```
+tar zxvf nginx-1.6.2.tar.gz
+```
+- 进入安装包目录
+```
+cd nginx-1.6.2
+```
+- 编译安装
+```
+./configure --prefix=/usr/local/webserver/nginx --with-http_stub_status_module --with-http_ssl_module --with-pcre=/usr/local/src/pcre-8.35
+make && make install
+```
+- 查看 Nginx 版本
+```
+/usr/local/webserver/nginx/sbin/nginx -v
+```
+![tu](https/nginx4.png)
 
 
 
