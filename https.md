@@ -9,6 +9,7 @@
 - [Nginx 其他命令](#nginx-其他命令)
 - [在 freenom 上申请免费域名](#在-freenom-上申请免费域名)
 - [在 cloudflare 上进行域名 DNS 解析](#在-cloudflare-上进行域名-dns-解析)
+- [使用 Let's Encrypt 的免费证书为网站添加 SSL 层](#使用-lets-encrypt-的免费证书为网站添加-ssl-层)
 
 
 可能許多人都想過搭建個人網站玩玩，但各種嚇人門檻讓有心探索的人裹足不前。這個搭建過程就值得写写了。
@@ -361,3 +362,20 @@ cat intermediate.pem root.pem > full_chained.pem
 目前为止, 这个玩具网站已经是 `HTTPS` 加持的了. 看看下图.
 
 ![tu](https/https08.png)
+
+### 配置自动更新
+`Let's Encrypt` 签发的证书只有 90 天有效期，推荐使用脚本定期更新。例如我就创建了一个 renew_cert.sh 并通过 chmod a+x renew_cert.sh 赋予执行权限。文件内容如下：
+```
+#!/bin/bash
+
+cd /ssl/
+python acme_tiny.py --account-key account.key --csr domain.csr --acme-dir /mysite/challenges/ > signed.crt || exit
+wget -O - https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem > intermediate.pem
+cat signed.crt intermediate.pem > chained.pem
+/usr/local/webserver/nginx/sbin/nginx -s reload
+```
+`crontab` 中使用绝对路径比较保险，`crontab -e` 加入以下内容：
+```
+0 0 1 * * /home/xxx/shell/renew_cert.sh >/dev/null 2>&1
+```
+这样以后证书每个月都会自动更新，一劳永逸。实际上，`Let's Encrypt` 官方将证书有效期定为 90 天一方面是为了更安全，更重要的是鼓励用户采用自动化部署方案。
