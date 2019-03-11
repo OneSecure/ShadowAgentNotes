@@ -364,7 +364,15 @@ cat intermediate.pem root.pem > full_chained.pem
 ![tu](https/https08.png)
 
 ### 配置自动更新
-`Let's Encrypt` 签发的证书只有 90 天有效期，推荐使用脚本定期更新。例如我就创建了一个 renew_cert.sh 并通过 chmod a+x renew_cert.sh 赋予执行权限。文件内容如下：
+`Let's Encrypt` 签发的证书只有 90 天有效期，推荐使用脚本定期更新。例如我就创建了一个 renew_cert.sh 并通过 chmod a+x renew_cert.sh 赋予执行权限。
+```
+cd /ssl
+vi renew_cert.sh
+chmod a+x renew_cert.sh
+```
+
+`renew_cert.sh` 文件内容如下：
+
 ```
 #!/bin/bash
 
@@ -376,6 +384,6 @@ cat signed.crt intermediate.pem > chained.pem
 ```
 `crontab` 中使用绝对路径比较保险，`crontab -e` 加入以下内容：
 ```
-0 0 1 * * /home/xxx/shell/renew_cert.sh >/dev/null 2>&1
+0 0 1 * * /ssl/renew_cert.sh >/dev/null 2>&1
 ```
 这样以后证书每个月都会自动更新，一劳永逸。实际上，`Let's Encrypt` 官方将证书有效期定为 90 天一方面是为了更安全，更重要的是鼓励用户采用自动化部署方案。
