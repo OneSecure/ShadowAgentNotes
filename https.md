@@ -253,6 +253,7 @@ Nginx 启动命令如下
 
 至此, 您的网站和域名解析就达成了. 你现在知道在 `freenom` 网站上填 `*.CLOUDFLARE.COM` 的原因了吧!
 
-几分钟之后, 请在命令行 `ping` 您的域名, 不出意外的话应该可以 `ping` 通. `ping amaoagou.tk`
+几分钟之后, 请在命令行 `ping` 您的域名, 不出意外的话应该可以 `ping` 通. 命令: `ping amaoagou.tk`
 
+而且在浏览器里输入域名 `amaoagou.tk` 应该也可以访问了. 当然, 这时候的网站协议是 `HTTP` 而不是 `HTTPS`. 下一步我们就来做这个工作.
 
