@@ -222,7 +222,7 @@ Nginx 启动命令如下
 
 ![tu](https/https02.png)
 
-- 在随后出现的页面是过期时间选项, 选择 `12 Months @ FREE`, 这很重要, 因为默认选项是 3 个月. 然后点击 `Continue` 按钮.
+- 在随后出现的页面是过期时间选项, 选择 `12 Months @ FREE`, 这很重要, 因为默认选项是 3 个月. 然后点击 `Continue` 按钮进入下一步的 `Your Details` 页面.
 
 ![tu](https/https03.png)
 
@@ -232,5 +232,10 @@ Nginx 启动命令如下
 点击 `Complete Order` 按钮完成订单.
 
 - 现在, 就可以在 `My Domains` 页面看到您刚才注册的免费域名了. 请点击 `amaoagou.tk` 条目下的 `Manage Domain` 按钮, 进入下一步.
+
+- 在 `Managing amaoagou.tk` 页面, 请点击 `Management Tools` 下的 `Nameservers`, 然后选择 `Use custom nameservers (enter below)` 单选按钮. 在下面的输入框中分别输入 `GREG.NS.CLOUDFLARE.COM` 和 `SUE.NS.CLOUDFLARE.COM`, 然后点击 `Change Nameservers` 按钮确认保存. **这一步相当重要**, 原因后面讲.
+
+![tu](https/https06.png)
+
 
 
