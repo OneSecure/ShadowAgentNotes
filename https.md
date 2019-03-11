@@ -211,3 +211,26 @@ Nginx 启动命令如下
 /usr/local/webserver/nginx/sbin/nginx -s stop              # 停止 Nginx.
 ```
 
+## 申请免费域名
+
+- 在免费域名提供商 [freenom.com](https://www.freenom.com) 网站上注册您的账号并登录.
+- 选择 注册一个新域名(Register a New Domain), 这时会出现个搜索框验证您输入域名的有效性.
+
+![tu](https/https01.png)
+
+- 然后在可用域名页面列出, 可以选择免费的后缀. 我这里选 `amaoagou.tk`, 点`Get it now!`按钮, 然后在随后出现的购物车上点 `Checkout`.
+
+![tu](https/https02.png)
+
+- 在随后出现的页面是过期时间选项, 选择 `12 Months @ FREE`, 这很重要, 因为默认选项是 3 个月. 然后点击 `Continue` 按钮.
+
+![tu](https/https03.png)
+
+- 在 `Your Details` 页面输入您的个人信息, 随便输入个假的信息就够了. 
+如果你想装得像一点, 可以在 [fakenamegenerator.com](https://www.fakenamegenerator.com/) 网站上生成一个. 
+一切就绪以后, 勾选 `I have read and agree to the Terms & Conditions` 复选框, 
+点击 `Complete Order` 按钮完成订单.
+
+- 现在, 就可以在 `My Domains` 页面看到您刚才注册的免费域名了. 请点击 `amaoagou.tk` 条目下的 `Manage Domain` 按钮, 进入下一步.
+
+
