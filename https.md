@@ -70,17 +70,17 @@ pcre-config --version
 - 下载 Nginx
 ```
 cd /usr/local/src/
-wget http://nginx.org/download/nginx-1.6.2.tar.gz
+wget http://nginx.org/download/nginx-1.15.9.tar.gz
 ```
 ![tu](https/nginx3.png)
 
 - 解压 Nginx 安装包
 ```
-tar zxvf nginx-1.6.2.tar.gz
+tar zxvf nginx-1.15.9.tar.gz
 ```
 - 进入安装包目录
 ```
-cd nginx-1.6.2
+cd nginx-1.15.9
 ```
 - 编译安装
 ```
