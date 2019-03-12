@@ -14,7 +14,7 @@
 
 可能許多人动過念头搭建 `個人網站` 玩玩，但各種嚇人門檻讓有心探索的人裹足不前。這個搭建過程就值得写写了。
 搭建完成的玩具网站是有 `独立域名`, 支持 `HTTPS` 协议的哟. 
-会让您有满满的成就感. 也是您进一步建设正式网站的基础.
+让您满满的成就感. 也是您进一步建设正式网站的基础.
 
 本文假設您 
 - 已經擁有了 VPS(Virtual Private Server 虚拟专用服务器), 
@@ -22,7 +22,7 @@
 - 具有基本的 `Linux` 命令操作经验, 会使用 `vi` 软件编辑文本文件, 会用 `ls` 列出当前目录的文件, 
 - 远程主机的操作系统是 `CentOS 6.x+`.
 
-如果您尚不具备, 请参看 [Vultr 教程](vultr.md).
+如果您尚不具备以上条件, 请参看 [Vultr 教程](vultr.md).
 
 
 ## Nginx 安装前配置
@@ -101,7 +101,7 @@ make && make install
 ```
 cp -r  /usr/local/webserver/nginx/html /mysite
 ```
-这样 `/mysite` 文件夹就是你的网页文件放置的地方了.
+这样 `/mysite` 文件夹就是您网页文件放置的地方了.
 
 - 创建 Nginx 运行使用的用户 www
 ```
@@ -229,8 +229,8 @@ Nginx 启动命令如下
 
 ![tu](https/https03.png)
 
-- 在 `Your Details` 页面输入您的个人信息, 随便输入个假的信息就够了. 
-如果你想装得像一点, 可以在 [fakenamegenerator.com](https://www.fakenamegenerator.com/) 网站上生成一个. 
+- 在 `Your Details` 页面输入您个人信息, 随便输入个假的信息就够了. 
+如果您想装得像一点, 可以在 [fakenamegenerator.com](https://www.fakenamegenerator.com/) 网站上生成一个. 
 一切就绪以后, 勾选 `I have read and agree to the Terms & Conditions` 复选框, 
 点击 `Complete Order` 按钮完成订单.
 
@@ -248,11 +248,11 @@ Nginx 启动命令如下
 - 在登入后的首页点击 `+ Add a Site` 按钮并输入您刚注册的 域名 `amaoagou.tk`, 
 - 在随后出现的 `Select a Plan` 选择 `FREE` ($0/month) 免费计划, 然后点击 `Confirm plan` 完成添加网站的工作.
 - 下一步出现的 `DNS` 设置页面, 加入两条记录, 分别以 `amaoagou.tk` 和 `www.amaoagou.tk` 为名称, 
-以及你安装 `nginx` 软件的主机的 `IP` 地址. 如下图. 
+以及您安装 `nginx` 软件的主机的 `IP` 地址. 如下图. 
 
 ![tu](https/https07.png)
 
-至此, 您的网站和域名解析就达成了. 你现在知道在 `freenom` 网站上填 `*.CLOUDFLARE.COM` 的原因了吧!
+至此, 您的网站和域名解析就达成了. 您现在知道在 `freenom` 网站上填 `*.CLOUDFLARE.COM` 的原因了吧!
 
 几分钟之后, 请在命令行 `ping` 您的域名, 不出意外的话应该可以 `ping` 通. 命令: `ping amaoagou.tk`
 
@@ -265,7 +265,7 @@ Nginx 启动命令如下
 申请 `Let's Encrypt` 证书不但免费，还非常简单，虽然每次只有 90 天的有效期，但可以通过脚本定期更新，配好之后一劳永逸。
 
 ### 创建帐号
-- 在您的 VPS 主机上, 创建一个文件夹 `ssl` 来存放各种临时文件和最后的证书文件。进入这个目录，创建一个 RSA 私钥用于 Let's Encrypt 识别你的身份：
+- 在您的 VPS 主机上, 创建一个文件夹 `ssl` 来存放各种临时文件和最后的证书文件。进入这个目录，创建一个 RSA 私钥用于 Let's Encrypt 识别您身份：
 ```
 mkdir /ssl
 cd /ssl
@@ -277,12 +277,12 @@ openssl genrsa 4096 > account.key
 ```
 openssl genrsa 4096 > domain.key
 ```
-- 有了私钥文件，就可以生成 CSR 文件了。在 CSR 中推荐至少把域名带 www 和不带 www 的两种情况都加进去，其它子域可以根据需要添加（目前一张证书最多可以包含 100 个域名）, 下面使用交互方式创建 CSR（需要注意 Common Name 必须为你的域名）：
+- 有了私钥文件，就可以生成 CSR 文件了。在 CSR 中推荐至少把域名带 www 和不带 www 的两种情况都加进去，其它子域可以根据需要添加（目前一张证书最多可以包含 100 个域名）, 下面使用交互方式创建 CSR（需要注意 Common Name 必须为您的域名）：
 ```
 openssl req -new -sha256 -key domain.key -out domain.csr
 ```
 ### 配置验证服务
-我们知道，CA 在签发 DV（Domain Validation）证书时，需要验证域名所有权。传统 CA 的验证方式一般是往 admin@yoursite.com 发验证邮件，而 Let's Encrypt 是在你的服务器上生成一个随机验证文件，再通过创建 CSR 时指定的域名访问，如果可以访问则表明你对这个域名有控制权。
+我们知道，CA 在签发 DV（Domain Validation）证书时，需要验证域名所有权。传统 CA 的验证方式一般是往 admin@yoursite.com 发验证邮件，而 Let's Encrypt 是在您的服务器上生成一个随机验证文件，再通过创建 CSR 时指定的域名访问，如果可以访问则表明您对这个域名有控制权。
 
 首先创建用于存放验证文件的目录，例如：
 ```
@@ -359,7 +359,7 @@ cat intermediate.pem root.pem > full_chained.pem
 ```
 /usr/local/webserver/nginx/sbin/nginx -s reload
 ```
-目前为止, 这个玩具网站已经是 `HTTPS` 加持的了. 看看下图.
+目前为止, 这个玩具网站已经是 `HTTPS` 加持的了. 恭喜您解锁了新成就. 请看下图.
 
 ![tu](https/https08.png)
 
