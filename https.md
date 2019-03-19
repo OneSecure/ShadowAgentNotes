@@ -233,10 +233,9 @@ Nginx 启动命令如下
 ## ~~在 cloudflare 上进行域名 DNS 解析~~
 
 - ~~在 [cloudflare.com](http://cloudflare.com) 网站上注册账号并登入.~~
-- ~~在登入后的首页点击 `+ Add a Site` 按钮并输入您刚注册的 域名 `amaoagou.tk`, ~~
+- ~~在登入后的首页点击 `Add a Site` 按钮并输入您刚注册的 域名 `amaoagou.tk`, ~~
 - ~~在随后出现的 `Select a Plan` 选择 `FREE` ($0/month) 免费计划, 然后点击 `Confirm plan` 完成添加网站的工作.~~
-- ~~下一步出现的 `DNS` 设置页面, 加入两条记录, 分别以 `amaoagou.tk` 和 `www.amaoagou.tk` 为名称, ~~
-~~以及您安装 `nginx` 软件的主机的 `IP` 地址. 如下图. ~~
+- ~~下一步出现的 `DNS` 设置页面, 加入两条记录, 分别以 `amaoagou.tk` 和 `www.amaoagou.tk` 为名称, 以及您安装 `nginx` 软件的主机的 `IP` 地址. 如下图. ~~
 
 ![tu](https/https07.png)
 
