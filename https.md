@@ -35,6 +35,11 @@
 ```
 yum -y install make zlib zlib-devel gcc-c++ libtool  openssl openssl-devel
 ```
+在 ubuntu 系统, 请用以下命令
+```
+apt-get update
+apt-get install make zlib1g zlib1g-dev build-essential autoconf libtool openssl libssl-dev -y
+```
 
 ### 首先要安装 PCRE
 PCRE 作用是让 Nginx 支持 Rewrite 功能。
