@@ -234,7 +234,7 @@ Nginx 启动命令如下
 
 ![tu](https/https07.png)
 
-至此, 您的网站和域名解析就达成了. 您现在知道在 `freenom` 网站上填 `*.CLOUDFLARE.COM` 的原因了吧!
+至此, 您的网站和域名解析就达成了. 您现在知道在 `freenom` 网站上填 `*.cloudflare.com` 的原因了吧!
 
 几分钟之后, 请在命令行 `ping` 您的域名, 不出意外的话应该可以 `ping` 通. 命令: `ping amaoagou.tk`
 
@@ -290,14 +290,14 @@ mkdir /mysite/challenges/
         try_files $uri =404;
     }
 
-    location / {
-        rewrite ^/(.*)$ https://amaoagou.tk/$1 permanent;
-    }
+    #location / {
+    #    rewrite ^/(.*)$ https://amaoagou.tk/$1 permanent;
+    #}
     
     # ...
   }
 ```
-以上配置优先查找 `/mysite/challenges/` 目录下的文件，如果找不到就重定向到 `HTTPS` 地址。这个验证服务以后更新证书还要用到，建议一直保留。
+以上配置优先查找 `/mysite/challenges/` 目录下的文件，~~如果找不到就重定向到 `HTTPS` 地址~~,(**经再次测试,重定向这一句会报错,因此去掉了**)。这个验证服务以后更新证书还要用到，建议一直保留。
 然后 `reload` 服务器软件
 ```
 /usr/local/nginx/sbin/nginx -s reload
