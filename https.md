@@ -263,6 +263,11 @@ openssl genrsa 4096 > domain.key
 ```
 openssl req -new -sha256 -key domain.key -out domain.csr
 ```
+当然, 您也可以用一条全自动命令完成创建 `CSR` 文件, 两者选一即可. 注意要把命令中的 `amaoagou.tk` 字符串换成您自己的域名.
+```
+openssl req -new -sha256 -key domain.key -subj "/" -reqexts SAN -config <(cat /etc/ssl/openssl.cnf <(printf "[SAN]\nsubjectAltName=DNS:amaoagou.tk,DNS:www.amaoagou.tk")) > domain.csr
+```
+
 ### 配置验证服务
 我们知道，`CA` 在签发 `DV（Domain Validation）`证书时，需要验证域名所有权。传统 `CA` 的验证方式一般是往 `admin@yoursite.com` 发验证邮件，而 `Let's Encrypt` 是在您的服务器上生成一个随机验证文件，再通过创建 `CSR` 时指定的域名访问，如果可以访问则表明您对这个域名有控制权。
 
