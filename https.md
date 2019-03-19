@@ -49,14 +49,14 @@ apt-get install make zlib1g zlib1g-dev build-essential autoconf libtool openssl 
 ### 首先要安装 PCRE
 PCRE 作用是让 Nginx 支持 Rewrite 功能。
 
-- 下载和安装 PCRE 软件包
+- 下载和安装 PCRE 软件包. 下列命令完成了从下载源码包, 解压源码包, 配置编译环境, 编译, 安装, 等一系列操作.
 ```
 wget http://downloads.sourceforge.net/project/pcre/pcre/8.42/pcre-8.42.tar.gz
-tar zxvf pcre-8.42.tar.gz  # 解压安装包.
-cd pcre-8.42  # 进入安装包目录.
-./configure # 配置编译环境.
-make && make install # 编译安装.
-pcre-config --version # 查看 pcre 版本.
+tar zxvf pcre-8.42.tar.gz
+cd pcre-8.42
+./configure
+make && make install
+pcre-config --version
 ```
 ![tu](https/nginx2.png)
 
