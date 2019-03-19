@@ -63,7 +63,7 @@ pcre-config --version
 
 ## 安装 Nginx
 
-- 下载 Nginx. 下列命令完成了从下载 nginx 源码包 到编译安装 等一系列动作. 最后一个命令是 查看 Nginx 版本.
+- 下列命令完成了从下载 nginx 源码包 到编译安装 等一系列动作. 最后一个命令是 查看 Nginx 版本.
 ```
 wget http://nginx.org/download/nginx-1.15.9.tar.gz
 tar zxvf nginx-1.15.9.tar.gz
@@ -90,11 +90,11 @@ cp -r  /usr/local/nginx/html /mysite
 groupadd www 
 useradd -g www www
 ```
-- 配置 `nginx.conf`, 用 `vi` 软件编辑, 将 `/usr/local/nginx/conf/nginx.conf` 替换为以下内容
+- 配置 `nginx.conf`, 用 `vi` 软件编辑, 将 `/usr/local/nginx/conf/nginx.conf` 文件内容替换为以下内容
 ```
 user www www;
-worker_processes 2; # 设置值和CPU核心数一致.
-error_log /usr/local/nginx/logs/nginx_error.log crit; #日志位置和日志级别.
+worker_processes 2; # The value is the same as the number of CPU cores.
+error_log /usr/local/nginx/logs/nginx_error.log crit; # Log location and log level.
 pid /usr/local/nginx/nginx.pid;
 #Specifies the value for maximum file descriptors that can be opened by this process.
 worker_rlimit_nofile 65535;
@@ -138,13 +138,13 @@ http
   gzip_vary on;
  
   #limit_zone crawler $binary_remote_addr 10m;
-  # 下面是 server 虚拟主机的配置.
+  # Following is the configuration of the server virtual host.
   server
   {
-    listen 80;   # 监听端口.
-    server_name localhost; # 域名.
+    listen 80;   # listen port.
+    server_name localhost; # domain.
     index index.html index.htm index.php;
-    root /mysite; # 站点目录.
+    root /mysite; # ======> root dirctionay of your site. <======.
     
     location ~ .*\.(php|php5)?$
     {
