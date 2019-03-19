@@ -218,23 +218,29 @@ Nginx 启动命令如下
 
 - 现在, 就可以在 `Services` => `My Domains` 页面看到您刚才注册的免费域名了. 请点击 `amaoagou.tk` 条目下的 `Manage Domain` 按钮, 进入下一步.
 
-- 在 `Managing amaoagou.tk` 页面, 请点击 `Management Tools` 下的 `Nameservers`, 然后选择 `Use custom nameservers (enter below)` 单选按钮. 在下面的输入框中分别输入 `greg.ns.cloudflare.com` 和 `sue.ns.cloudflare.com`, 然后点击 `Change Nameservers` 按钮确认保存. **这一步相当重要**, 原因后面讲.
+- 在 `Managing amaoagou.tk` 页面, 点击 `Manage Freenom DNS` 项. 在随后出现的页面添加两条记录. 一条 `空白` 记录, 一条 `www` 记录. 
+添加方法是, 在 `Name`格子空着或输入字符, 在 `Target` 格子输入您 `VPS` 的 `IP`, 然后点击 `Save Changes` 按钮, 就添加上了. 
+几分钟后应该就能生效, 可以 `ping` 出域名的 `IP` 了. 如下图.
+
+![tu](https/https05.png)
+
+- ~~如果你不使用`Freenom`的域名解析, 可以看下面带删除线的这段. 在 `Managing amaoagou.tk` 页面, 请点击 `Management Tools` 下的 `Nameservers`, 然后选择 `Use custom nameservers (enter below)` 单选按钮. 在下面的输入框中分别输入 `greg.ns.cloudflare.com` 和 `sue.ns.cloudflare.com`, 然后点击 `Change Nameservers` 按钮确认保存. **这一步相当重要**, 原因后面讲.~~
 
 ![tu](https/https06.png)
 
-到这一步, 域名就算注册好了.
+~~到这一步, 域名就算注册好了.~~
 
-## 在 cloudflare 上进行域名 DNS 解析
+## ~~在 cloudflare 上进行域名 DNS 解析~~
 
-- 在 [cloudflare.com](http://cloudflare.com) 网站上注册账号并登入.
-- 在登入后的首页点击 `+ Add a Site` 按钮并输入您刚注册的 域名 `amaoagou.tk`, 
-- 在随后出现的 `Select a Plan` 选择 `FREE` ($0/month) 免费计划, 然后点击 `Confirm plan` 完成添加网站的工作.
-- 下一步出现的 `DNS` 设置页面, 加入两条记录, 分别以 `amaoagou.tk` 和 `www.amaoagou.tk` 为名称, 
-以及您安装 `nginx` 软件的主机的 `IP` 地址. 如下图. 
+- ~~在 [cloudflare.com](http://cloudflare.com) 网站上注册账号并登入.~~
+- ~~在登入后的首页点击 `+ Add a Site` 按钮并输入您刚注册的 域名 `amaoagou.tk`, ~~
+- ~~在随后出现的 `Select a Plan` 选择 `FREE` ($0/month) 免费计划, 然后点击 `Confirm plan` 完成添加网站的工作.~~
+- ~~下一步出现的 `DNS` 设置页面, 加入两条记录, 分别以 `amaoagou.tk` 和 `www.amaoagou.tk` 为名称, ~~
+~~以及您安装 `nginx` 软件的主机的 `IP` 地址. 如下图. ~~
 
 ![tu](https/https07.png)
 
-至此, 您的网站和域名解析就达成了. 您现在知道在 `freenom` 网站上填 `*.cloudflare.com` 的原因了吧!
+~~至此, 您的网站和域名解析就达成了. 您现在知道在 `freenom` 网站上填 `*.cloudflare.com` 的原因了吧!~~
 
 几分钟之后, 请在命令行 `ping` 您的域名, 不出意外的话应该可以 `ping` 通. 命令: `ping amaoagou.tk`
 
