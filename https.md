@@ -31,6 +31,11 @@
 
 `Nginx`("engine x") 是由俄罗斯的程序设计师 `Igor Sysoev` 开发的高性能 `Web` 和 `反向代理` 服务器软件, 也是一个 IMAP/POP3/SMTP 代理服务器. 在高连接并发的情况下, `Nginx` 是 `Apache` 服务器不错的替代品.
 
+### 获取系统超级用户权限
+```
+sudo su
+```
+
 ### 安装编译工具及库文件
 ```
 yum -y install make zlib zlib-devel gcc-c++ libtool  openssl openssl-devel
@@ -44,29 +49,14 @@ apt-get install make zlib1g zlib1g-dev build-essential autoconf libtool openssl 
 ### 首先要安装 PCRE
 PCRE 作用是让 Nginx 支持 Rewrite 功能。
 
-- 下载 PCRE 安装包
+- 下载和安装 PCRE 软件包
 ```
-cd /usr/local/src/
-wget http://downloads.sourceforge.net/project/pcre/pcre/8.35/pcre-8.35.tar.gz
-```  
-![tu](https/nginx1.png)
-
-- 解压安装包
-```
-tar zxvf pcre-8.35.tar.gz
-```
-- 进入安装包目录
-```
-cd pcre-8.35
-```
-- 编译安装 
-```
-./configure
-make && make install
-```
-- 查看pcre版本
-```
-pcre-config --version
+wget http://downloads.sourceforge.net/project/pcre/pcre/8.42/pcre-8.42.tar.gz
+tar zxvf pcre-8.42.tar.gz  # 解压安装包.
+cd pcre-8.42  # 进入安装包目录.
+./configure # 配置编译环境.
+make && make install # 编译安装.
+pcre-config --version # 查看 pcre 版本.
 ```
 ![tu](https/nginx2.png)
 
