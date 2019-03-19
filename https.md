@@ -56,34 +56,21 @@ tar zxvf pcre-8.42.tar.gz
 cd pcre-8.42
 ./configure
 make && make install
+cd ..
 pcre-config --version
 ```
 ![tu](https/nginx2.png)
 
 ## 安装 Nginx
 
-- 下载 Nginx
+- 下载 Nginx. 下列命令完成了从下载 nginx 源码包 到编译安装 等一系列动作. 最后一个命令是 查看 Nginx 版本.
 ```
-cd /usr/local/src/
 wget http://nginx.org/download/nginx-1.15.9.tar.gz
-```
-![tu](https/nginx3.png)
-
-- 解压 Nginx 安装包
-```
 tar zxvf nginx-1.15.9.tar.gz
-```
-- 进入安装包目录
-```
 cd nginx-1.15.9
-```
-- 编译安装
-```
-./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-pcre=/usr/local/src/pcre-8.35
+./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-pcre=../pcre-8.42
 make && make install
-```
-- 查看 Nginx 版本
-```
+cd ..
 /usr/local/nginx/sbin/nginx -v
 ```
 ![tu](https/nginx4.png)
