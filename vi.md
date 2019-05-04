@@ -40,3 +40,8 @@ VI 文本编辑器 极简教程
 6. 最后检查修改后的文件的正确性, 可以使用 `cat` 命令, 即 `cat /etc/shadowsocks-r/config.json`, 就把文件的内容显示出来了. 如下图.
 
 ![tu](vi/vi06.png)
+
+# 参考资料
+
+* [Linux vi/vim 菜鸟教程](http://www.runoob.com/linux/linux-vim.html)
+* [Linux vi 从入门到精通](https://segmentfault.com/a/1190000009083255)
