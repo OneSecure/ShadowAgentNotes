@@ -56,7 +56,7 @@ head -c 16 /dev/urandom | xxd -ps
 ```
 作者得到的随机密钥是 `a843b0aaf852b611dff4024a3a1e0f86`
 
-再用 vi 命令编辑 `config.py` 文件
+再用 vi 命令编辑 `config.py` 文件. ( [vi 教程](vi.md) )
 ```bash
 vi /mtprotoproxy/config.py
 ```
