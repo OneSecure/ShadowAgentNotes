@@ -45,3 +45,5 @@ VI 文本编辑器 极简教程
 
 * [Linux vi/vim 菜鸟教程](http://www.runoob.com/linux/linux-vim.html)
 * [Linux vi 从入门到精通](https://segmentfault.com/a/1190000009083255)
+* [视频 vim 入门教程 (需翻墙)](https://www.youtube.com/watch?v=L8aOnqxMPis)
+* [视频 Vi 编辑器基础](https://www.bilibili.com/video/av35277092/)
