@@ -80,6 +80,6 @@ python3 /mtprotoproxy/mtprotoproxy.py &
 
 
 ## 写给小白
-- 关于 `vi` 的使用, 请参看 [这篇文章的第六节](ssr.md)
+- 关于 `vi` 的使用, 请参看 [vi 极简教程](vi.md)
 - 关于添加 `自启动` 项目, 请参看 [这篇文章的第七节](ssr.md)
 - 关于 `UDP` 问题, 请运行 `systemctl stop firewalld` 命令彻底关闭 `防火墙`.
