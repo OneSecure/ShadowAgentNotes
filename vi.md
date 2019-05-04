@@ -15,7 +15,7 @@ VI 文本编辑器 极简教程
 
 # 图文演练
 
-1. 在 `Linux` 终端命令行, 输入 `vi /etc/shadowsocks-r/config.json` 并回车. 这行命令的意思是, 打开路径是 `/etc/shadowsocks-r/` 的 `config.json` 文件准备编辑, 如果该文件不存在, 将在你保持的时候创建它. 
+1. 在 `Linux` 终端命令行, 输入 `vi /etc/shadowsocks-r/config.json` 并回车. 这行命令的意思是, 打开位于路径 `/etc/shadowsocks-r/` 的 `config.json` 文件准备编辑, 如果该文件不存在, 将在你保存的时候创建它. 
  
     > 这里的示例文件有点特殊, 必须有 `系统管理员` 权限才可以修改, 抱歉. 获取 `管理员` 权限的命令是 `sudo su`.
 
@@ -37,4 +37,6 @@ VI 文本编辑器 极简教程
 
 ![tu](vi/vi05.png)
 
+6. 最后检查修改后的文件的正确性, 可以使用 `cat` 命令, 即 `cat /etc/shadowsocks-r/config.json`, 就把文件的内容显示出来了. 如下图.
 
+![tu](vi/vi06.png)
