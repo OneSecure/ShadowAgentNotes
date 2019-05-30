@@ -9,6 +9,7 @@
 - [Nginx 其他命令](#nginx-其他命令)
 - [在 freenom 上申请免费域名和 DNS 解析](#在-freenom-上申请免费域名和-dns-解析)
 - [使用 Let's Encrypt 的免费证书为网站添加 SSL 层](#使用-lets-encrypt-的免费证书为网站添加-ssl-层)
+- [全自动申请 Let's Encrypt 免费证书](#全自动申请-lets-encrypt-免费证书)
 
 
 可能許多人动過念头搭建 `個人網站` 玩玩，但各種嚇人門檻讓有心探索的人裹足不前。這個搭建過程就值得写写了。
