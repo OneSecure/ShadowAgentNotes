@@ -381,3 +381,7 @@ cat signed.crt intermediate.pem > chained.pem
 0 0 1 * * /ssl/renew_cert.sh >/dev/null 2>&1
 ```
 这样以后证书每个月都会自动更新，一劳永逸。实际上，`Let's Encrypt` 官方将证书有效期定为 90 天一方面是为了更安全，更重要的是鼓励用户采用自动化部署方案。
+
+## 全自动申请 Let's Encrypt 免费证书
+* 网站 https://www.sslforfree.com/
+* 教程 https://www.youtube.com/watch?v=_1NijkYwSK0
