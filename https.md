@@ -7,7 +7,7 @@
 - [启动 Nginx](#启动-nginx)
 - [访问站点](#访问站点)
 - [Nginx 其他命令](#nginx-其他命令)
-- [在 freenom 上申请免费域名和 DNS 解析](#在-freenom-上申请免费域名和-dns-解析服务)
+- [在 freenom 上申请免费域名和 DNS 解析服务](#在-freenom-上申请免费域名和-dns-解析服务)
 - [使用 Let's Encrypt 的免费证书为网站添加 SSL 层](#使用-lets-encrypt-的免费证书为网站添加-ssl-层)
 - [全自动申请 Let's Encrypt 免费证书](#全自动申请-lets-encrypt-免费证书)
 
