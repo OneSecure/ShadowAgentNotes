@@ -19,7 +19,7 @@
 本文假設您 
 - 已經擁有了 VPS(Virtual Private Server 虚拟专用服务器), 
 - 知道怎么登录远程虚拟主机, 
-- 具有基本的 `Linux` 命令操作经验, 会使用 `vi` 软件编辑文本文件, 会用 `ls` 列出当前目录的文件, 
+- 具有基本的 `Linux` 命令操作经验, 会使用 [vi](vi.md) 软件编辑文本文件, 会用 `ls` 列出当前目录的文件, 
 - 远程主机的操作系统是 `CentOS 6.x+`.
 
 如果您尚不具备以上条件, 请参看 [Vultr 教程](vultr.md).
@@ -90,7 +90,7 @@ cp -r  /usr/local/nginx/html /mysite
 groupadd www 
 useradd -g www www
 ```
-- 配置 `nginx.conf`, 用 `vi` 软件编辑, 将 `/usr/local/nginx/conf/nginx.conf` 文件内容替换为以下内容
+- 配置 `nginx.conf`, 用 [vi](vi.md) 软件编辑将 `/usr/local/nginx/conf/nginx.conf` 文件内容替换为以下内容
 ```
 user www www;
 worker_processes 2; # The value is the same as the number of CPU cores.
@@ -142,9 +142,13 @@ http
   server
   {
     listen 80;   # listen port.
-    server_name localhost; # domain.
+    server_name localhost amaoagou.tk www.amaoagou.tk; # domain.
     index index.html index.htm index.php;
     root /mysite; # ======> root dirctionay of your site. <======.
+    
+    #location / {
+    #    rewrite ^/(.*)$ https://amaoagou.tk/$1 permanent;
+    #}
     
     location ~ .*\.(php|php5)?$
     {
@@ -279,37 +283,12 @@ openssl req -new -sha256 -key domain.key -subj "/" -reqexts SAN -config <(cat /e
 ### 配置验证服务
 我们知道，`CA` 在签发 `DV（Domain Validation）`证书时，需要验证域名所有权。传统 `CA` 的验证方式一般是往 `admin@yoursite.com` 发验证邮件，而 `Let's Encrypt` 是在您的服务器上生成一个随机验证文件，再通过创建 `CSR` 时指定的域名访问，如果可以访问则表明您对这个域名有控制权。
 
-首先创建用于存放验证文件的目录，例如：
+首先创建用于存放验证文件的目录，命令如下：
 ```
-mkdir /mysite/challenges/
+mkdir -p /mysite/.well-known/acme-challenge/
 ```
-然后配置一个 `HTTP` 服务，以 `Nginx` 为例, 在 `/usr/local/nginx/conf/nginx.conf` 配置文件 的 `server` 节区, 添加如下内容:
-```
-  server
-  {
-    # ...
-    
-    listen 80;   # 监听端口.
-    server_name amaoagou.tk www.amaoagou.tk; # 域名.
-    root /mysite;
-
-    location ^~ /.well-known/acme-challenge/ {
-        alias /mysite/challenges/;
-        try_files $uri =404;
-    }
-
-    #location / {
-    #    rewrite ^/(.*)$ https://amaoagou.tk/$1 permanent;
-    #}
-    
-    # ...
-  }
-```
-以上配置优先查找 `/mysite/challenges/` 目录下的文件，~~如果找不到就重定向到 `HTTPS` 地址~~,(**经再次测试,重定向这一句会报错,因此去掉了**)。这个验证服务以后更新证书还要用到，建议一直保留。
-然后 `reload` 服务器软件
-```
-/usr/local/nginx/sbin/nginx -s reload
-```
+这个目录是让 `Let's Encrypt` 在您主机上 通过 `nginx` 写入一些信息的.
+这个验证服务以后更新证书还要用到，必须一直保留。
 
 ### 获取网站证书
 先把 `acme-tiny` 脚本保存到之前的 `ssl` 目录：
@@ -318,7 +297,7 @@ wget https://raw.githubusercontent.com/diafygi/acme-tiny/master/acme_tiny.py
 ```
 指定账户私钥、`CSR` 以及验证目录，执行脚本：
 ```
-python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /mysite/challenges/ > ./signed.crt
+python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /mysite/.well-known/acme-challenge/ > ./signed.crt
 ```
 如果一切正常，当前目录下就会生成一个 `signed.crt`，这就是申请好的证书文件。
 
@@ -333,7 +312,7 @@ cat signed.crt intermediate.pem > chained.pem
 wget -O - https://letsencrypt.org/certs/isrgrootx1.pem > root.pem
 cat intermediate.pem root.pem > full_chained.pem
 ```
-最终，修改 `Nginx` 中有关证书的配置, 在配置文件 `/usr/local/nginx/conf/nginx.conf` 加入一个新的 `server` 节区:
+最终，用 [vi](vi.md) 修改 `Nginx` 中有关证书的配置, 在配置文件 `/usr/local/nginx/conf/nginx.conf` 加入一个新的 `server` 节区:
 ```
   server
   {
@@ -359,7 +338,7 @@ cat intermediate.pem root.pem > full_chained.pem
 ![tu](https/https08.png)
 
 ### 配置自动更新
-`Let's Encrypt` 签发的证书只有 `90` 天有效期，推荐使用脚本定期更新。例如我就创建了一个 `renew_cert.sh` 并通过 `chmod a+x renew_cert.sh` 赋予执行权限。
+`Let's Encrypt` 签发的证书只有 `90` 天有效期，推荐使用脚本定期更新。用 [vi](vi.md) 创建一个 `renew_cert.sh` 脚本文件并通过 `chmod a+x renew_cert.sh` 赋予执行权限。
 ```
 cd /ssl
 vi renew_cert.sh
