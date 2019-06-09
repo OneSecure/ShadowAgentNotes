@@ -7,7 +7,7 @@
 - [启动 Nginx](#启动-nginx)
 - [访问站点](#访问站点)
 - [Nginx 其他命令](#nginx-其他命令)
-- [在 freenom 上申请免费域名和 DNS 解析](#在-freenom-上申请免费域名和-dns-解析)
+- [在 freenom 上申请免费域名和 DNS 解析](#在-freenom-上申请免费域名和-dns-解析服务)
 - [使用 Let's Encrypt 的免费证书为网站添加 SSL 层](#使用-lets-encrypt-的免费证书为网站添加-ssl-层)
 - [全自动申请 Let's Encrypt 免费证书](#全自动申请-lets-encrypt-免费证书)
 
@@ -200,7 +200,7 @@ Nginx 启动命令如下
 /usr/local/nginx/sbin/nginx -s stop              # 停止 Nginx.
 ```
 
-## 在 freenom 上申请免费域名和 DNS 解析
+## 在 freenom 上申请免费域名和 DNS 解析服务
 
 - 在域名注册商 [freenom.com](https://www.freenom.com) 网站上注册您的账号并登录, 它提供免费和收费域名注册服务.
 - 选择 注册一个新域名(Register a New Domain), 这时会出现个搜索框验证您输入域名的有效性. 我这里随意输入 `amaoagou`(阿猫阿狗), 您得输入您自己的. 
@@ -254,7 +254,7 @@ Nginx 启动命令如下
 
 ## 使用 Let's Encrypt 的免费证书为网站添加 SSL 层
 
-[Let's Encrypt](https://letsencrypt.org/) 这个免费、自动化、开放的证书签发服务。它由 `ISRG`（`Internet Security Research Group`，互联网安全研究小组）提供服务，而 `ISRG` 是来自于美国加利福尼亚州的一个公益组织。`Let's Encrypt` 得到了 `Mozilla`、`Cisco`、`Akamai`、`Electronic Frontier Foundation` 和 `Chrome` 等众多公司和机构的支持，发展十分迅猛。
+[Let's Encrypt](https://letsencrypt.org/) 这个免费、自动化、开放的证书签发服务, 是由 `ISRG`（`Internet Security Research Group`，互联网安全研究小组）提供的. 而 `ISRG` 是来自于美国加利福尼亚州的一个公益组织。`Let's Encrypt` 得到了 `Mozilla`、`Cisco`、`Akamai`、`Electronic Frontier Foundation` 和 `Chrome` 等众多公司和机构的支持，发展十分迅猛。
 
 申请 `Let's Encrypt` 证书不但免费，还非常简单，虽然每次只有 `90` 天的有效期，但可以通过脚本定期更新，配好之后一劳永逸。
 
@@ -288,7 +288,7 @@ openssl req -new -sha256 -key domain.key -subj "/" -reqexts SAN -config <(cat /e
 mkdir -p /mysite/.well-known/acme-challenge/
 ```
 这个目录是让 `Let's Encrypt` 在您主机上 通过 `nginx` 写入一些信息的.
-这个验证服务以后更新证书还要用到，必须一直保留。
+这个验证服务以后更新证书还要用到，因此这个目录必须一直保留, 不能删除。
 
 ### 获取网站证书
 先把 `acme-tiny` 脚本保存到之前的 `ssl` 目录：
