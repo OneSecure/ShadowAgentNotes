@@ -77,7 +77,7 @@ cd ..
 ```
 ![tu](https/nginx4.png)
 
-到此，nginx安装完成。
+到此，`nginx` 安装完成，安装路径是 `/nginx`，可执行文件是 `/nginx/sbin/nginx`。
 
 ## Nginx 配置
 
