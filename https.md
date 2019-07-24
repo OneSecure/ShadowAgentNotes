@@ -52,9 +52,9 @@ PCRE 作用是让 Nginx 支持 Rewrite 功能。
 
 - 下载和安装 PCRE 软件包. 下列命令完成了从下载源码包, 解压源码包, 配置编译环境, 编译, 安装, 等一系列操作.
 ```
-wget http://downloads.sourceforge.net/project/pcre/pcre/8.42/pcre-8.42.tar.gz
-tar zxvf pcre-8.42.tar.gz
-cd pcre-8.42
+wget http://downloads.sourceforge.net/project/pcre/pcre/8.43/pcre-8.43.tar.gz
+tar zxvf pcre-8.43.tar.gz
+cd pcre-8.43
 ./configure
 make && make install
 cd ..
@@ -66,10 +66,10 @@ pcre-config --version
 
 - 下列命令完成了从下载 nginx 源码包 到编译安装 等一系列动作. 最后一个命令是 查看 Nginx 版本.
 ```
-wget http://nginx.org/download/nginx-1.15.9.tar.gz
-tar zxvf nginx-1.15.9.tar.gz
-cd nginx-1.15.9
-./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-pcre=../pcre-8.42
+wget http://nginx.org/download/nginx-1.17.2.tar.gz
+tar zxvf nginx-1.17.2.tar.gz
+cd nginx-1.17.2
+./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-pcre=../pcre-8.43
 make && make install
 cd ..
 /usr/local/nginx/sbin/nginx -v
