@@ -20,9 +20,9 @@
 - 已經擁有了 VPS(Virtual Private Server 虚拟专用服务器), 
 - 知道怎么登录远程虚拟主机, 
 - 具有基本的 `Linux` 命令操作经验, 会使用 [vi](vi.md) 软件编辑文本文件, 会用 `ls` 列出当前目录的文件, 
-- 远程主机的操作系统是 `CentOS 6.x+`.
+- 远程主机的操作系统是 `ubuntu 18.04+` 或者 `CentOS 6.x+`.
 
-如果您尚不具备以上条件, 请参看 [Vultr 教程](vultr.md).
+如果您尚不具备以上条件, 请参看 [Vultr 教程](vultr.md) 和 [vi 教程](vi.md).
 
 
 ## Nginx 安装前配置
@@ -37,12 +37,13 @@ sudo su
 ```
 
 ### 安装编译工具及库文件
+在 CentOS 系统，用如下命令
 ```
 yum -y install make zlib zlib-devel gcc-c++ libtool  openssl openssl-devel
 ```
 在 ubuntu 系统, 请用以下命令
 ```
-apt-get update
+apt-get update -y
 apt-get install make zlib1g zlib1g-dev build-essential autoconf libtool openssl libssl-dev -y
 ```
 
@@ -90,7 +91,7 @@ cp -r  /usr/local/nginx/html /mysite
 groupadd www 
 useradd -g www www
 ```
-- 配置 `nginx.conf`, 用 [vi](vi.md) 软件编辑将 `/usr/local/nginx/conf/nginx.conf` 文件内容替换为以下内容
+- 配置 `nginx.conf`, 用 [vi](vi.md) 软件编辑将 `/usr/local/nginx/conf/nginx.conf` 文件内容替换为以下内容，请注意内容中的域名信息。
 ```
 user www www;
 worker_processes 2; # The value is the same as the number of CPU cores.
