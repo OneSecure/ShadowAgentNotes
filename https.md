@@ -69,10 +69,10 @@ pcre-config --version
 wget http://nginx.org/download/nginx-1.17.2.tar.gz
 tar zxvf nginx-1.17.2.tar.gz
 cd nginx-1.17.2
-./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-pcre=../pcre-8.43
+./configure --prefix=/nginx --with-http_stub_status_module --with-http_ssl_module --with-pcre=../pcre-8.43
 make && make install
 cd ..
-/usr/local/nginx/sbin/nginx -v
+/nginx/sbin/nginx -v
 ```
 ![tu](https/nginx4.png)
 
@@ -82,7 +82,7 @@ cd ..
 
 - 站点文件准备. 将 NginX 软件中的示例网页文件复制一份出来到 `/mysite` 文件夹.
 ```
-cp -r  /usr/local/nginx/html /mysite
+cp -r  /nginx/html /mysite
 ```
 这样 `/mysite` 文件夹就是您网页文件放置的地方了.
 
@@ -91,12 +91,12 @@ cp -r  /usr/local/nginx/html /mysite
 groupadd www 
 useradd -g www www
 ```
-- 配置 `nginx.conf`, 用 [vi](vi.md) 软件编辑将 `/usr/local/nginx/conf/nginx.conf` 文件内容替换为以下内容，请注意内容中的域名信息。
+- 配置 `nginx.conf`, 用 [vi](vi.md) 软件编辑将 `/nginx/conf/nginx.conf` 文件内容替换为以下内容，请注意内容中的域名信息。
 ```
 user www www;
 worker_processes 2; # The value is the same as the number of CPU cores.
-error_log /usr/local/nginx/logs/nginx_error.log crit; # Log location and log level.
-pid /usr/local/nginx/nginx.pid;
+error_log /nginx/logs/nginx_error.log crit; # Log location and log level.
+pid /nginx/nginx.pid;
 #Specifies the value for maximum file descriptors that can be opened by this process.
 worker_rlimit_nofile 65535;
 events
@@ -177,14 +177,14 @@ http
 ```
 - 检查配置文件 `nginx.conf` 的正确性. 命令
 ```
-/usr/local/nginx/sbin/nginx -t
+/nginx/sbin/nginx -t
 ```
 ![tu](https/nginx5.png)
 
 ## 启动 Nginx
 Nginx 启动命令如下
 ```
-/usr/local/nginx/sbin/nginx
+/nginx/sbin/nginx
 ```
 ![tu](https/nginx6.png)
 
@@ -196,9 +196,9 @@ Nginx 启动命令如下
 ## Nginx 其他命令
 以下包含了 Nginx 常用的几个命令
 ```
-/usr/local/nginx/sbin/nginx -s reload            # 重新载入配置文件.
-/usr/local/nginx/sbin/nginx -s reopen            # 重启 Nginx.
-/usr/local/nginx/sbin/nginx -s stop              # 停止 Nginx.
+/nginx/sbin/nginx -s reload            # 重新载入配置文件.
+/nginx/sbin/nginx -s reopen            # 重启 Nginx.
+/nginx/sbin/nginx -s stop              # 停止 Nginx.
 ```
 
 ## 在 freenom 上申请免费域名和 DNS 解析服务
@@ -313,7 +313,7 @@ cat signed.crt intermediate.pem > chained.pem
 wget -O - https://letsencrypt.org/certs/isrgrootx1.pem > root.pem
 cat intermediate.pem root.pem > full_chained.pem
 ```
-最终，用 [vi](vi.md) 修改 `Nginx` 中有关证书的配置, 在配置文件 `/usr/local/nginx/conf/nginx.conf` 加入一个新的 `server` 节区:
+最终，用 [vi](vi.md) 修改 `Nginx` 中有关证书的配置, 在配置文件 `/nginx/conf/nginx.conf` 加入一个新的 `server` 节区:
 ```
   server
   {
@@ -332,7 +332,7 @@ cat intermediate.pem root.pem > full_chained.pem
 ```
 然后 `reload` 服务
 ```
-/usr/local/nginx/sbin/nginx -s reload
+/nginx/sbin/nginx -s reload
 ```
 目前为止, 这个玩具网站已经是 `HTTPS` 加持的了. 恭喜您解锁了新成就. 请看下图.
 
@@ -355,7 +355,7 @@ cd /ssl/
 python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /mysite/.well-known/acme-challenge/ > ./signed.crt || exit
 wget -O - https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem > intermediate.pem
 cat signed.crt intermediate.pem > chained.pem
-/usr/local/nginx/sbin/nginx -s reload
+/nginx/sbin/nginx -s reload
 ```
 `crontab` 中使用绝对路径比较保险，`crontab -e` 加入以下内容：
 ```
