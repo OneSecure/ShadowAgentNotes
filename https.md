@@ -100,13 +100,13 @@ error_log /nginx/logs/nginx_error.log crit; # Log location and log level.
 pid /nginx/nginx.pid;
 #Specifies the value for maximum file descriptors that can be opened by this process.
 worker_rlimit_nofile 65535;
-events
-{
+
+events {
   use epoll;
   worker_connections 65535;
 }
-http
-{
+
+http {
   include mime.types;
   default_type application/octet-stream;
   log_format main  '$remote_addr - $remote_user [$time_local] "$request" '
@@ -141,8 +141,7 @@ http
  
   #limit_zone crawler $binary_remote_addr 10m;
   # Following is the configuration of the server virtual host.
-  server
-  {
+  server {
     listen 80;   # listen port.
     server_name localhost amaoagou.tk www.amaoagou.tk; # domain.
     index index.html index.htm index.php;
@@ -152,22 +151,19 @@ http
     #    rewrite ^/(.*)$ https://amaoagou.tk/$1 permanent;
     #}
     
-    location ~ .*\.(php|php5)?$
-    {
+    location ~ .*\.(php|php5)?$ {
       #fastcgi_pass unix:/tmp/php-cgi.sock;
       fastcgi_pass 127.0.0.1:9000;
       fastcgi_index index.php;
       include fastcgi.conf;
     }
     
-    location ~ .*\.(gif|jpg|jpeg|png|bmp|swf|ico)$
-    {
+    location ~ .*\.(gif|jpg|jpeg|png|bmp|swf|ico)$ {
       expires 30d;
       # access_log off;
     }
     
-    location ~ .*\.(js|css)?$
-    {
+    location ~ .*\.(js|css)?$ {
       expires 15d;
       # access_log off;
     }
@@ -175,10 +171,14 @@ http
     access_log off;
   }
 }
+
+
 ```
+
 - 检查配置文件 `nginx.conf` 的正确性. 命令
 ```
 /nginx/sbin/nginx -t
+
 ```
 ![tu](https/nginx5.png)
 
@@ -316,8 +316,7 @@ cat intermediate.pem root.pem > full_chained.pem
 ```
 最终，用 [vi](vi.md) 修改 `Nginx` 中有关证书的配置, 在配置文件 `/nginx/conf/nginx.conf` 加入一个新的 `server` 节区:
 ```
-  server
-  {
+  server {
     listen 443 ssl;
     server_name amaoagou.tk www.amaoagou.tk;
     index index.html index.htm index.php;
@@ -330,11 +329,15 @@ cat intermediate.pem root.pem > full_chained.pem
     ssl_session_cache   shared:SSL:10m;
     ssl_session_timeout 10m;
   }
+  
 ```
+
 然后 `reload` 服务
 ```
 /nginx/sbin/nginx -s reload
+
 ```
+
 目前为止, 这个玩具网站已经是 `HTTPS` 加持的了. 恭喜您解锁了新成就. 请看下图.
 
 ![tu](https/https08.png)
