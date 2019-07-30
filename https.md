@@ -9,6 +9,7 @@
 - [Nginx 其他命令](#nginx-其他命令)
 - [在 freenom 上申请免费域名和 DNS 解析服务](#在-freenom-上申请免费域名和-dns-解析服务)
 - [使用 Let's Encrypt 的免费证书为网站添加 SSL 层](#使用-lets-encrypt-的免费证书为网站添加-ssl-层)
+- [One more thing](#one-more-thing)
 - [全自动申请 Let's Encrypt 免费证书](#全自动申请-lets-encrypt-免费证书)
 
 
@@ -368,7 +369,22 @@ cat signed.crt intermediate.pem > chained.pem
 这样以后证书每个月都会自动更新，一劳永逸。实际上，`Let's Encrypt` 官方将证书有效期定为 90 天一方面是为了更安全，更重要的是鼓励用户采用自动化部署方案。
 
 ## One more thing
-直接安装, 不用编译源码, `apt-get install nginx`, 站点首页文件是 `/var/www/html/index.html`, 配置文件是 `/etc/nginx/nginx.conf`.
+直接安装, 不用编译源码, 
+```
+apt-get install nginx
+```
+配置文件是 `/etc/nginx/nginx.conf`, 这个文件里有这样两行
+```
+	include /etc/nginx/conf.d/*.conf;
+	include /etc/nginx/sites-enabled/*;
+```
+第一行表明 `/etc/nginx/conf.d/` 文件夹里的 `.conf` 都会被包含进配置里面, 目前这个文件是空的.
+
+第二行表明 `/etc/nginx/sites-enabled/` 文件内的所有文件都会包含进配置, 目前只有一个文件 `default`, 
+因此这文件的全路径就是 `/etc/nginx/sites-enabled/default`, 
+里面就指明了 `http` 协议站点首页文件是 `/var/www/html/index.html`.
+
+当然, 配置 `TLS` 层还得按前述步骤进行, 但注意填写正确的文件存储路径.
 
 ## 全自动申请 Let's Encrypt 免费证书
 * 网站 https://www.sslforfree.com/
