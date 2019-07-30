@@ -378,11 +378,11 @@ apt-get install nginx
 	include /etc/nginx/conf.d/*.conf;
 	include /etc/nginx/sites-enabled/*;
 ```
-第一行表明 `/etc/nginx/conf.d/` 文件夹里的 `.conf` 都会被包含进配置里面, 目前这个文件是空的.
+第一行表明 `/etc/nginx/conf.d/` 文件夹里的 `.conf` 都会被包含进配置里面, 目前这个文件夹是空的.
 
-第二行表明 `/etc/nginx/sites-enabled/` 文件内的所有文件都会包含进配置, 目前只有一个文件 `default`, 
+第二行表明 `/etc/nginx/sites-enabled/` 文件夹内的所有文件都会包含进配置, 目前只有一个文件 `default`, 
 因此这文件的全路径就是 `/etc/nginx/sites-enabled/default`, 
-里面就指明了 `http` 协议站点首页文件是 `/var/www/html/index.html`.
+该文件内就指明了 `http` 协议站点首页文件是 `/var/www/html/index.html`.
 
 当然, 配置 `TLS` 层还得按前述步骤进行, 但注意填写正确的文件存储路径.
 
