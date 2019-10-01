@@ -40,7 +40,7 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 租用搬瓦工提供的虚拟主机搭建 Shadowsocks 服务器之好处：
 * 便宜，比购买各种`专卖VPN的商家的线路`便宜很多，当然如果您非要说网上能搜到很多免费线路我也无话可说，我劝您马上关了本网页。
 * 安全，只要您不把您虚拟主机 `IP地址` 泄漏出去被 GFW 截获，就不会被封，而 `VPN商家` 那些主机由于用户成份复杂，被封就是它们必然的宿命。
-* 灵活，就算万一您主机IP地址不慎被封，也可以通过简单的 [机房切换](#机房切换) 操作更换 `IP地址`；而且由于您租用的是处于公网上的独立主机，您还可以在这台主机上安装别的任何您想安装的服务器软件，如 `ShadowsocksR`(SSR)， GFW.Press ，甚至数据库服务器，用 `wordpress` 搭建个人网站等等。
+* 灵活，就算万一您主机IP地址不慎被封，也可以通过简单的 [机房切换](#机房切换) 操作更换 `IP地址`；而且由于您租用的是处于公网上的独立主机，您还可以在这台主机上安装别的任何您想安装的服务器软件，如 `ShadowsocksR`(SSR)， V2Ray ，甚至数据库服务器，用 `wordpress` 搭建个人网站等等。
 * 通用，您的安卓手机、苹果手机、平板电脑、PC台式机，都可以使用同一 `服务器线路`；而 `VPN商家` 则不一定提供全平台通吃的客户端，一般局限在苹果手机平台，应用场景极其单一。
 
 ## 需要准备的东西
@@ -81,29 +81,29 @@ Shadowsocks 是目前最好的翻墙工具，没有之一，而且电脑、手�
 
 ### 看看搬瓦工套餐吧
 
-| 名称 | 10G KVM – PROMO | 20G KVM – PROMO |
+| 名称 | 20G KVM – PROMO | 40G KVM VPS |
 | --- | --- | --- |
-| CPU | 1x Intel Xeon | 2x Intel Xeon |
-| 内存 | 512 MB | 1024 MB |
-| 硬盘 | 10 GB/SDD RAID-10 | 20 GB/SDD RAID-10 |
-| 流量 | 500 GB/月 | 1 TB/月 |
+| CPU | 2x Intel Xeon | 3x Intel Xeon |
+| 内存 | 1024 MB | 2 GB |
+| 硬盘 | 20 GB/SDD RAID-10 | 40 GB SSD |
+| 流量 | 1 TB/月 | 2 TB |
 | 带宽 | 1 Gigabit | 1 Gigabit |
-| 价格 | 19.99美元/年 | 49.99美元/年 |
-| 链接 | [购买](https://bandwagonhost.com/aff.php?aff=12816&pid=43) | [购买](https://bandwagonhost.com/aff.php?aff=12816&pid=44) |
+| 价格 | 49.99美元/年 |  99.99美元/年 |
+| 链接 | [购买](https://bandwagonhost.com/aff.php?aff=12816&pid=44) | [购买](https://bandwagonhost.com/aff.php?aff=12816&pid=45) |
 
 `以上参数均来自官网`
 
 * 上面列出的套餐只是一部分，也是自我搭建 Shadowsocks 服务器推荐的套餐。
 * 说着当然，您土豪的话也可以选择其他的套餐，或者购买 `linode` 或者 `DigitalOcean` 的 VPS。
 * 有多个套餐，我应该选择哪个啊？
-* 如果只是自己一个人用，或者想先体验一下，强烈推荐选择 [套餐1](https://bandwagonhost.com/aff.php?aff=12816&pid=43) 就好，毕竟够用就好，不要浪费。感觉不错的话，是可以升级到其他套餐的。
+* 如果只是自己一个人用，或者想先体验一下，强烈推荐选择 [套餐1](https://bandwagonhost.com/aff.php?aff=12816&pid=44) 就好，毕竟够用就好，不要浪费。感觉不错的话，是可以升级到其他套餐的。
 * 一般来说，如果只是个人普通使用，哪个便宜选哪个；当然，如果您使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。又或者您土豪的话，选择最贵的也行。
 * 记住，一分钱一分货。
 
 ## 好啦，开始购买搬瓦工
 
 *   火速打开 [官网](https://bandwagonhost.com/aff.php?aff=12816)
-*   如果您只想购买最便宜的套餐1，直接点击这个 [链接](https://bandwagonhost.com/aff.php?aff=12816&pid=43) ,出现如下画面.
+*   如果您只想购买最便宜的套餐1，直接点击这个 [链接](https://bandwagonhost.com/aff.php?aff=12816&pid=44) ,出现如下画面.
 
     ![tu](image/001.jpg)
 
