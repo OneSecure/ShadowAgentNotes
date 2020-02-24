@@ -185,10 +185,15 @@ iptables -P INPUT DROP
 
 每次输入一行、回车，等待屏幕上的操作完成后再输入下一条。
 
-注意, 第二行相当长, 以 `.sh` 结尾, 请耐心正确地输入完毕, 然后敲回车.
+注意, 
+> 第二行 是在 CentOS 下安装 wget 软件. 如果是 ubuntu 系统请用 apt-get 替换命令中的 yum 字样.
+
+> 第三行相当长, 以 `.sh` 结尾, 请耐心正确地输入完毕, 大小写不要搞错, 然后敲回车.
 
 ```bash
 sudo su
+
+yum install wget -y
 
 wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
 
