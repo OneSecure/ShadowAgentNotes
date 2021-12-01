@@ -63,7 +63,7 @@
     sudo su                               # 将当前账号的权限切换到超级用户(switch user, 简写为 su)
     cd /                                  # 将当前工作路径切换到根目录, 注意 cd 和 斜杠 之间的 空格 别漏了.
     yum install git -y                    # 安装 git 软件. 如果是 ubuntu 系统请用 apt-get 替换命令中的 yum 字样.
-    git clone https://github.com/koolshare/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
+    git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
     cd shadowsocksr                       # 进入 SSR 软件目录
     sh ./initcfg.sh                       # 执行 SSR 配置文件的初始化, 这一步将创建 user-config.json 配置文件
     vi /shadowsocksr/user-config.json     # 运行 vi 编辑器修改配置文件. 下文第 6 节详述
