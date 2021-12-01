@@ -63,10 +63,10 @@
     sudo su                               # 将当前账号的权限切换到超级用户(switch user, 简写为 su)
     cd /                                  # 将当前工作路径切换到根目录, 注意 cd 和 斜杠 之间的 空格 别漏了.
     yum install git -y                    # 安装 git 软件. 如果是 ubuntu 系统请用 apt-get 替换命令中的 yum 字样.
-    git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git  # 用 git 命令拉取 SSR 源代码
-    cd shadowsocksr                       # 进入 SSR 软件目录
+    git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git ssr  # 用 git 命令拉取 SSR 源代码
+    cd ssr                                # 进入 SSR 软件目录
     sh ./initcfg.sh                       # 执行 SSR 配置文件的初始化, 这一步将创建 user-config.json 配置文件
-    vi /shadowsocksr/user-config.json     # 运行 vi 编辑器修改配置文件. 下文第 6 节详述
+    vi /ssr/user-config.json              # 运行 vi 编辑器修改配置文件. 下文第 6 节详述
     vi /etc/rc.local                      # 运行 vi 编辑器修改或创建 Linux 自启动脚本文件 rc.local 下文第 7 节详述
     chmod +x /etc/rc.local                # 为 自启动脚本文件 rc.local 添加 可执行文件 属性
     reboot                                # 配置完毕后, 重启 Linux 主机
@@ -77,7 +77,7 @@
     启动 `vi` 编辑 `user-config.json` 的命令如下. 该命令在第 5 节里有写, 这里重复一次.
     
     ```bash
-    vi /shadowsocksr/user-config.json
+    vi /ssr/user-config.json
     ```
 
     如果你进入 `vi` 后两眼一抹黑, 手足无措, 请先看下列极简 `vi` 入门手册. 
@@ -110,7 +110,7 @@
     
     我们必须保证 `rc.local` 文件的第一行是 `#!/bin/bash` , 这是确定这个文件被解释为 `可执行` 的 `bash` 脚本的标志.
     
-    然后, 我们在文件的最后加上 `/shadowsocksr/shadowsocks/logrun.sh` 语句, 它就是 SSR 软件的启动命令.
+    然后, 我们在文件的最后加上 `/ssr/shadowsocks/logrun.sh` 语句, 它就是 SSR 软件的启动命令.
     
     经过修改后的 `rc.local` 文件像下面这样.
     
@@ -119,7 +119,7 @@
     #
     # 其它语句...
     #
-    /shadowsocksr/shadowsocks/logrun.sh
+    /ssr/shadowsocks/logrun.sh
     ```
     
     如下图. 然后按下 `Esc` 并用 `:wq` 命令保存退出.
