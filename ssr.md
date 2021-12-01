@@ -166,9 +166,9 @@ iptables -P INPUT DROP
 ## 重装操作系统
     
    1. 先停掉主机, 如教程[登录搬瓦工主机第 1 步](#登录搬瓦工主机) 所言. 然后点击左侧的 `Install new OS` 跳到操作系统选择页面，如图：
-        
-   <img src="ssr/install-os.png" />
-            
+
+![image](https://user-images.githubusercontent.com/16576155/144178290-9703b26a-ece4-4aee-88d8-7f953b1ed3d3.png)
+
    2. 建议选择 `ubuntu-18.04-x86_64`, 勾选复选框, 点击 `Reload` 之后，提示正在重装，且把新的 `VPS` 的 `root` `密码` 和 `SSH` `端口号` 展示给了我们, 请马上将它们复制粘贴 `保存` 到一个 `安全的地方`. 这很重要, 否则你可能被迫再次重装系统.
         
    <img src="ssr/root-ssh.png" />
